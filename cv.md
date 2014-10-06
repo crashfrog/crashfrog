@@ -16,7 +16,7 @@ Silver Spring, MD 20910
 *Justin.Payne@fda.hhs.gov*  
 +1 402.909.1436  
 
-http://github.com/crashfrog
+GitHub Username: [crashfrog](http://github.com/crashfrog)
 
 ---
  
