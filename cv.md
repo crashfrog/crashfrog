@@ -1,11 +1,12 @@
 Justin Payne
 ============
 
----
 
 > I'm a scientific toolmaker looking to solve interesting problems in genomic science.
 > 
 > Specialties: Integration, Full-stack Web, Bioinformatics Service Architectures.
+
+---
 
 Information
 -----------
