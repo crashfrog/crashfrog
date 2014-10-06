@@ -17,6 +17,16 @@ Silver Spring, MD 20910
 
 http://github.com/crashfrog
 
+---
+ 
+Education
+---------
+Date             | Degree and Program
+----------------:|:-----------
+2009 - 2012      |Earned **Bachelor of Science in Biochemistry**, minors in Chemistry and Mathematics, University of Nebraska - Lincoln
+1999 - 2003      |Studied for Bachelors of Arts in English and Computer Science, Gustavus Adolphus College (on hiatus)
+Aug 1998         |Certificate of French proficiency, Université Paris-Sorbonne
+
  
 ---
 
@@ -38,16 +48,7 @@ Sept 1998 - Jan 2003|**Gustavus Adolphus College, Dept. of Information Technolog
                     
 ---
 
-Education
----------
-Date             | Degree and Program
-----------------:|:-----------
-2009 - 2012      |Earned **Bachelor of Science in Biochemistry**, minors in Chemistry and Mathematics, University of Nebraska - Lincoln
-1999 - 2003      |Studied for Bachelors of Arts in English and Computer Science, Gustavus Adolphus College (on hiatus)
-Aug 1998         |Certificate of French proficiency, Université Paris-Sorbonne
 
-
----
 
 Technologies
 ------------
