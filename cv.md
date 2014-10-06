@@ -114,4 +114,11 @@ Projects
 **GenomeTrakr** - Real-time Surveillance of Food-borne Pathogens : nationwide system of networked Illumina sequencers for pathogen traceback and surveillance. Developed key integration-layer architecture.   
 **Sra-quick-submit** - Rapid SRA submission generation for GenomeTrakr contributors. Currently in world-wide use.
 
+---
 
+References
+----------
+
+* Dr. Marc W. Allard - FDA-CFSAN, College Park MD, (240) 402-2941
+* Dr. Bruce E. Hibbard - USDA-ARS, Columbia MO, (573) 882-6281
+* Dr. John Foster - Uni. Nebraska-Lincoln NE, (402) 472-8686
