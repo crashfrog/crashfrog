@@ -8,8 +8,8 @@ Justin Payne
 
 ---
 
-Information
------------
+(I) Information
+---------------
 1155 Ripley St Apt 1814  
 Silver Spring, MD 20910  
 
@@ -20,8 +20,8 @@ GitHub Username: [crashfrog](http://github.com/crashfrog)
 
 ---
  
-Education
----------
+(II) Education
+--------------
 Date             | Degree and Program
 ----------------:|:-----------
 2009 - 2012      |Earned **Bachelor of Science in Biochemistry**, minors in Chemistry and Mathematics, University of Nebraska - Lincoln
@@ -31,8 +31,8 @@ Aug 1998         |Certificate of French proficiency, Université Paris-Sorbonne
  
 ---
 
-Professional Experience
------------------------
+(III) Professional Experience
+-----------------------------
 Date                | Organization and Duties
 :------------------:|:-----------------------
 Oct 2012 - today    |**FDA-CFSAN-ORS-DM-MMSB (ORAU Fellowship)**
@@ -51,8 +51,8 @@ Sept 1998 - Jan 2003|**Gustavus Adolphus College, Dept. of Information Technolog
 
 
 
-Technologies
-------------
+(IV) Technologies
+-----------------
 
 **Platforms**
 
@@ -90,8 +90,8 @@ Technologies
 
 ---
 
-Publications
-------------
+(V) Publications
+----------------
 
 2. Marc Allard, Tim Muruvanda, Errol Strain, Ruth Timme, Yan Luo, Charles Wang, Christine Keys, **Justin Payne**, Tony Cooper, Khai Luong, Yi Song, Chen-Shan Chin, Jonas Korlach, Richard Roberts, Peter Evans, Steven Musser, and Eric Brown. *A fully assembled genome sequence for Salmonella. Javiana strain CFSAN001992.* Genome Announc. 2013 Mar 21;1(2):e0008113.
 
@@ -106,8 +106,29 @@ Publications
 
 ---
 
-Projects
---------
+(VI) Scientific Training
+------------------------
+
+1. **February 2012** - Next-gen Sequencing and Bioinformatics, Institute for Genome Sciences, University of Maryland, Baltimore
+2. **June 2013** - PacBio User Group Meeting and Bioinformatics Workshop 2013, IGS, UMD Baltimore
+3. **May 2014** - NGS Typing of Bacterial Pathogens, American Society of Microbiologists 2014, Boston
+4. **June 2014** - PacBio User Group Meeting and Bioinformatics Workshop 2014, IGS, UMD Baltimore
+
+---
+
+(VII) Honors and Awards
+-----------------------
+
+* 2011 - Best Class Presentation, Protein Engineering, University of Nebraska, Lincoln
+
+
+---
+
+(VIII) Scientific Conferences and Meetings
+------------------------------------------
+
+(XX) Projects
+-------------
 **Bootsie** - Bootstrap Analysis of RFLP : a Java-based biostatistics utility used by UNL and USDA-ARS entomologists to analyze population structure. Includes a suite of file-conversion utilities.  
 **Sif** - Sequence Information Finder : a suite of command-line utilities for quick and easy lookups in the FDA-CFSAN GenomicsDB.  
 **BaseCase** - Web-based Pipeline Management : an intuitive system for hooking up bioinformatics pipelines using powerful concepts from functional programming combined with process and filesystem isolation via Docker. Pipeline workflows can be elegantly and seamlessly shared between workgroups without the need to manually manage software installs or curate reference databases.  
@@ -116,8 +137,8 @@ Projects
 
 ---
 
-References
-----------
+(XX) References
+---------------
 
 * Dr. Marc W. Allard - FDA-CFSAN, College Park MD, (240) 402-2941
 * Dr. Bruce E. Hibbard - USDA-ARS, Columbia MO, (573) 882-6281
