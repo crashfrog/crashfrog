@@ -1,6 +1,6 @@
-|HHS FDA Center
-|10903 New Hampshire Avenue
-|Silver Spring, MD, 20993
+HHS FDA Center  
+10903 New Hampshire Avenue  
+Silver Spring, MD, 20993  
 
 Dear sir or madam,
 
@@ -13,8 +13,8 @@ I've been immensely proud to work alongside some of the leading lights in the pr
 Thanks for your prompt attention,
 
 
-|Justin Payne  
-|ORISE Microbiologist/Bioinformatician  
-|FDA-CFSAN-ORS-DM-MMSB  
-|Justin.Payne@fda.hhs.gov  
-|240-402-5127  
+Justin Payne  
+ORISE Microbiologist/Bioinformatician  
+FDA-CFSAN-ORS-DM-MMSB  
+Justin.Payne@fda.hhs.gov  
+240-402-5127  
