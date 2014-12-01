@@ -121,7 +121,6 @@ Date                     | Organization and Duties
 
 * 2011 - Best Class Presentation, Protein Engineering, University of Nebraska, Lincoln
 
-
 ---
 
 (VIII) Scientific Conferences and Meetings
