@@ -41,4 +41,4 @@ Sem. Hours | Course Title and Description
 total | ---
 68 | I have **over 20 semester hours** of coursework in the physical and mathematical sciences (organic chem, biochem, physics, mathematics, or equiv.)
 
-** Additionally, I affirm that I am a male born after December 31, 1959 and registered for the Selective Service. **
+**Additionally, I affirm that I am a male born after December 31, 1959 and registered for the Selective Service.**
