@@ -1,7 +1,7 @@
 Response to educational requirements
 ====================================
 
-** 20 semester hours or more in microbiology and other subjects relating to the study of microorganisms **
+*20 semester hours or more in microbiology and other subjects relating to the study of microorganisms*
 
 Sem. Hours | Course Title and Description
 ----------:|:----------------------------
@@ -22,7 +22,7 @@ total | ---
 
 ---
 
-** 20 semester hours or more in the physical and mathematical sciences combining coursework in organic chemistry, biochemistry, physics, college algebra, and the equivalent. **
+*20 semester hours or more in the physical and mathematical sciences combining coursework in organic chemistry, biochemistry, physics, college algebra, and the equivalent.*
 
 Sem. Hours | Course Title and Description
 ----------:|:----------------------------
