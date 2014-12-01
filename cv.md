@@ -3,7 +3,7 @@ Justin Payne
 
 
 > I'm a scientific toolmaker looking to solve interesting problems in genomic science.
-> 
+>
 > Specialties: Integration, Full-stack Web, Bioinformatics Service Architectures.
 
 ---
@@ -19,16 +19,16 @@ Silver Spring, MD 20910
 GitHub Username: [crashfrog](http://github.com/crashfrog)
 
 ---
- 
+
 (II) Education
 --------------
-Date             | Degree and Program
-----------------:|:-----------
-2009 - 2012      |Earned **Bachelor of Science in Biochemistry**, minors in Chemistry and Mathematics, University of Nebraska - Lincoln
-1999 - 2003      |Studied for Bachelors of Arts in English and Computer Science, Gustavus Adolphus College (on hiatus)
-Aug 1998         |Certificate of French proficiency, Université Paris-Sorbonne
+Date           | Degree and Program
+--------------:|:-----------
+2009 - 2012    |Earned **Bachelor of Science in Biochemistry**, minors in Chemistry and Mathematics, University of Nebraska - Lincoln
+1999 - 2003    |Studied for Bachelors of Arts in English and Computer Science, Gustavus Adolphus College (on hiatus)
+ Aug 1998      |Certificate of French proficiency, Université Paris-Sorbonne
 
- 
+
 ---
 
 (III) Professional Experience
@@ -36,7 +36,7 @@ Aug 1998         |Certificate of French proficiency, Université Paris-Sorbonne
 Date                | Organization and Duties
 :------------------:|:-----------------------
 Oct 2012 - today    |**FDA-CFSAN-ORS-DM-MMSB (ORAU Fellowship)**
-                    |**ORISE Senior Bioinformatics Developer** supporting the analysis and interpretation of whole genome sequencing data from bacterial food-borne pathogens, and the development of bioinformatic pipelines and pipeline frameworks to aid in the detection, identification, and traceback of microbial food-borne pathogens: Trained in sample handling, preparation, and sequencing on IonTorrent PGM sequencing instruments. Demonstrated expertise in command-line operation of Linux and Mac OS X (desktop, server, and high-performance clusters.) Wrote high-performance analysis tools in C/C++, Python 2/3, Java 6, and JavaScript to analyze and interpret molecular data from DNA sequencing. Developed GenomicsDB database for isolate metadata, sequencing scheduling, and high-throughput submission to national biotechnology databases such as NCBI GenBank and NCBI SRA, and primary data architect in the project to migrate this system to Genhom's SLims Genomic Information Management System (GIMS). Wrote integration-layer packages in Python to automatically collect, assess, quality-control, assemble, and analyze genomic sequencing data from Illumina MiSeq/NextSeq, IonTorrent PGM, and PacBio RS sequencing instruments locally or connected to the FDA network via VPN connections or through Illumina BaseSpace cloud services. Primary author and maintainer of the FDA-hosted codebase and informatic infrastructure for FDA/State joint GenomeTrakr Network, FDA/CDC Real-Time Listeria Genomic Surveillance Project, and FDA-CFSAN/MN/WA/NY Real-Time Salmonella Enteriditis Project, resulting in the deposit of almost 10,000 bacterial genomes into publicly-accessible databases. Developed sra-quick-submit, an easy-to-use NCBI Sequence Read Archive (SRA) submission tool used by researchers around the world to submit their own genomes to the GenomeTrakr project. Utilized High-Performance Computing (HPC) and Field-Programmable Gate Array (FPGA) coprocessor platforms for high- throughput genomic science. Evaluated over 40 bioinformatics tools for pipeline incorporation and analysis use, determined their relevance to the food safety mission, and provided local support for their deployment and use. Provided bioinformatics system development consultation on an informal basis to researchers at diverse US and international agencies and groups. Developer of BaseCase, a web-based bioinformatics engine leveraging best-of-breed process and filesystem isolation tools like Docker to enable reproducible, sharable, versioned workflow pipelines with full auditing and data provenance.
+                    |**ORISE Microbiology Bioinformatics Developer** supporting the analysis and interpretation of whole genome sequencing data from bacterial food-borne pathogens, and the development of bioinformatic pipelines and pipeline frameworks to aid in the detection, identification, and traceback of microbial food-borne pathogens: Trained in sample handling, preparation, and sequencing on IonTorrent PGM sequencing instruments. Demonstrated expertise in command-line operation of Linux and Mac OS X (desktop, server, and high-performance clusters.) Wrote high-performance analysis tools in C/C++, Python 2/3, Java 6, and JavaScript to analyze and interpret molecular data from DNA sequencing. Developed GenomicsDB database for isolate metadata, sequencing scheduling, and high-throughput submission to national biotechnology databases such as NCBI GenBank and NCBI SRA, and primary data architect in the project to migrate this system to Genhom's SLims Genomic Information Management System (GIMS). Wrote integration-layer packages in Python to automatically collect, assess, quality-control, assemble, and analyze genomic sequencing data from Illumina MiSeq/NextSeq, IonTorrent PGM, and PacBio RS sequencing instruments locally or connected to the FDA network via VPN connections or through Illumina BaseSpace cloud services. Primary author and maintainer of the FDA-hosted codebase and informatic infrastructure for FDA/State joint GenomeTrakr Network, FDA/CDC Real-Time Listeria Genomic Surveillance Project, and FDA-CFSAN/MN/WA/NY Real-Time Salmonella Enteriditis Project, resulting in the deposit of almost 10,000 bacterial genomes into publicly-accessible databases. Developed sra-quick-submit, an easy-to-use NCBI Sequence Read Archive (SRA) submission tool used by researchers around the world to submit their own genomes to the GenomeTrakr project. Utilized High-Performance Computing (HPC) and Field-Programmable Gate Array (FPGA) coprocessor platforms for high- throughput genomic science. Evaluated over 40 bioinformatics tools for pipeline incorporation and analysis use, determined their relevance to the food safety mission, and provided local support for their deployment and use. Provided bioinformatics system development consultation on an informal basis to researchers at diverse US and international agencies and groups. Developer of BaseCase, a web-based bioinformatics engine leveraging best-of-breed process and filesystem isolation tools like Docker to enable reproducible, sharable, versioned workflow pipelines with full auditing and data provenance.
                     |
 Feb 2012 - Oct 2012 |**Trojan Defense, LLC**
                     |**Analysis Software Programmer** developing test harnesses for proprietary solid-state radiologic sensors in a PC-based visualization environment. Specialized in "bare-metal" C/C++ on Atmel-family embedded SoC (Systems on a Chip.) Developed custom evaluation boards based on Atmel ATMega 1280 CPU. Used professional illustration tools (Adobe family, Inkscape) to produce technical illustrations, patent documentation, and marketing materials. Wrote proposals for Small Business Innovation Research (SBIR) grants for DTRA, DoD, DoE, and other Federal agencies.
@@ -46,7 +46,7 @@ May 2005 - Dec 2006 |**University of Missouri-Columbia/USDA-ARS**
                     |
 Sept 1998 - Jan 2003|**Gustavus Adolphus College, Dept. of Information Technologies**
                     |**Tech Support Consultant** providing phone and site-based technical support on Windows 95/98/ME/2000/NT/XP, Mac OS 9/10, and Linux (Debian/Ubuntu/Fedora/Slackware) systems for students, staff, and faculty. Wrote training materials.
-                    
+
 ---
 
 
@@ -80,7 +80,7 @@ Sept 1998 - Jan 2003|**Gustavus Adolphus College, Dept. of Information Technolog
 * Oracle
 * Neo4J
 
-**Development Frameworks** 
+**Development Frameworks**
 
 * Django
 * Flask
@@ -111,7 +111,7 @@ Sept 1998 - Jan 2003|**Gustavus Adolphus College, Dept. of Information Technolog
 
 1. **February 2012** - Next-gen Sequencing and Bioinformatics, Institute for Genome Sciences, University of Maryland, Baltimore
 2. **June 2013** - PacBio User Group Meeting and Bioinformatics Workshop 2013, IGS, UMD Baltimore
-3. **May 2014** - NGS Typing of Bacterial Pathogens, American Society of Microbiologists 2014, Boston
+3. **May 2014** - NGS Typing of Bacterial Pathogens, American Society for Microbiology General Meeting 2014, Boston
 4. **June 2014** - PacBio User Group Meeting and Bioinformatics Workshop 2014, IGS, UMD Baltimore
 
 ---
@@ -127,12 +127,16 @@ Sept 1998 - Jan 2003|**Gustavus Adolphus College, Dept. of Information Technolog
 (VIII) Scientific Conferences and Meetings
 ------------------------------------------
 
+1. **September 2014** - Real-Time Genome Sequencing Surveillance Multi-Agency Collaboration 2014, Washington DC
+2. **April 2014** - American Society for Microbiology General Meeting 2014, Boston
+3. **August 2013** - GenomeTrakr Whole Genome Surveillance Network Meeting 2013, Baltimore
+
 (XX) Projects
 -------------
 **Bootsie** - Bootstrap Analysis of RFLP : a Java-based biostatistics utility used by UNL and USDA-ARS entomologists to analyze population structure. Includes a suite of file-conversion utilities.  
 **Sif** - Sequence Information Finder : a suite of command-line utilities for quick and easy lookups in the FDA-CFSAN GenomicsDB.  
 **BaseCase** - Web-based Pipeline Management : an intuitive system for hooking up bioinformatics pipelines using powerful concepts from functional programming combined with process and filesystem isolation via Docker. Pipeline workflows can be elegantly and seamlessly shared between workgroups without the need to manually manage software installs or curate reference databases.  
-**GenomeTrakr** - Real-time Surveillance of Food-borne Pathogens : nationwide system of networked Illumina sequencers for pathogen traceback and surveillance. Developed key integration-layer architecture.   
+**GenomeTrakr** - Real-time Surveillance of Food-borne Pathogens : nationwide system of networked Illumina sequencers for pathogen traceback and surveillance. Developed key integration-layer architecture.
 **Sra-quick-submit** - Rapid SRA submission generation for GenomeTrakr contributors. Currently in world-wide use.
 
 ---
