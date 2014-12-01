@@ -129,9 +129,9 @@ Sept 1998 - Jan 2003|**Gustavus Adolphus College, Dept. of Information Technolog
 
 1. **September 2014** - Real-Time Genome Sequencing Surveillance Multi-Agency Collaboration 2014, Washington DC
 2. **April 2014** - American Society for Microbiology General Meeting 2014, Boston
-3. **August 2013** - GenomeTrakr Whole Genome Surveillance Network Meeting 2013, Baltimore
+3. **September 2013** - Next Generation Sequencing Network for Food Pathogen Traceability Meeting #1, 2013, Baltimore
 
-(XX) Projects
+(IX) Projects
 -------------
 **Bootsie** - Bootstrap Analysis of RFLP : a Java-based biostatistics utility used by UNL and USDA-ARS entomologists to analyze population structure. Includes a suite of file-conversion utilities.  
 **Sif** - Sequence Information Finder : a suite of command-line utilities for quick and easy lookups in the FDA-CFSAN GenomicsDB.  
@@ -141,9 +141,10 @@ Sept 1998 - Jan 2003|**Gustavus Adolphus College, Dept. of Information Technolog
 
 ---
 
-(XX) References
+(X) References
 ---------------
 
-* Dr. Marc W. Allard - FDA-CFSAN, College Park MD, (240) 402-2941
-* Dr. Bruce E. Hibbard - USDA-ARS, Columbia MO, (573) 882-6281
-* Dr. John Foster - Uni. Nebraska-Lincoln NE, (402) 472-8686
+* Dr. Marc W. Allard - FDA-CFSAN, College Park MD, (240) 402-2941, marc.allard@fda.hhs.gov
+* Dr. Bruce E. Hibbard - USDA-ARS, Columbia MO, (573) 882-6281, HibbardB@missouri.edu
+* Dr. John Foster - Uni. Nebraska-Lincoln NE, (402) 472-8686, john.foster@unl.edu
+* Ben Follis - Senior Computer Scientist, Adobe Systems, ben@follis.net
