@@ -103,6 +103,7 @@ Date                     | Organization and Duties
 
 5. Maria Hoffmann, Tim Muruvanda, Cary Pirone, Jonas Korlach, Ruth Timme, **Justin Payne**, Peter Evans, Jianghong Meng, Eric Brown, and Marc Allard. *First Fully Assembled Genome Sequence of Salmonella enterica Serovar Cubana associated with a Multistate Outbreak in the United States.* Genome Announc. 2014 *(to appear)*
 
+6. Cary Pirone Davies, Maria Hoffman, Richard J. Roberts, Tim Muruvanda, Ruth Timme, Errol Strain, Yan Luo, **Justin Payne**, Khai Luong, Yi Song, Yu-Chih Tsai, Matthew Boitano, Tyson Clark, Jonas Korlach, Peter Evans, Marc Allard. *Genome-wide methylation patterns in Salmonella enterica subsp. Enterica serovars.* PLOS ONE. 2014 *(to appear)*
 
 ---
 
