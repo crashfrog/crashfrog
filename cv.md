@@ -101,11 +101,24 @@ Date                     | Organization and Duties
 
 4. Julie Haendiges, Ruth Timme, Marc Allard, Robert Myers, **Justin Payne**, Eric Brown, Peter Evans, and Narjol González-Escalona. *Draft genomes of clinical Vibrio parahaemolyticus strains isolated in Maryland (2010-2013).* Genome Announc. 2014 Aug 7;2(4). pii: e00776-14.
 
+21. Muruvanda, T., Pirone, C., Hoffmann, M., Allard, M. W0., Wang, C., Strain, E., Timme, R., Luo, Y., Keys, E. C., **Payne, J.**, Luong, K., Song, Y., Chin, C., Korlach, J., Roberts, R. J., Musser, S. M., Evans, P. & Brown, E. W. *New discoveries in Salmonella genomes closure.* 114th American Society for Microbiology Annual Meeting, Boston, MA, USA, (May, 2014). AND 4th Annual FDA Foods & Vet Medicine Science and Research Conference, White Oak, MD. July, 2014. AND Next-generation sequencing (NGS) technology, data formats standardization and promotion of interoperability protocols, Bethesda, MD, USA (September, 2014)
+
+22. Allard, M. W., Pirone, C., Muruvanda, T., Hoffman, M., Soler-García, A., Wang, C., Strain, E., Timme, R., **Payne, J.**, Luo, Y., Keys, C. E., Ferrieira, C., Chin, C., Korlach, J., Musser, S. M., Zhao, S., Stones, R., Roberts, R. J., Evans, P., and Brown, E. W. *New discoveries from closing Salmonella genomes using Pacific Biosciences continuous long reads.* 15th Advances in Genome Biology and Technology Meeting (ABGT), Marco Island, FL, USA (2014). AND 4th Annual FDA Foods & Vet Medicine Science and Research Conference, White Oak, MD. July, 2014.
+
 5. Maria Hoffmann, Tim Muruvanda, Cary Pirone, Jonas Korlach, Ruth Timme, **Justin Payne**, Peter Evans, Jianghong Meng, Eric Brown, and Marc Allard. *First Fully Assembled Genome Sequence of Salmonella enterica Serovar Cubana associated with a Multistate Outbreak in the United States.* Genome Announc. 2014 *(to appear)*
 
-6. Cary Pirone Davies, Maria Hoffman, Richard J. Roberts, Tim Muruvanda, Ruth Timme, Errol Strain, Yan Luo, **Justin Payne**, Khai Luong, Yi Song, Yu-Chih Tsai, Matthew Boitano, Tyson Clark, Jonas Korlach, Peter Evans, Marc Allard. *Genome-wide methylation patterns in Salmonella enterica subsp. Enterica serovars.* PLOS ONE. 2014 *(to appear)*
+6. Cary Pirone Davies, Maria Hoffmann, Richard J. Roberts, Tim Muruvanda, Ruth Timme, Errol Strain, Yan Luo, **Justin Payne**, Khai Luong, Yi Song, Yu-Chih Tsai, Matthew Boitano, Tyson Clark, Jonas Korlach, Peter Evans, Marc Allard. *Genome-wide methylation patterns in Salmonella enterica subsp. Enterica serovars.* PLOS ONE. 2014 *(to appear)*
+
+7. Guojie Cao, Marc Allard, Maria Hoffmann, Steven Monday, Tim Muruvanda, Yan Luo, **Justin Payne**, Lydia Rump, Kevin Meng, Shaohua Zhao, Patrick McDermott, Eric Brown, and Jianghong Meng. *Complete Sequences of Six IncA/C Plasmids of Multidrug-Resistant Salmonella Newport.* Genome Announc. 2015 *(to appear)*
 
 ---
+
+(VI) Seminars
+-------------
+
+53. Marc Allard, Ruth E. Timme, Peter Evans, Marc W. Allard, Errol Strain, Charles Wang, George Kastanis, **Justin Payne**, Christine Keys, Steve Musser, Eric Brown.  *Integration of NGS Desktop Sequencers to Build a Global Genomic Network for Pathogen Trace-back and Outbreak Detection.* (seminar)  symposium on with Hong Kong Polytechnical University, College Park MD. (seminar) June2014.
+
+57. Ruth E. Timme, Peter Evans, Marc W. Allard, Errol Strain, **Justin Payne**, Christine Keys, Steve Musser. *FDA GenomeTrakr: building an international public heath lab network for foodborne pathogen tracking.* Sequencing, Finishing, and Analysis in the Future, Santa Fe, NM May 2014.
 
 (VI) Scientific Training
 ------------------------
