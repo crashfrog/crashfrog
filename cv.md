@@ -109,6 +109,8 @@ Date                     | Organization and Duties
 
 6. Cary Pirone Davies, Maria Hoffmann, Richard J. Roberts, Tim Muruvanda, Ruth Timme, Errol Strain, Yan Luo, **Justin Payne**, Khai Luong, Yi Song, Yu-Chih Tsai, Matthew Boitano, Tyson Clark, Jonas Korlach, Peter Evans, Marc Allard. *Genome-wide methylation patterns in Salmonella enterica subsp. Enterica serovars.* PLOS ONE. 2014 *(to appear)*
 
+8. **Justin Payne**, Erica Lindroth, Kate Kneeland, Steven R. Skoda, Fatima Mustafa, Muhammad Irfan Ullah, John E. Foster. *Bootsie - Estimation of Coefficient of Variation of AFLP Data by Bootstrap Analysis.* Pak. Entomol. 36(2):79-81
+
 7. Guojie Cao, Marc Allard, Maria Hoffmann, Steven Monday, Tim Muruvanda, Yan Luo, **Justin Payne**, Lydia Rump, Kevin Meng, Shaohua Zhao, Patrick McDermott, Eric Brown, and Jianghong Meng. *Complete Sequences of Six IncA/C Plasmids of Multidrug-Resistant Salmonella Newport.* Genome Announc. 2015 *(to appear)*
 
 ---
@@ -116,9 +118,11 @@ Date                     | Organization and Duties
 (VI) Seminars
 -------------
 
-53. Marc Allard, Ruth E. Timme, Peter Evans, Marc W. Allard, Errol Strain, Charles Wang, George Kastanis, **Justin Payne**, Christine Keys, Steve Musser, Eric Brown.  *Integration of NGS Desktop Sequencers to Build a Global Genomic Network for Pathogen Trace-back and Outbreak Detection.* (seminar)  symposium on with Hong Kong Polytechnical University, College Park MD. (seminar) June2014.
+53. Marc Allard, Ruth E. Timme, Peter Evans, Marc W. Allard, Errol Strain, Charles Wang, George Kastanis, **Justin Payne**, Christine Keys, Steve Musser, Eric Brown.  *Integration of NGS Desktop Sequencers to Build a Global Genomic Network for Pathogen Trace-back and Outbreak Detection.* College Park MD. (seminar) June 2014.
 
 57. Ruth E. Timme, Peter Evans, Marc W. Allard, Errol Strain, **Justin Payne**, Christine Keys, Steve Musser. *FDA GenomeTrakr: building an international public heath lab network for foodborne pathogen tracking.* Sequencing, Finishing, and Analysis in the Future, Santa Fe, NM May 2014.
+
+3. Eric Stevens, **Justin Payne**, Bill Klimke, James Pettengill, Ruth E. Timme, Magaly Toro, Marc Allard, Andrea Ottesen, James Robert White, Karen Jarvis, Eija Trees, Heather Carleton. *FDA-CFSAN/JIFSAN-IFSTL Whole Genome Sequencing Pilot Course.* (participated as bioinformatics workshop instructor.) College Park MD. (workshop) March 2015.
 
 (VI) Scientific Training
 ------------------------
@@ -134,6 +138,7 @@ Date                     | Organization and Duties
 -----------------------
 
 * 2011 - Best Class Presentation, Protein Engineering, University of Nebraska, Lincoln
+* 2014 - HHS Innovates Awards, Secretary's Pick for "Whole Genome Sequencing: Future of Food Safety"
 
 ---
 
