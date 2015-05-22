@@ -127,7 +127,7 @@ Date                     | Organization and Duties
 
 3. Eric Stevens, **Justin Payne**, Bill Klimke, James Pettengill, Ruth E. Timme, Magaly Toro, Marc Allard, Andrea Ottesen, James Robert White, Karen Jarvis, Eija Trees, Heather Carleton. *FDA-CFSAN/JIFSAN-IFSTL Whole Genome Sequencing Pilot Course.* (participated as bioinformatics workshop instructor.) College Park MD. (workshop) March 2015.
 
-(VI) Scientific Training
+(VII) Scientific Training
 ------------------------
 
 1. **February 2012** - Next-gen Sequencing and Bioinformatics, Institute for Genome Sciences, University of Maryland, Baltimore
@@ -137,7 +137,7 @@ Date                     | Organization and Duties
 
 ---
 
-(VII) Honors and Awards
+(VIII) Honors and Awards
 -----------------------
 
 * 2011 - Best Class Presentation, Protein Engineering, University of Nebraska, Lincoln
@@ -145,14 +145,14 @@ Date                     | Organization and Duties
 
 ---
 
-(VIII) Scientific Conferences and Meetings
+(IX) Scientific Conferences and Meetings
 ------------------------------------------
 
 1. **September 2014** - *Real-Time Genome Sequencing Surveillance Multi-Agency Collaboration 2014*, Washington DC
 2. **April 2014** - *American Society for Microbiology General Meeting 2014*, Boston
 3. **September 2013** - *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #1*, 2013, Baltimore
 
-(IX) Projects
+(X) Projects
 -------------
 **Bootsie** - Bootstrap Analysis of RFLP : a Java-based biostatistics utility used by UNL and USDA-ARS entomologists to analyze population structure. Includes a suite of file-conversion utilities.  
 **Sif** - Sequence Information Finder : a suite of command-line utilities for quick and easy lookups in the FDA-CFSAN GenomicsDB.  
@@ -162,7 +162,7 @@ Date                     | Organization and Duties
 
 ---
 
-(X) References
+(XI) References
 --------------
 
 * Dr. Marc W. Allard - FDA-CFSAN, College Park MD, (240) 402-2941, *marc.allard@fda.hhs.gov*
