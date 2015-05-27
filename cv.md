@@ -116,6 +116,8 @@ Date                     | Organization and Duties
 
 9. Maria Hofmann, **Justin Payne**, Richard Roberts, Marc Allard, Eric Brown, and James Pettengill. *Complete Genome Sequence of Salmonella enterica Serovar Agona Associated with a Multi-State Outbreak in the United States.* Genome Announc. 2015 *(to appear)*
 
+10. Hua Wang, Yi Chen, Sherry Ayers, David Melka, Anna Maounounen-Laasri, **Justin Payne**, Jie Zheng, Insook Son, Ruth Timme, George Kastanis, Thomas Hammack, Errol Strain, Marc Allard, Peter Evans, and Eric Brown. *Draft Genome Sequence of Salmonella enterica subsp. enterica Serovar Give Isolated from an Imported Chili Powder Product.* Genome Announc. 2015 *(to appear)*
+
 ---
 
 (VI) Seminars
