@@ -114,9 +114,13 @@ Date                     | Organization and Duties
 
 7. Guojie Cao, Marc Allard, Maria Hoffmann, Steven Monday, Tim Muruvanda, Yan Luo, **Justin Payne**, Lydia Rump, Kevin Meng, Shaohua Zhao, Patrick McDermott, Eric Brown, and Jianghong Meng. *Complete Sequences of Six IncA/C Plasmids of Multidrug-Resistant Salmonella Newport.* Genome Announc. 2015 *(to appear)*
 
-9. Maria Hofmann, **Justin Payne**, Richard Roberts, Marc Allard, Eric Brown, and James Pettengill. *Complete Genome Sequence of Salmonella enterica Serovar Agona Associated with a Multi-State Outbreak in the United States.* Genome Announc. 2015 *(to appear)*
+9. Maria Hofmann, **Justin Payne**, Richard Roberts, Marc Allard, Eric Brown, and James Pettengill. *Complete Genome Sequence of Salmonella enterica Serovar Agona 460004 2-1  Associated with a Multi-State Outbreak in the United States.* Genome Announc. 2015 *(to appear)*
 
 10. Hua Wang, Yi Chen, Sherry Ayers, David Melka, Anna Maounounen-Laasri, **Justin Payne**, Jie Zheng, Insook Son, Ruth Timme, George Kastanis, Thomas Hammack, Errol Strain, Marc Allard, Peter Evans, and Eric Brown. *Draft Genome Sequence of Salmonella enterica subsp. enterica Serovar Give Isolated from an Imported Chili Powder Product.* Genome Announc. 2015 *(to appear)*
+
+11. Emily Pettengill, Maria Hoffman, Rachel Binet, Richard J. Roberts, **Justin Payne**, Marc Allard, Valeria Michelacci, Fabio Minelli and Stefano Morabito. *Complete Genome Sequence of Enteroinvasive **Escherichia coli** O96:H19 Associated with a Severe Food-borne Outbreak.* Genome Announc. 2015 *(to appear)*
+
+12. Steve Davis, James B Pettengill, Yan Luo, **Justin Payne**, Al Shpuntoff, Hugh Rand, and Errol Strain. *CFSAN SNP Pipeline: an automated method for constructing SNP matricies from next-generation sequence data.* *(to appear)*
 
 ---
 
