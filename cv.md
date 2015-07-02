@@ -140,6 +140,7 @@ Date                     | Organization and Duties
 2. **June 2013** - PacBio User Group Meeting and Bioinformatics Workshop 2013, IGS, UMD Baltimore
 3. **May 2014** - NGS Typing of Bacterial Pathogens, American Society for Microbiology General Meeting 2014, Boston
 4. **June 2014** - PacBio User Group Meeting and Bioinformatics Workshop 2014, IGS, UMD Baltimore
+5. **June 2015** - PacBio User Group Meeting and Bioinformatics Workshop 2015, IGS, UMD Baltimore
 
 ---
 
@@ -154,9 +155,11 @@ Date                     | Organization and Duties
 (IX) Scientific Conferences and Meetings
 ------------------------------------------
 
+4. **June 2015** - *Sequencing, Finishing, and Analysis in the Future*, Santa Fe
 1. **September 2014** - *Real-Time Genome Sequencing Surveillance Multi-Agency Collaboration 2014*, Washington DC
 2. **April 2014** - *American Society for Microbiology General Meeting 2014*, Boston
-3. **September 2013** - *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #1*, 2013, Baltimore
+3. **September 2013** - *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #1*, Baltimore
+
 
 (X) Projects
 -------------
