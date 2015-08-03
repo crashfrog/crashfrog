@@ -155,6 +155,7 @@ Date                     | Organization and Duties
 (IX) Scientific Conferences and Meetings
 ------------------------------------------
 
+5. **August 2015** - *NCBI Hackathon*, Bethesda
 4. **June 2015** - *Sequencing, Finishing, and Analysis in the Future*, Santa Fe
 1. **September 2014** - *Real-Time Genome Sequencing Surveillance Multi-Agency Collaboration 2014*, Washington DC
 2. **April 2014** - *American Society for Microbiology General Meeting 2014*, Boston
