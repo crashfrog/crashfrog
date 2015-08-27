@@ -112,7 +112,7 @@ Date                     | Organization and Duties
 
 8. **Justin Payne**, Erica Lindroth, Kate Kneeland, Steven R. Skoda, Fatima Mustafa, Muhammad Irfan Ullah, John E. Foster. *Bootsie - Estimation of Coefficient of Variation of AFLP Data by Bootstrap Analysis.* Pak. Entomol. 36(2):79-81
 
-7. Guojie Cao, Marc Allard, Maria Hoffmann, Steven Monday, Tim Muruvanda, Yan Luo, **Justin Payne**, Lydia Rump, Kevin Meng, Shaohua Zhao, Patrick McDermott, Eric Brown, and Jianghong Meng. *Complete Sequences of Six IncA/C Plasmids of Multidrug-Resistant Salmonella Newport.* Genome Announc. February, 2015.*
+7. Guojie Cao, Marc Allard, Maria Hoffmann, Steven Monday, Tim Muruvanda, Yan Luo, **Justin Payne**, Lydia Rump, Kevin Meng, Shaohua Zhao, Patrick McDermott, Eric Brown, and Jianghong Meng. *Complete Sequences of Six IncA/C Plasmids of Multidrug-Resistant Salmonella Newport.* Genome Announc. February, 2015.
 
 9. Maria Hofmann, **Justin Payne**, Richard Roberts, Marc Allard, Eric Brown, and James Pettengill. *Complete Genome Sequence of Salmonella enterica Serovar Agona 460004 2-1  Associated with a Multi-State Outbreak in the United States.* Genome Announc. July, 2015.
 
@@ -120,7 +120,7 @@ Date                     | Organization and Duties
 
 11. Emily Pettengill, Maria Hoffman, Rachel Binet, Richard J. Roberts, **Justin Payne**, Marc Allard, Valeria Michelacci, Fabio Minelli and Stefano Morabito. *Complete Genome Sequence of Enteroinvasive **Escherichia coli** O96:H19 Associated with a Severe Food-borne Outbreak.* Genome Announc. 2015 *(to appear)*
 
-12. Steve Davis, James B Pettengill, Yan Luo, **Justin Payne**, Al Shpuntoff, Hugh Rand, and Errol Strain. *CFSAN SNP Pipeline: an automated method for constructing SNP matricies from next-generation sequence data.* *(to appear)*
+12. Steve Davis, James B Pettengill, Yan Luo, **Justin Payne**, Al Shpuntoff, Hugh Rand, and Errol Strain. *CFSAN SNP Pipeline: an automated method for constructing SNP matricies from next-generation sequence data.* [PeerJ Computer Science 1:e20](https://dx.doi.org/10.7717/peerj-cs.20), 2015.
 
 ---
 
