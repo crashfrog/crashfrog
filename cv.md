@@ -122,16 +122,20 @@ Date                     | Organization and Duties
 
 12. Steve Davis, James B Pettengill, Yan Luo, **Justin Payne**, Al Shpuntoff, Hugh Rand, and Errol Strain. *CFSAN SNP Pipeline: an automated method for constructing SNP matricies from next-generation sequence data.* [PeerJ Computer Science 1:e20](https://dx.doi.org/10.7717/peerj-cs.20), 2015.
 
+13. Kuan Yao, Tim Muruvanda, Richard Roberts, **Justin Payne**, Marc Allard, and Maria Hoffman. *Complete Genome and Methylome Sequences of two Salmonella enterica species.* Genome Announc. 2015 *(to appear)*
+
 ---
 
 (VI) Seminars
 -------------
 
-53. Marc Allard, Ruth E. Timme, Peter Evans, Marc W. Allard, Errol Strain, Charles Wang, George Kastanis, **Justin Payne**, Christine Keys, Steve Musser, Eric Brown.  *Integration of NGS Desktop Sequencers to Build a Global Genomic Network for Pathogen Trace-back and Outbreak Detection.* College Park MD. (seminar) June 2014.
+53. Marc Allard, Ruth E. Timme, Peter Evans, Marc W. Allard, Errol Strain, Charles Wang, George Kastanis, **Justin Payne**, Christine Keys, Steve Musser, Eric Brown.  *Integration of NGS Desktop Sequencers to Build a Global Genomic Network for Pathogen Trace-back and Outbreak Detection.* College Park MD. June 2014.
 
 57. Ruth E. Timme, Peter Evans, Marc W. Allard, Errol Strain, **Justin Payne**, Christine Keys, Steve Musser. *FDA GenomeTrakr: building an international public heath lab network for foodborne pathogen tracking.* Sequencing, Finishing, and Analysis in the Future, Santa Fe, NM May 2014.
 
 3. Eric Stevens, **Justin Payne**, Bill Klimke, James Pettengill, Ruth E. Timme, Magaly Toro, Marc Allard, Andrea Ottesen, James Robert White, Karen Jarvis, Eija Trees, Heather Carleton. *FDA-CFSAN/JIFSAN-IFSTL Whole Genome Sequencing Pilot Course.* (participated as bioinformatics workshop instructor.) College Park MD. (workshop) March 2015.
+
+4. Eric Stevens, **Justin Payne**, Bill Klimke, James Pettengill, Ruth E. Timme, Charles Wang, Karen Jarvis, Eija Trees, Heather Carleton. *FDA-CFSAN/JIFSAN-IFSTL Whole Genome Sequencing Course.* (participated as bioinformatics workshop instructor.) College Park MD. (workshop) Sept 2015.
 
 (VII) Scientific Training
 ------------------------
@@ -149,12 +153,15 @@ Date                     | Organization and Duties
 
 * 2011 - Best Class Presentation, Protein Engineering, University of Nebraska, Lincoln
 * 2014 - HHS Innovates Awards, Secretary's Pick for "Whole Genome Sequencing: Future of Food Safety"
+* 2015 - NCBI Hackathon, "Genius Mole People who code in Java" recipient
 
 ---
 
 (IX) Scientific Conferences and Meetings
 ------------------------------------------
 
+7. **September 2015** *American Society for Microbiology, Next-Gen Sequencing Pipelines*, Washington DC
+6. **September 2015** *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #2*, Washington DC
 5. **August 2015** - *NCBI Hackathon*, Bethesda
 4. **June 2015** - *Sequencing, Finishing, and Analysis in the Future*, Santa Fe
 1. **September 2014** - *Real-Time Genome Sequencing Surveillance Multi-Agency Collaboration 2014*, Washington DC
@@ -167,8 +174,9 @@ Date                     | Organization and Duties
 **Bootsie** - Bootstrap Analysis of RFLP : a Java-based biostatistics utility used by UNL and USDA-ARS entomologists to analyze population structure. Includes a suite of file-conversion utilities.  
 **Sif** - Sequence Information Finder : a suite of command-line utilities for quick and easy lookups in the FDA-CFSAN GenomicsDB.  
 **BaseCase** - Web-based Pipeline Management : an intuitive system for hooking up bioinformatics pipelines using powerful concepts from functional programming combined with process and filesystem isolation via Docker. Pipeline workflows can be elegantly and seamlessly shared between workgroups without the need to manually manage software installs or curate reference databases.  
-**GenomeTrakr** - Real-time Surveillance of Food-borne Pathogens : nationwide system of networked Illumina sequencers for pathogen traceback and surveillance. Developed key integration-layer architecture.
-**Sra-quick-submit** - Rapid SRA submission generation for GenomeTrakr contributors. Currently in world-wide use.
+**GenomeTrakr** - Real-time Surveillance of Food-borne Pathogens : nationwide system of networked Illumina sequencers for pathogen traceback and surveillance. Developed key integration-layer architecture.  
+**Sra-quick-submit** - Rapid SRA submission generation for GenomeTrakr contributors. Currently in world-wide use.  
+**GIMS** - Genomic Information Management System : a web-based LIMS and file-hosting repository combining rigorous lab activity tracking with rich sample tracking and semantic linking, with links to bioinformatics analysis systems and HPC.
 
 ---
 
