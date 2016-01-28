@@ -108,7 +108,7 @@ Date                     | Organization and Duties
 
 5. Maria Hoffmann, Tim Muruvanda, Cary Pirone, Jonas Korlach, Ruth Timme, **Justin Payne**, Peter Evans, Jianghong Meng, Eric Brown, and Marc Allard. *First Fully Assembled Genome Sequence of Salmonella enterica Serovar Cubana associated with a Multistate Outbreak in the United States.* Genome Announc. October, 2014.
 
-6. Cary Pirone Davies, Maria Hoffmann, Richard J. Roberts, Tim Muruvanda, Ruth Timme, Errol Strain, Yan Luo, **Justin Payne**, Khai Luong, Yi Song, Yu-Chih Tsai, Matthew Boitano, Tyson Clark, Jonas Korlach, Peter Evans, Marc Allard. *Genome-wide methylation patterns in Salmonella enterica subsp. Enterica serovars.* PLoS ONE 10(4): e0123639. doi:10.1371/journal.pone.0123639
+6. Cary Pirone-Davies, Maria Hoffmann, Richard J. Roberts, Tim Muruvanda, Ruth Timme, Errol Strain, Yan Luo, **Justin Payne**, Khai Luong, Yi Song, Yu-Chih Tsai, Matthew Boitano, Tyson Clark, Jonas Korlach, Peter Evans, Marc Allard. *Genome-wide methylation patterns in Salmonella enterica subsp. Enterica serovars.* PLoS ONE 10(4): e0123639. doi:10.1371/journal.pone.0123639
 
 8. **Justin Payne**, Erica Lindroth, Kate Kneeland, Steven R. Skoda, Fatima Mustafa, Muhammad Irfan Ullah, John E. Foster. *Bootsie - Estimation of Coefficient of Variation of AFLP Data by Bootstrap Analysis.* Pak. Entomol. 36(2):79-81
 
@@ -118,11 +118,11 @@ Date                     | Organization and Duties
 
 10. Hua Wang, Yi Chen, Sherry Ayers, David Melka, Anna Maounounen-Laasri, **Justin Payne**, Jie Zheng, Insook Son, Ruth Timme, George Kastanis, Thomas Hammack, Errol Strain, Marc Allard, Peter Evans, and Eric Brown. *Draft Genome Sequence of Salmonella enterica subsp. enterica Serovar Give Isolated from an Imported Chili Powder Product.* Genome Announc. July, 2015.
 
-11. Emily Pettengill, Maria Hoffman, Rachel Binet, Richard J. Roberts, **Justin Payne**, Marc Allard, Valeria Michelacci, Fabio Minelli and Stefano Morabito. *Complete Genome Sequence of Enteroinvasive **Escherichia coli** O96:H19 Associated with a Severe Food-borne Outbreak.* Genome Announc. 2015 *(to appear)*
+11. Emily Pettengill, Maria Hoffman, Rachel Binet, Richard J. Roberts, **Justin Payne**, Marc Allard, Valeria Michelacci, Fabio Minelli and Stefano Morabito. *Complete Genome Sequence of Enteroinvasive **Escherichia coli** O96:H19 Associated with a Severe Food-borne Outbreak.* Genome Announc. August, 2015.
 
 12. Steve Davis, James B Pettengill, Yan Luo, **Justin Payne**, Al Shpuntoff, Hugh Rand, and Errol Strain. *CFSAN SNP Pipeline: an automated method for constructing SNP matricies from next-generation sequence data.* [PeerJ Computer Science 1:e20](https://dx.doi.org/10.7717/peerj-cs.20), 2015.
 
-13. Kuan Yao, Tim Muruvanda, Richard Roberts, **Justin Payne**, Marc Allard, and Maria Hoffman. *Complete Genome and Methylome Sequences of two Salmonella enterica species.* Genome Announc. 2015 *(to appear)*
+13. Kuan Yao, Tim Muruvanda, Richard Roberts, **Justin Payne**, Marc Allard, and Maria Hoffman. *Complete Genome and Methylome Sequences of two Salmonella enterica species.* Genome Announc. January, 2016.
 
 ---
 
