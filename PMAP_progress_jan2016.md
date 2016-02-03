@@ -1,78 +1,78 @@
-#Justin Payne
-#Jan 2016
+##Justin Payne
+##Jan 2016
 
-##PMAP Individual Performance Outcomes 2015
+#PMAP Individual Performance Outcomes 2015
 
 
-1) Research
+###1) Research
 
 *not rated.*
 
-2) Lab Analysis
+###2) Lab Analysis
 
-*Ensures rapid and automated movement of PR066 (RTLM) and other high-priority isolate sequences to NCBI-SRA.*
+####Ensures rapid and automated movement of PR066 (RTLM) and other high-priority isolate sequences to NCBI-SRA.
 
-	Post GIMS-deployment, SRA data now uploads several times a day.
+Post GIMS-deployment, SRA data now uploads several times a day.
 	
-3) Methods Development and Validation
+###3) Methods Development and Validation
 
 *GIMS Implementation Phase 1*
 
-	Basespace Integration: live in production.
+Basespace Integration: live in production.
 	
-	NextSeq Integration: live in production; currently shaking out bugs in our first Nextseq run.
+NextSeq Integration: live in production; currently shaking out bugs in our first Nextseq run.
 	
-	Sequence QC/QA Analysis: live in production.
+Sequence QC/QA Analysis: live in production.
 	
-	NCBI Submission: SRA and BioSample submissions live in production. Improvements planned.
+NCBI Submission: SRA and BioSample submissions live in production. Improvements planned.
 	
 *GIMS Implementation Phase 2*
 
-	NCBI Accession capture: live in production. Currently a 20-hour lag between submission and accession capture due to NCBI not cleaning out old submission files. We expect this to drop to a couple of minutes or maybe an hour when they implement submission cleanup.
+NCBI Accession capture: live in production. Currently a 20-hour lag between submission and accession capture due to NCBI not cleaning out old submission files. We expect this to drop to a couple of minutes or maybe an hour when they implement submission cleanup.
 	
-	Assembly pipeline: Assembly metadata was imported during go-live; assembly file data import in development. SLims assembly pipeline under active development.
+Assembly pipeline: Assembly metadata was imported during go-live; assembly file data import in development. SLims assembly pipeline under active development.
 	
-	SLims reporting: live in production.
+SLims reporting: live in production.
 	
-	PacBio network integration: Tim and Michael Long are mostly handling this, but I've been consulting and evaluating their proposals. Sci IT's sort of been dragging their feet.
+PacBio network integration: Tim and Michael Long are mostly handling this, but I've been consulting and evaluating their proposals. Sci IT's sort of been dragging their feet.
 	
-	RNA-Seq data integration: No progress to report.
+RNA-Seq data integration: No progress to report.
 	
-	Metagenomics data integration: Current SLims data model should transparently support metagenomic data, and support for non-isolate sequence data is being built into all SLims pipelines. Horizon goal for us, when the system is more mature and stable.
+Metagenomics data integration: Current SLims data model should transparently support metagenomic data, and support for non-isolate sequence data is being built into all SLims pipelines. Horizon goal for us, when the system is more mature and stable.
 	
 *Integrate with Submission Portal 2.0 API*
 
-	SRA and BioSample submission currently supported. BioProject and PGAP submission in progress. WGS submission was enabled by NCBI but until we have assemblies in SLims there's nothing yet to submit.
+SRA and BioSample submission currently supported. BioProject and PGAP submission in progress. WGS submission was enabled by NCBI but until we have assemblies in SLims there's nothing yet to submit.
 	
 *Metagenomic pipeline*
 
-	Scope determination and functional specification discussions with Dr. Ottesen and metagenomics pipeline developer Padmini Ramachandran to begin soon.
+Scope determination and functional specification discussions with Dr. Ottesen and metagenomics pipeline developer Padmini Ramachandran to begin soon.
 	
-4) Consultative Services
+###4) Consultative Services
 
-*WGS Submission*
+####WGS Submission
 
-	Consulted on and submitted WGS/Complete Genomes assemblies and annotations for DM researchers.
+Consulted on and submitted WGS/Complete Genomes assemblies and annotations for DM researchers.
 
-*Bioinformatics*
+####Bioinformatics
 
-	Led 1-day bioinformatics tools workshops during FDA/JIFSAN whole genome sequencing seminars in March and October.
+Led 1-day bioinformatics tools workshops during FDA/JIFSAN whole genome sequencing seminars in March and October.
 	
-	Contributed to 3 ORS public software repositories: TreeToReads (https://github.com/snacktavish/TreeToReads/pull/15), SNP-Pipeline (https://github.com/CFSAN-Biostatistics/snp-pipeline/pull/1), and filter_contigs (https://github.com/CFSAN-Biostatistics/filter_contigs).
+Contributed to 3 ORS public software repositories: TreeToReads (https://github.com/snacktavish/TreeToReads/pull/15), SNP-Pipeline (https://github.com/CFSAN-Biostatistics/snp-pipeline/pull/1), and filter_contigs (https://github.com/CFSAN-Biostatistics/filter_contigs).
 	
 
-5) Communications
+###5) Communications
 
-*Conference attendance*
+####Conference attendance
 
 7. **September 2015** *American Society for Microbiology, Next-Gen Sequencing Pipelines*, Washington DC
 6. **September 2015** *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #2*, Washington DC
 5. **August 2015** - *NCBI Hackathon*, Bethesda
 4. **June 2015** - *Sequencing, Finishing, and Analysis in the Future*, Santa Fe
 
-*Technical Contributions*
+####Technical Contributions
 
-	I've appeared as co-author on a number of publications in 2015:
+I've appeared as co-author on a number of publications in 2015:
 
 6. Cary Pirone-Davies, Maria Hoffmann, Richard J. Roberts, Tim Muruvanda, Ruth Timme, Errol Strain, Yan Luo, **Justin Payne**, Khai Luong, Yi Song, Yu-Chih Tsai, Matthew Boitano, Tyson Clark, Jonas Korlach, Peter Evans, Marc Allard. *Genome-wide methylation patterns in Salmonella enterica subsp. Enterica serovars.* PLoS ONE 10(4): e0123639. doi:10.1371/journal.pone.0123639
 
@@ -91,7 +91,7 @@
 13. Kuan Yao, Tim Muruvanda, Richard Roberts, **Justin Payne**, Marc Allard, and Maria Hoffman. *Complete Genome and Methylome Sequences of two Salmonella enterica species.* Genome Announc. January, 2016.
 
 
-	Posters on which I've appeared:
+####Posters on which I've appeared:
 	
 1.  Marc W. Allard, Charles Wang, George Kastanis, Tim Muruvanda, Cary Pirone, Errol Strain, Hugh Rand, Ruth Timme, **Justin Payne**, Yan Luo, Andrea Ottesen, Steven M. Musser, David Melka, Peter Evans, and Eric W. Brown.  *GenomeTrakr: A Pathogen Database to Build a Global Genomic Network for Pathogen Traceback and Outbreak Detection.*  Univ. of Vermont, Burlington, VT, (seminar) Nov., 2015
 
