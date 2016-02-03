@@ -58,7 +58,10 @@ Consulted on and submitted WGS/Complete Genomes assemblies and annotations for D
 
 Led 1-day bioinformatics tools workshops during FDA/JIFSAN whole genome sequencing seminars in March and October.
 	
-Contributed to 3 ORS public software repositories: TreeToReads (https://github.com/snacktavish/TreeToReads/pull/15), SNP-Pipeline (https://github.com/CFSAN-Biostatistics/snp-pipeline/pull/1), and filter_contigs (https://github.com/CFSAN-Biostatistics/filter_contigs).
+Contributed to 3 ORS/OAO public software repositories: 
+* *TreeToReads* (https://github.com/snacktavish/TreeToReads/pull/15)
+* *SNP-Pipeline* (https://github.com/CFSAN-Biostatistics/snp-pipeline/pull/1)
+* *filter_contigs* (https://github.com/CFSAN-Biostatistics/filter_contigs).
 	
 
 ###5) Communications
