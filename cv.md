@@ -87,7 +87,9 @@ Date                     | Organization and Duties
 * Flask
 * AWT/Swing
 * Angular.js
+* React.js
 * JSPlumb
+* Gunicorn
 
 ---
 
@@ -123,6 +125,10 @@ Date                     | Organization and Duties
 12. Steve Davis, James B Pettengill, Yan Luo, **Justin Payne**, Al Shpuntoff, Hugh Rand, and Errol Strain. *CFSAN SNP Pipeline: an automated method for constructing SNP matricies from next-generation sequence data.* [PeerJ Computer Science 1:e20](https://dx.doi.org/10.7717/peerj-cs.20), 2015.
 
 13. Kuan Yao, Tim Muruvanda, Richard Roberts, **Justin Payne**, Marc Allard, and Maria Hoffman. *Complete Genome and Methylome Sequences of two Salmonella enterica species.* Genome Announc. January, 2016.
+
+20. Kuan Yao, Tim Muruvanda, Richard Roberts, **Justin Payne**, Marc Allard, and Maria Hoffmann. *Complete Genome and Methylome Sequences of Salmonella Panama ATCC 7378 and Salmonella Sloterdijk ATCC 15791.* Genome Announc. Feburary, 2016.
+
+82. Hua Wang, Jie Zheng, Sherry Ayers, David Melka, Phillip Curry, **Justin Payne**, Anna Maounounen-Laasri, Charles Wang, Thomas Hammack, and Eric Brown. *Draft Genome Sequences of Salmonella enterica subsp. enterica Serovar Typhimurium and Serovar Nottingham Isolated from Food Products.* Genome Announc. (to appear)
 
 ---
 
@@ -160,6 +166,7 @@ Date                     | Organization and Duties
 (IX) Scientific Conferences and Meetings
 ------------------------------------------
 
+8. **June 2016** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe
 7. **September 2015** *American Society for Microbiology, Next-Gen Sequencing Pipelines*, Washington DC
 6. **September 2015** *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #2*, Washington DC
 5. **August 2015** - *NCBI Hackathon*, Bethesda
@@ -177,6 +184,7 @@ Date                     | Organization and Duties
 **GenomeTrakr** - Real-time Surveillance of Food-borne Pathogens : nationwide system of networked Illumina sequencers for pathogen traceback and surveillance. Developed key integration-layer architecture.  
 **Sra-quick-submit** - Rapid SRA submission generation for GenomeTrakr contributors. Currently in world-wide use.  
 **GIMS** - Genomic Information Management System : a web-based LIMS and file-hosting repository combining rigorous lab activity tracking with rich sample tracking and semantic linking, with links to bioinformatics analysis systems and HPC.
+**Watchos Grande** - Lightweight process-heartbeat tracking in a Flask/Gunicorn app.
 
 ---
 
