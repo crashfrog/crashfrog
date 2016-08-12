@@ -130,6 +130,8 @@ Date                     | Organization and Duties
 
 82. Hua Wang, Jie Zheng, Sherry Ayers, David Melka, Phillip Curry, **Justin Payne**, Anna Maounounen-Laasri, Charles Wang, Thomas Hammack, and Eric Brown. *Draft Genome Sequences of Salmonella enterica subsp. enterica Serovar Typhimurium and Serovar Nottingham Isolated from Food Products.* Genome Announc. (to appear)
 
+83. Fernanda Almeida, Marta Inês Medeiros, Dália Rodrigues, **Justin Payne**, Ruth Timme, Marc Allard, and Juliana Falcão. *Draft Genome Sequences of 40 Salmonella Typhimurium isolated from humans and food in Brazil* Genome Announc. (to appear)
+
 ---
 
 (VI) Seminars
