@@ -33,8 +33,8 @@ Date              | Degree and Program
 
 (III) Professional Experience
 -----------------------------
-Date                     | Organization and Duties
-:-----------------------:|:-----------------------
+Date                        | Organization and Duties
+:--------------------------:|:-----------------------
 ``Oct 2012 - Apr 2015``     |**FDA-CFSAN-ORS-DM-MMSB (ORAU Fellowship)**
 ``Apr 2015 - Aug 2016``     |**FDA-CFSAN-ORS-DM-MMSB (GS-403-11)**
 ``Aug 2016 - Current``      |**FDA-CFSAN-OAO-DB (GS-403-12)**
