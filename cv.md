@@ -103,7 +103,7 @@ Date                     | Organization and Duties
 
 3. Maria Hoffmann, Tim Muruvanda, Marc Allard, Jonas Korlach, Richard Roberts, Ruth Timme, **Justin Payne**, Patrick McDermott, Peter Evans, Jianghong Meng, Eric Brown, and Shaohua Zhao. *Complete Genome Sequence of a Multidrug-Resistant Salmonella enterica Serovar Typhimurium var. 5- Strain Isolated from Chicken Breast.* Genome Announc. 2014 Apr 3;2(2). pii: e00294-14
 
-4. Julie Haendiges, Ruth Timme, Marc Allard, Robert Myers, **Justin Payne**, Eric Brown, Peter Evans, and Narjol González-Escalona. *Draft genomes of clinical Vibrio parahaemolyticus strains isolated in Maryland (2010-2013).* Genome Announc. 2014 Aug 7;2(4). pii: e00776-14.
+4. Julie Haendiges, Ruth E. Timme, Marc Allard, Robert Myers, **Justin Payne**, Eric Brown, Peter Evans, and Narjol González-Escalona. *Draft genomes of clinical Vibrio parahaemolyticus strains isolated in Maryland (2010-2013).* Genome Announc. 2014 Aug 7;2(4). pii: e00776-14.
 
 21. Muruvanda, T., Pirone, C., Hoffmann, M., Allard, M. W0., Wang, C., Strain, E., Timme, R., Luo, Y., Keys, E. C., **Payne, J.**, Luong, K., Song, Y., Chin, C., Korlach, J., Roberts, R. J., Musser, S. M., Evans, P. & Brown, E. W. *New discoveries in Salmonella genomes closure.* 114th American Society for Microbiology Annual Meeting, Boston, MA, USA, (May, 2014). AND 4th Annual FDA Foods & Vet Medicine Science and Research Conference, White Oak, MD. July, 2014. AND Next-generation sequencing (NGS) technology, data formats standardization and promotion of interoperability protocols, Bethesda, MD, USA (September, 2014)
 
@@ -129,9 +129,11 @@ Date                     | Organization and Duties
 
 20. Kuan Yao, Tim Muruvanda, Richard Roberts, **Justin Payne**, Marc Allard, and Maria Hoffmann. *Complete Genome and Methylome Sequences of Salmonella Panama ATCC 7378 and Salmonella Sloterdijk ATCC 15791.* Genome Announc. Feburary, 2016.
 
-82. Hua Wang, Jie Zheng, Sherry Ayers, David Melka, Phillip Curry, **Justin Payne**, Anna Maounounen-Laasri, Charles Wang, Thomas Hammack, and Eric Brown. *Draft Genome Sequences of Salmonella enterica subsp. enterica Serovar Typhimurium and Serovar Nottingham Isolated from Food Products.* Genome Announc. (to appear)
+82. Hua Wang, Jie Zheng, Sherry Ayers, David Melka, Phillip Curry, **Justin Payne**, Anna Maounounen-Laasri, Charles Wang, Thomas Hammack, and Eric Brown. *Draft Genome Sequences of Salmonella enterica subsp. enterica Serovar Typhimurium and Serovar Nottingham Isolated from Food Products.* Genome Announc. August, 2016.
 
-83. Fernanda Almeida, Marta Inês Medeiros, Dália Rodrigues, **Justin Payne**, Ruth Timme, Marc Allard, and Juliana Falcão. *Draft Genome Sequences of 40 Salmonella Typhimurium isolated from humans and food in Brazil* Genome Announc. (to appear)
+83. Fernanda Almeida, Marta Inês Medeiros, Dália Rodrigues, **Justin Payne**, Ruth Timme, Marc Allard, and Juliana Falcão. *Draft Genome Sequences of 40 Salmonella Typhimurium isolated from humans and food in Brazil* Genome Announc. October, 2016.
+
+20. Yi Chen, Laurel Burall, Yan Luo, Ruth E. Timme, David Melka, Tim Muruvanda, **Justin Payne**, Charles Wang, George Kastanis, Anna Maounounen-Laasri, Antonio J. De Jesus, Phillip E. Curry, Robert Stones, Okumu KAlouch, Eileen Liu, Monique Salter, Thomas Hammack, Peter S. Evans, Mickey Parish, Marc Allard, Atin Datta, Errol Strain, and Eric W. Brown. *Listeria monocytogenes in Stone Fruits Linked to a Multistate Outbreak: Enumeration of Cells and Whole-Genome Sequencing.* Applied and Environmental Microbiology, 82(24):AEM.01486-16. December, 2016.
 
 ---
 
@@ -145,6 +147,8 @@ Date                     | Organization and Duties
 3. Eric Stevens, **Justin Payne**, Bill Klimke, James Pettengill, Ruth E. Timme, Magaly Toro, Marc Allard, Andrea Ottesen, James Robert White, Karen Jarvis, Eija Trees, Heather Carleton. *FDA-CFSAN/JIFSAN-IFSTL Whole Genome Sequencing Pilot Course.* (participated as bioinformatics workshop instructor.) College Park MD. (workshop) March 2015.
 
 4. Eric Stevens, **Justin Payne**, Bill Klimke, James Pettengill, Ruth E. Timme, Charles Wang, Karen Jarvis, Eija Trees, Heather Carleton. *FDA-CFSAN/JIFSAN-IFSTL Whole Genome Sequencing Course.* (participated as bioinformatics workshop instructor.) College Park MD. (workshop) Sept 2015.
+
+4. Eric Stevens, **Justin Payne**,  Ruth E. Timme, Sabina Lindley. *FDA-CFSAN/JIFSAN-IFSTL Whole Genome Sequencing Course.* (participated as bioinformatics workshop instructor.) College Park MD. (workshop) Sept 2016.
 
 (VII) Scientific Training
 ------------------------
