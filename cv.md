@@ -134,6 +134,8 @@ Date                        | Organization and Duties
 
 20. Yi Chen, Laurel Burall, Yan Luo, Ruth E. Timme, David Melka, Tim Muruvanda, **Justin Payne**, Charles Wang, George Kastanis, Anna Maounounen-Laasri, Antonio J. De Jesus, Phillip E. Curry, Robert Stones, Okumu KAlouch, Eileen Liu, Monique Salter, Thomas Hammack, Peter S. Evans, Mickey Parish, Marc Allard, Atin Datta, Errol Strain, and Eric W. Brown. *Listeria monocytogenes in Stone Fruits Linked to a Multistate Outbreak: Enumeration of Cells and Whole-Genome Sequencing.* Applied and Environmental Microbiology, 82(24):AEM.01486-16. December, 2016.
 
+18. Guojie Cao, Marc Allard, Maria Hoffmann, Tim Muruvanda, Yan Luo, **Justin Payne**, Kevin Meng, Shaohua Zhao, Patrick McDermott, Eric Brown, and Jianghon Meng. *Sequence Analysis of IncA/C and IncI1 Plasmids Isolated from Multidrug-Resistant Salmonella Newport Using Single-Molecule Real-Time Sequencing.* Foodborne Pathogens and Disease, https://doi.org/10.1089/fpd.2017.2385 . April, 2018.
+
 ---
 
 (VI) Seminars
@@ -172,6 +174,8 @@ Date                        | Organization and Duties
 (IX) Scientific Conferences and Meetings
 ------------------------------------------
 
+10. **August 2017** *Scientific Python Conference*, Austin
+9. **June 2017** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe
 8. **June 2016** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe
 7. **September 2015** *American Society for Microbiology, Next-Gen Sequencing Pipelines*, Washington DC
 6. **September 2015** *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #2*, Washington DC
