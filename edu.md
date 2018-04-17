@@ -20,7 +20,6 @@ Sem. Hours | Course Title and Description
 3 | **Computational Biology** *Statistics and computation in biology*
 1 | **Bioinformatics** *Calculus in the life sciences*
 4 | **Analytic Geometry and Calculus III** *Derivatives and integrals in coordinate space*
-
 total | --
 53 | I have **over 30 semester hours** of coursework in mathematics, statistics, computer science, and differential or integral calculus.
 
