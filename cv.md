@@ -64,12 +64,11 @@ Date                        | Organization and Duties
 * Mac OS X (desktop, server)
 * Atmel family of embedded microprocessors
 * Xilinx Spartan-6 FPGAs
-* Amazon EC2
+* Amazon AWS
 
 **Programming Languages**
 
 * Python
-* Perl
 * PHP
 * C/C++
 * Rust
@@ -90,8 +89,12 @@ Date                        | Organization and Duties
 * Django
 * Flask
 * React.js
-* JSPlumb
 * Gunicorn
+
+**DevOps**
+
+* Docker
+* Singularity
 
 ---
 
@@ -140,8 +143,10 @@ Date                        | Organization and Duties
 
 ---
 
-(VI) Seminars
+(VI) Seminars and Presentations
 -------------
+
+54. Alden Estep, Ian Sutherland, Dominic Ladmirault, Neil Sanscrainte, James Becnel, **Justin Payne**, Erica Lindroth. *Sea Raven: Mobile Sequencing in the US Navy.* Poster presented at SFAF, Santa Fe, NM. May 2018.
 
 53. Marc Allard, Ruth E. Timme, Peter Evans, Marc W. Allard, Errol Strain, Charles Wang, George Kastanis, **Justin Payne**, Christine Keys, Steve Musser, Eric Brown.  *Integration of NGS Desktop Sequencers to Build a Global Genomic Network for Pathogen Trace-back and Outbreak Detection.* College Park MD. June 2014.
 
@@ -177,13 +182,17 @@ Date                        | Organization and Duties
 (IX) Scientific Conferences and Meetings
 ------------------------------------------
 
-10. **August 2017** *Scientific Python Conference*, Austin
-9. **June 2017** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe
-8. **June 2016** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe
+11. **May 2018** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe NM
+10. **August 2017** *Scientific Python Conference*, Austin TX
+9. **June 2017** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe  NM
+9. **September 2017** *American Society for Microbiology, Next-Gen Sequencing Pipelines*,
+Washington DC
+9. **September 2017** *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #3*, College Park MD
+8. **June 2016** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe NM
 7. **September 2015** *American Society for Microbiology, Next-Gen Sequencing Pipelines*, Washington DC
 6. **September 2015** *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #2*, Washington DC
-5. **August 2015** - *NCBI Hackathon*, Bethesda
-4. **June 2015** - *Sequencing, Finishing, and Analysis in the Future*, Santa Fe
+5. **August 2015** - *NCBI Hackathon*, Bethesda MD
+4. **June 2015** - *Sequencing, Finishing, and Analysis in the Future*, Santa Fe NM
 1. **September 2014** - *Real-Time Genome Sequencing Surveillance Multi-Agency Collaboration 2014*, Washington DC
 2. **April 2014** - *American Society for Microbiology General Meeting 2014*, Boston
 3. **September 2013** - *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #1*, Baltimore
