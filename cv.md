@@ -148,17 +148,19 @@ Date                        | Organization and Duties
 (VI) Seminars and Presentations
 -------------
 
+55. Kevin Libuit, Jimmy Sanders, **Justin Payne.** *DCLS Introductory Bioinformatics Training using GalaxyTrakr.* Workshop presented by DCLS, Richmond, VA. April 2019.
+ 
 54. Alden Estep, Ian Sutherland, Dominic Ladmirault, Neil Sanscrainte, James Becnel, **Justin Payne**, Erica Lindroth. *Sea Raven: Mobile Sequencing in the US Navy.* Poster presented at SFAF, Santa Fe, NM. May 2018.
+
+4. Eric Stevens, **Justin Payne**,  Ruth E. Timme, Sabina Lindley. *FDA-CFSAN/JIFSAN-IFSTL Whole Genome Sequencing Course.* (participated as bioinformatics workshop instructor.) College Park MD. (workshop) Sept 2016.
+
+4. Eric Stevens, **Justin Payne**, Bill Klimke, James Pettengill, Ruth E. Timme, Charles Wang, Karen Jarvis, Eija Trees, Heather Carleton. *FDA-CFSAN/JIFSAN-IFSTL Whole Genome Sequencing Course.* (participated as bioinformatics workshop instructor.) College Park MD. (workshop) Sept 2015.
+
+3. Eric Stevens, **Justin Payne**, Bill Klimke, James Pettengill, Ruth E. Timme, Magaly Toro, Marc Allard, Andrea Ottesen, James Robert White, Karen Jarvis, Eija Trees, Heather Carleton. *FDA-CFSAN/JIFSAN-IFSTL Whole Genome Sequencing Pilot Course.* (participated as bioinformatics workshop instructor.) College Park MD. (workshop) March 2015.
 
 53. Marc Allard, Ruth E. Timme, Peter Evans, Marc W. Allard, Errol Strain, Charles Wang, George Kastanis, **Justin Payne**, Christine Keys, Steve Musser, Eric Brown.  *Integration of NGS Desktop Sequencers to Build a Global Genomic Network for Pathogen Trace-back and Outbreak Detection.* College Park MD. June 2014.
 
 57. Ruth E. Timme, Peter Evans, Marc W. Allard, Errol Strain, **Justin Payne**, Christine Keys, Steve Musser. *FDA GenomeTrakr: building an international public heath lab network for foodborne pathogen tracking.* Sequencing, Finishing, and Analysis in the Future, Santa Fe, NM May 2014.
-
-3. Eric Stevens, **Justin Payne**, Bill Klimke, James Pettengill, Ruth E. Timme, Magaly Toro, Marc Allard, Andrea Ottesen, James Robert White, Karen Jarvis, Eija Trees, Heather Carleton. *FDA-CFSAN/JIFSAN-IFSTL Whole Genome Sequencing Pilot Course.* (participated as bioinformatics workshop instructor.) College Park MD. (workshop) March 2015.
-
-4. Eric Stevens, **Justin Payne**, Bill Klimke, James Pettengill, Ruth E. Timme, Charles Wang, Karen Jarvis, Eija Trees, Heather Carleton. *FDA-CFSAN/JIFSAN-IFSTL Whole Genome Sequencing Course.* (participated as bioinformatics workshop instructor.) College Park MD. (workshop) Sept 2015.
-
-4. Eric Stevens, **Justin Payne**,  Ruth E. Timme, Sabina Lindley. *FDA-CFSAN/JIFSAN-IFSTL Whole Genome Sequencing Course.* (participated as bioinformatics workshop instructor.) College Park MD. (workshop) Sept 2016.
 
 
 (VII) Scientific Training
@@ -169,6 +171,7 @@ Date                        | Organization and Duties
 3. **May 2014** - NGS Typing of Bacterial Pathogens, American Society for Microbiology General Meeting 2014, Boston
 4. **June 2014** - PacBio User Group Meeting and Bioinformatics Workshop 2014, IGS, UMD Baltimore
 5. **June 2015** - PacBio User Group Meeting and Bioinformatics Workshop 2015, IGS, UMD Baltimore
+6. **May 2019** - Building Command-Line Interfaces that Click, PyCon 2019, Cleveland
 
 ---
 
@@ -184,6 +187,8 @@ Date                        | Organization and Duties
 (IX) Scientific Conferences and Meetings
 ------------------------------------------
 
+13. **May 2019** *Sequencing, Finshing, and Analysis in the Future*, Santa Fe NM
+12. **May 2019** *PyCon*, Cleveland OH
 11. **May 2018** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe NM
 10. **August 2017** *Scientific Python Conference*, Austin TX
 9. **June 2017** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe  NM
@@ -208,6 +213,9 @@ Washington DC
 **Sra-quick-submit** - Rapid SRA submission generation for GenomeTrakr contributors. Currently in world-wide use.  
 **GIMS** - Genomic Information Management System : a web-based LIMS and file-hosting repository combining rigorous lab activity tracking with rich sample tracking and semantic linking, with links to bioinformatics analysis systems and HPC.
 **Watchos Grande** - Lightweight process-heartbeat tracking in a Flask/Gunicorn app.
+**GalaxyTrakr** - Hosted platform for foodborne pathogen bioinformatics.
+**ShigaTyper** - Shigella genoserotyping from whole-genome sequencing.
+**EDB** - Event-Driven Biosurveillance platform in the cloud.
 
 ---
 
