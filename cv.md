@@ -141,6 +141,8 @@ Date                        | Organization and Duties
 
 18. Guojie Cao, Marc Allard, Maria Hoffmann, Tim Muruvanda, Yan Luo, **Justin Payne**, Kevin Meng, Shaohua Zhao, Patrick McDermott, Eric Brown, and Jianghon Meng. *Sequence Analysis of IncA/C and IncI1 Plasmids Isolated from Multidrug-Resistant Salmonella Newport Using Single-Molecule Real-Time Sequencing.* Foodborne Pathogens and Disease, https://doi.org/10.1089/fpd.2017.2385 . April, 2018.
 
+19. Yun Wu, Henry K. Lau, Teresa Lee, David K. Lau, **Justin Payne.** *In Silico Serotyping Based on Whole-Genome Sequencing Improves the Accuracy of Shigella Identification.* Appl Environ Microbiol. 2019 March 22.
+
 ---
 
 (VI) Seminars and Presentations
