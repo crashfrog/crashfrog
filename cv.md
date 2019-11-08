@@ -37,7 +37,7 @@ Date              | Degree and Program
 
 |Date                         | Employer (Specialization)     |
 |:---------------------------:|------------------------------:|
-|``Apr 2017 - Current``       |**FDA-CFSAN-OAO-DB (GS-1550-13)**
+|``Aug 2018 - Current``       |**FDA-CFSAN-OAO-DB (GS-1550-13)**
 
 **Computer scientist** supporting the **analysis and interpretation of molecular data from next generation DNA sequencing technologies,** and the **development and maintenance of whole-genome pathogen surveillence networks** to aid in the detection, identification, and characterization of microbial food-borne pathogens. 
 
@@ -53,7 +53,7 @@ Primary developer of **PoreRefiner**, a LIMS integration Linux service for Oxfor
 |:---------------------------:|------------------------------:|
 |``Oct 2012 - Apr 2015``      |**FDA-CFSAN-ORS-DM-MMSB (ORAU Fellowship)**
 |``Apr 2015 - Aug 2016``      |**FDA-CFSAN-ORS-DM-MMSB (GS-403-11)**
-|``Aug 2016 - Apr 2017``      |**FDA-CFSAN-OAO-DB (GS-403-12)**
+|``Aug 2016 - Aug 2018``      |**FDA-CFSAN-OAO-DB (GS-403-12)**
 
 **Bioinformatician in Microbiology** and **primary software specifications analyst, author, and maintainer** of the FDA-hosted codebase and informatic infrastructure for FDA/State joint **GenomeTrakr Network**, FDA/CDC Real-Time Listeria Genomic Surveillance Project, and FDA-CFSAN/MN/WA/NY Real-Time Salmonella Enteriditis Project, resulting in the deposit of more than 60,000 bacterial genomes into publicly-accessible databases. Contributor to testing plans for above. 
 
