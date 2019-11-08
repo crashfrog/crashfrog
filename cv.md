@@ -30,7 +30,6 @@ Date              | Degree and Program
 ``Aug 1998``      |Certificate of French proficiency, Université Paris-Sorbonne
 
 
-<div style="page-break-after: always;"></div>
 ---
 
 (III) Professional Experience
@@ -130,7 +129,6 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 * Singularity
 
 ---
-<div style="page-break-after: always;"></div>
 
 (V) Publications
 ----------------
@@ -269,7 +267,6 @@ https://github.com/crashfrog/bootsie
 https://github.com/Team-EDB/edb-lambdas  
 
 ---
-<div style="page-break-after: always;"></div>
 
 (XII) References
 ----------------
