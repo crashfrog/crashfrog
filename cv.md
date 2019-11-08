@@ -241,20 +241,22 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 
 (X) Projects
 ------------
+
 **GenomeTrakr** - Real-time Surveillance of Food-borne Pathogens : nationwide system of networked Illumina sequencers for pathogen traceback and surveillance. Developed key integration-layer architecture.  
 **Sra-quick-submit** - Rapid SRA submission generation for GenomeTrakr contributors. Currently in world-wide use.  
-**GalaxyTrakr** - Hosted platform for foodborne pathogen bioinformatics.
-**ShigaTyper** - Shigella genoserotyping from whole-genome sequencing.
-**FDA-GRaSP** - Event-Driven Biosurveillance platform in the cloud.
-**PoreRefiner** - A tool for management and integration of MinION/GridION sequencing.
+**GalaxyTrakr** - Hosted platform for foodborne pathogen bioinformatics.  
+**ShigaTyper** - Shigella genoserotyping from whole-genome sequencing.  
+**FDA-GRaSP** - Event-Driven Biosurveillance platform in the cloud.  
+**PoreRefiner** - A tool for management and integration of MinION/GridION sequencing.  
 **GIMS** - Genomic Information Management System : a web-based LIMS and file-hosting repository combining rigorous lab activity tracking with rich sample tracking and semantic linking, with links to bioinformatics analysis systems and HPC.
-**Watchos Grande** - Lightweight process-heartbeat tracking in a Flask/Gunicorn app.
+**Watchos Grande** - Lightweight process-heartbeat tracking in a Flask/Gunicorn app.  
 **Bootsie** - Bootstrap Analysis of RFLP : a Java-based biostatistics utility used by UNL and USDA-ARS entomologists to analyze population structure. Includes a suite of file-conversion utilities.  
-**Sif** - Sequence Information Finder : a suite of command-line utilities for quick and easy lookups in the FDA-CFSAN GenomicsDB. Named after a cat. 
+**Sif** - Sequence Information Finder : a suite of command-line utilities for quick and easy lookups in the FDA-CFSAN GenomicsDB. Named after a cat.  
 ---
 
 (XI) Selected Repositories
 --------------------------
+
 https://github.com/CFSAN-Biostatistics/porerefiner  
 https://github.com/crashfrog/WatchosGrande  
 https://github.com/GenomeTrakrUnofficial/torchbase  
