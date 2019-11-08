@@ -35,9 +35,9 @@ Date              | Degree and Program
 (III) Professional Experience
 -----------------------------
 
-|Date                        | Employer (Specialization)     |
-|:--------------------------:|------------------------------:|
-``Apr 2017 - Current``       |**FDA-CFSAN-OAO-DB (GS-1550-13)**
+|Date                         | Employer (Specialization)     |
+|:---------------------------:|------------------------------:|
+|``Apr 2017 - Current``       |**FDA-CFSAN-OAO-DB (GS-1550-13)**
 
 **Computer scientist** supporting the **analysis and interpretation of molecular data from next generation DNA sequencing technologies,** and the **development and maintenance of whole-genome pathogen surveillence networks** to aid in the detection, identification, and characterization of microbial food-borne pathogens. 
 
@@ -49,11 +49,11 @@ Primary developer of **PoreRefiner**, a LIMS integration Linux service for Oxfor
 
 **Consulting developer** of ShigaTyper, an in-silico NGS seroprediction tool for *Shigella sp.*, an important foodborne pathogen.
 
-|Date                        | Employer (Specialization)     |
-|:--------------------------:|------------------------------:|
-``Oct 2012 - Apr 2015``      |**FDA-CFSAN-ORS-DM-MMSB (ORAU Fellowship)**
-``Apr 2015 - Aug 2016``      |**FDA-CFSAN-ORS-DM-MMSB (GS-403-11)**
-``Aug 2016 - Apr 2017``      |**FDA-CFSAN-OAO-DB (GS-403-12)**
+|Date                         | Employer (Specialization)     |
+|:---------------------------:|------------------------------:|
+|``Oct 2012 - Apr 2015``      |**FDA-CFSAN-ORS-DM-MMSB (ORAU Fellowship)**
+|``Apr 2015 - Aug 2016``      |**FDA-CFSAN-ORS-DM-MMSB (GS-403-11)**
+|``Aug 2016 - Apr 2017``      |**FDA-CFSAN-OAO-DB (GS-403-12)**
 
 **Bioinformatician in Microbiology** and **primary software specifications analyst, author, and maintainer** of the FDA-hosted codebase and informatic infrastructure for FDA/State joint **GenomeTrakr Network**, FDA/CDC Real-Time Listeria Genomic Surveillance Project, and FDA-CFSAN/MN/WA/NY Real-Time Salmonella Enteriditis Project, resulting in the deposit of more than 60,000 bacterial genomes into publicly-accessible databases. Contributor to testing plans for above. 
 
@@ -65,21 +65,21 @@ Utilized High-Performance Computing (HPC) platforms for high-throughput genomic 
 
 Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequencing scheduling, and high-throughput submission to national biotechnology databases such as NCBI GenBank and NCBI SRA, and **primary schema architect** in the project to migrate this system to Genohm's SLims Genomic Information Management System (GIMS). Developed sra-quick-submit, an easy-to-use NCBI Sequence Read Archive (SRA) submission tool used by researchers around the world to submit their own genomes to the GenomeTrakr project. 
 
-|Date                        | Employer               |
-|:--------------------------:|-----------------------:|
-``Feb 2012 - Oct 2012``      |**Trojan Defense, LLC**
+|Date                         | Employer               |
+|:---------------------------:|-----------------------:|
+|``Feb 2012 - Oct 2012``      |**Trojan Defense, LLC**
 
 **Analysis Software Programmer** and primary **Internet of Things architect** developing **distributed nuclear materials monitoring architectures** based on proprietary solid-state radiologic sensor. Specialized in "bare-metal" C/C++ on Atmel-family embedded SoC (Systems on a Chip.) Developed custom evaluation boards based on **Arduino-family system development boards** (Uno rev3, Mini, Mega, Leo, Yun.) Used professional illustration tools (Adobe family, Inkscape) to produce technical illustrations, patent documentation, and marketing materials. Wrote proposals for Small Business Innovation Research (SBIR) grants and RFP responses for DTRA, DoD, DoE, and other Federal agencies.
 
-|Date                        | Employer               |
-|:--------------------------:|-----------------------:|
-``May 2005 - Dec 2006``      |**University of Missouri-Columbia/USDA-ARS**
+|Date                         | Employer               |
+|:---------------------------:|-----------------------:|
+|``May 2005 - Dec 2006``      |**University of Missouri-Columbia/USDA-ARS**
 
 **Biological Field Research Aide (GS-1)** assisting in field studies in agricultural entomology, jointly as an appointment to the USDA-ARS and as an employee of the University of Missouri, Columbia. Developed professional web presence and custom content management system (CMS) using Apache and PHP. Developed laboratory setup and tools for electroanntennaographic bioassay of _Diabrotica vergifera v._ (western corn rootworm) and _Loxosceles reclusa_ (brown recluse) species for detection of host identification factors. Constructed field study equipment using basic and power carpentry tools. Managed small (3-6 person) groups of fellow assistants. Worked independently to ensure adherence to study protocols.
 
-|Date                        | Employer               |
-|:--------------------------:|-----------------------:|
-``Sept 1998 - Jan 2003``     |**Gustavus Adolphus College, Dept. of Information Technologies**
+|Date                         | Employer               |
+|:---------------------------:|-----------------------:|
+|``Sept 1998 - Jan 2003``     |**Gustavus Adolphus College, Dept. of Information Technologies**
 
 **Tech Support Consultant** providing phone and site-based technical support on Windows 95/98/ME/2000/NT/XP, Mac OS 9/10, and Linux (Debian family, Fedora family, SUSE family) systems for students, staff, and faculty. Wrote training materials.
 
@@ -238,6 +238,7 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 2. **April 2014** - *American Society for Microbiology General Meeting 2014*, Boston
 3. **September 2013** - *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #1*, Baltimore
 
+---
 
 (X) Projects
 ------------
@@ -252,6 +253,7 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 **Watchos Grande** - Lightweight process-heartbeat tracking in a Flask/Gunicorn app.  
 **Bootsie** - Bootstrap Analysis of RFLP : a Java-based biostatistics utility used by UNL and USDA-ARS entomologists to analyze population structure. Includes a suite of file-conversion utilities.  
 **Sif** - Sequence Information Finder : a suite of command-line utilities for quick and easy lookups in the FDA-CFSAN GenomicsDB. Named after a cat.  
+
 ---
 
 (XI) Selected Repositories
@@ -263,6 +265,7 @@ https://github.com/GenomeTrakrUnofficial/torchbase
 https://github.com/tinybio/filter_contigs  
 https://github.com/crashfrog/bootsie  
 https://github.com/Team-EDB/edb-lambdas  
+
 ---
 
 (XII) References
