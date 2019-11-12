@@ -90,20 +90,19 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 (IV) Technologies
 -----------------
 
-**Platforms**
-
-* Linux (Ubuntu/CentOS/RHEL/Arch)
-* Mac OS X (desktop, server)
-* Atmel family of embedded microprocessors
-* Xilinx Spartan-6 FPGAs
-* Amazon AWS
+**Cloud Services**
+* AWS EC2
+* AWS ECS
+* AWS Lambda
+* AWS Step Function
+* AWS Batch
+* AWS Neptune
 
 **Programming Languages**
 
 * Python
 * PHP
-* C/C++
-* Rust
+* Atmel C
 * Java
 * JavaScript
 * HTML5+CSS3
@@ -111,10 +110,10 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 **Databases**
 
 * MySQL
-* SQL Server 2008
 * PostgreSQL
 * Oracle
 * Neo4J
+* Tinkerpop
 
 **Development Frameworks**
 
@@ -127,6 +126,7 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 
 * Docker
 * Singularity
+* Conda
 
 ---
 
