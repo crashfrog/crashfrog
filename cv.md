@@ -262,6 +262,7 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 **Watchos Grande** - Lightweight process-heartbeat tracking in a Flask/Gunicorn app.  
 **Bootsie** - Bootstrap Analysis of RFLP : a Java-based biostatistics utility used by UNL and USDA-ARS entomologists to analyze population structure. Includes a suite of file-conversion utilities.  
 **Sif** - Sequence Information Finder : a suite of command-line utilities for quick and easy lookups in the FDA-CFSAN GenomicsDB. Named after a cat.  
+**TableBlep** - Peer-to-peer distributed virtual 3D game tabletop with physics. JavaScript, IPFS/Textile, three.js, cannon.js. Also named after cats.  
 
 ---
 
