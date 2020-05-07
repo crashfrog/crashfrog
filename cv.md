@@ -223,12 +223,14 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 * 2014 - HHS Innovates Awards, Secretary's Pick for "Whole Genome Sequencing: Future of Food Safety"
 * 2015 - NCBI Hackathon, "Genius Mole People who code in Java" recipient
 * 2016 - Presidential Recognition, "Celebrating America's Federal Workforce", 2016 Honors
+* 2020 - Federal Lab Consortium, Technology Transfer Interagency Partnership Award "GenomeTrakr and Pathogen Detection" (FDA/NIH/CDC/USDA)
 
 ---
 
 (IX) Scientific Conferences and Meetings
 ----------------------------------------
 
+1. **April 2020** *Micro Binfie Virtual Conference*, Zoom, Earth
 1. **May 2019** *Sequencing, Finshing, and Analysis in the Future*, Santa Fe NM
 12. **May 2019** *PyCon*, Cleveland OH
 11. **May 2018** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe NM
