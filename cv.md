@@ -258,14 +258,14 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 ------------
 
 **GenomeTrakr** - Real-time Surveillance of Food-borne Pathogens : nationwide system of networked Illumina sequencers for pathogen traceback and surveillance. Developed key integration-layer architecture.  
-**Sra-quick-submit** - Rapid SRA submission generation for GenomeTrakr contributors. Currently in world-wide use.  
-**GalaxyTrakr** - Hosted platform for foodborne pathogen bioinformatics.  
-**ShigaTyper** - Shigella genoserotyping from whole-genome sequencing.  
-**FDA-GRaSP** - Event-Driven Biosurveillance platform in the cloud.  
-**PoreRefiner** - A tool for management and integration of MinION/GridION sequencing.  
+**PoreRefiner** - Sample annotation, sequence monitoring, and event-driven configurable disposition for Oxford Nanopore sequencers in real-time disease biosurevillance. 
+**FDA-GRaSP** - Event-Driven Biosurveillance platform in the cloud.
+**ShigaTyper** - Shigella genoserotyping from whole-genome sequencing.   
+**GalaxyTrakr** - Hosted platform for foodborne pathogen bioinformatics.     
 **GIMS** - Genomic Information Management System : a web-based LIMS and file-hosting repository combining rigorous lab activity tracking with rich sample tracking and semantic linking, with links to bioinformatics analysis systems and HPC.
 **Watchos Grande** - Lightweight process-heartbeat tracking in a Flask/Gunicorn app.  
 **Bootsie** - Bootstrap Analysis of RFLP : a Java-based biostatistics utility used by UNL and USDA-ARS entomologists to analyze population structure. Includes a suite of file-conversion utilities.  
+**Sra-quick-submit** - Rapid SRA submission generation for GenomeTrakr contributors. Currently in world-wide use. 
 **Sif** - Sequence Information Finder : a suite of command-line utilities for quick and easy lookups in the FDA-CFSAN GenomicsDB. Named after a cat.  
 **TableBlep** - Peer-to-peer distributed virtual 3D game tabletop with physics. JavaScript, IPFS/Textile, three.js, cannon.js. Also named after cats.  
 
