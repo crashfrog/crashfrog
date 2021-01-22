@@ -191,6 +191,8 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 (VI) Seminars and Presentations
 -------------------------------
 
+1. Charles Strittmatter, Jayanthi Gangiredla, **Justin Payne**. *APHL/FDA-CFSAN/JIFSAN-IFSTL GenomeTrakr - Bioinformatics for Foodborne Pathogens using GalaxyTrakr.* (participated as bioinformatics workshop instructor.) College Park MD and online. Oct 2020.
+
 1. Kevin Libuit, Jimmy Sanders, **Justin Payne.** *DCLS Introductory Bioinformatics Training using GalaxyTrakr.* Workshop presented by DCLS, Richmond, VA. April 2019.
  
 54. Alden Estep, Ian Sutherland, Dominic Ladmirault, Neil Sanscrainte, James Becnel, **Justin Payne**, Erica Lindroth. *Sea Raven: Mobile Sequencing in the US Navy.* Poster presented at SFAF, Santa Fe, NM. May 2018.
@@ -232,6 +234,7 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 (IX) Scientific Conferences and Meetings
 ----------------------------------------
 
+1. **November 2020** *ASM NGS Hackathon**, Zoom, Earth
 1. **April 2020** *Micro Binfie Virtual Conference*, Zoom, Earth
 1. **May 2019** *Sequencing, Finshing, and Analysis in the Future*, Santa Fe NM
 12. **May 2019** *PyCon*, Cleveland OH
