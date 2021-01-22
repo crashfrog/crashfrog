@@ -182,7 +182,9 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 
 19. Yun Wu, Henry K. Lau, Teresa Lee, David K. Lau, **Justin Payne.** *In Silico Serotyping Based on Whole-Genome Sequencing Improves the Accuracy of Shigella Identification.* Appl Environ Microbiol. 2019 March 22.
 
-22. Hugh Rand, Daniel Benisatto, **Justin Payne**, Charles Strittmatter, Jayanthi Gangiredla, Jimmy Sanders, William Wolfgang, Kevin Libuit, James Herrick, Melanie Prarat, Thomas Farrell, Errol A Strain. *GalaxyTrakr: A Distributed Analysis Tool for Public Health Whole Genome Sequence Data Accessible to Non-Bioinformaticians.* Submitted to Submitted to Frontiers in Microbiology, 2019.
+22. John Miller, Bart Weimer, Ruth Timme, Catharina Lüdeke, James Pettengill, DJ Bandoy, Allison Weis, James Kaufman, Bihua Huang, **Justin Payne**, Errol Strain, Jessica Jones. *Phylogenetic and Biogeographic Patterns of Vibrio parahaemolyticus from North America Inferred from Whole Genome Sequence Data.* Applied and Environmental Microbiology, 2020.
+
+22. Hugh Rand, Daniel Benisatto, **Justin Payne**, Charles Strittmatter, Jayanthi Gangiredla, Jimmy Sanders, William Wolfgang, Kevin Libuit, James Herrick, Melanie Prarat, Thomas Farrell, Errol A Strain. *GalaxyTrakr: A Distributed Analysis Tool for Public Health Whole Genome Sequence Data Accessible to Non-Bioinformaticians.* BNC Genomics, 2021.
 
 ---
 
