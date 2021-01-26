@@ -257,7 +257,7 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 (X) Projects
 ------------
 
-**GenomeTrakr** - Real-time Surveillance of Food-borne Pathogens : nationwide system of networked Illumina sequencers for pathogen traceback and surveillance. Developed key integration-layer architecture.  
+**GenomeTrakr** - Real-time Surveillance of Food-borne Pathogens : world's largest system for genomic biosurveillance of human pathogens. Personally developed key integration-layer architecture.  
 **PoreRefiner** - Sample annotation, sequence monitoring, and event-driven configurable disposition for Oxford Nanopore sequencers in real-time disease biosurevillance.  
 **FDA-GRaSP** - Event-Driven Biosurveillance platform in the cloud.  
 **ShigaTyper** - Shigella genoserotyping from whole-genome sequencing.   
