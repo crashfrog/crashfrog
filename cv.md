@@ -2,7 +2,7 @@ Justin Payne
 ============
 
 
-> A scientific toolmaker building pathogen biosurveillence networks.
+> A scientific toolmaker building pathogen biosurveillance networks.
 >
 > Specialties: Integration, Full-stack Web, Bioinformatics Service Architectures.
 
@@ -17,7 +17,7 @@ Washington DC, 20011
 +1 402.909.1436  
 
 GitHub Username: [crashfrog](http://github.com/crashfrog)  
-This document is hosted at https://github.com/crashfrog/my_env/blob/master/cv.md
+This document is hosted at https://github.com/crashfrog/crashfrog/blob/master/cv.md
 
 ---
 
@@ -26,7 +26,7 @@ This document is hosted at https://github.com/crashfrog/my_env/blob/master/cv.md
 Date              | Degree and Program
 -----------------:|:------------------
 ``2009 - 2012``   |Earned **Bachelor of Science in Biochemistry**, minors in Chemistry and Mathematics, University of Nebraska - Lincoln
-``1999 - 2003``   |Studied for Bachelors of Arts in English and Computer Science, Gustavus Adolphus College (on hiatus)
+``1999 - 2003``   |Studied for Bachelor of Arts in English and Computer Science, Gustavus Adolphus College (on hiatus)
 ``Aug 1998``      |Certificate of French proficiency, Université Paris-Sorbonne
 
 
@@ -44,15 +44,17 @@ Date              | Degree and Program
 |:---------------------------:|------------------------------:|
 |``Aug 2018 - Current``       |**FDA-CFSAN-OAO-DB (GS-1550-13)**
 
-**Computer scientist** supporting the **analysis and interpretation of molecular data from next generation DNA sequencing technologies,** and the **development and maintenance of whole-genome pathogen surveillence networks** to aid in the detection, identification, and characterization of microbial food-borne pathogens. 
+**Computer scientist** supporting the **analysis and interpretation of molecular data from next generation DNA sequencing technologies,** and the **development and maintenance of whole-genome pathogen surveillance networks** to aid in the detection, identification, and characterization of microbial food-borne pathogens. 
 
 **Primary architect and developer** of FDA-GRaSP (Genomic Research and Surveillance Platform), an FDA initiative to perform event-driven, high-throughput NGS biosurveillance on AWS Serverless resources to support national and international investigation efforts into outbreaks of foodborne illness, using data from FDA GenomeTrakr, Real-Time Listeria/Salmonella, and unassociated sequencing projects around the world.
 
 Primary **applications scientist and tool developer for GalaxyTrakr,** a web-based bioinformatics and biosurveillance analysis environment offered freely to GenomeTrakr partners and other experts in public health and food defense built on a scalable elastic architecture in AWS.
 
-Primary developer of **PoreRefiner**, a LIMS integration Linux service for Oxford Nanopore sequencers in a biosurevillence context.
+Primary developer of **PoreRefiner**, a LIMS integration Linux service for Oxford Nanopore sequencers in a biosurveillance context.
 
 **Consulting developer** of ShigaTyper, an in-silico NGS seroprediction tool for *Shigella sp.*, an important foodborne pathogen.
+
+Serving member of the FDA-CFSAN **Scientific Computing Board** (SCB).
 
 |Date                         | Employer (Specialization)     |
 |:---------------------------:|------------------------------:|
@@ -60,7 +62,7 @@ Primary developer of **PoreRefiner**, a LIMS integration Linux service for Oxfor
 |``Apr 2015 - Aug 2016``      |**FDA-CFSAN-ORS-DM-MMSB (GS-403-11)**
 |``Aug 2016 - Aug 2018``      |**FDA-CFSAN-OAO-DB (GS-403-12)**
 
-**Bioinformatician in Microbiology** and **primary software specifications analyst, author, and maintainer** of the FDA-hosted codebase and informatic infrastructure for FDA/State joint **GenomeTrakr Network**, FDA/CDC Real-Time Listeria Genomic Surveillance Project, and FDA-CFSAN/MN/WA/NY Real-Time Salmonella Enteriditis Project, resulting in the deposit of more than 60,000 bacterial genomes into publicly-accessible databases. Contributor to testing plans for above. 
+**Bioinformatician in Microbiology** and **primary software specifications analyst, author, and maintainer** of the FDA-hosted codebase and informatic infrastructure for FDA/State joint **GenomeTrakr Network**, FDA/CDC Real-Time Listeria Genomic Surveillance Project, and FDA-CFSAN/MN/WA/NY Real-Time Salmonella Enteritis Project, resulting in the deposit of more than 60,000 bacterial genomes into publicly accessible databases. Contributor to testing plans for above. 
 
 **Provided bioinformatics system development consultation** on an informal basis to researchers at diverse US and international agencies and groups. Educated workshop attendees in command-line operation of Linux and Mac OS X (desktop, server, and high-performance clusters.) Author of high-performance analysis tools in **C/C++, Python,** and **Java** to **analyze and interpret molecular data from DNA sequencing platforms: Illumina family of sequencers, Pacific Biosciences RSII and Sequel, Ion Torrent PGM, Roche 454, Oxford Nanopore MinION/GridION.** 
 
@@ -80,7 +82,7 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 |:---------------------------:|-----------------------:|
 |``May 2005 - Dec 2006``      |**University of Missouri-Columbia/USDA-ARS**
 
-**Biological Field Research Aide (GS-1)** assisting in field studies in agricultural entomology, jointly as an appointment to the USDA-ARS and as an employee of the University of Missouri, Columbia. Developed professional web presence and custom content management system (CMS) using Apache and PHP. Developed laboratory setup and tools for electroanntennaographic bioassay of _Diabrotica vergifera v._ (western corn rootworm) and _Loxosceles reclusa_ (brown recluse) species for detection of host identification factors. Constructed field study equipment using basic and power carpentry tools. Managed small (3-6 person) groups of fellow assistants. Worked independently to ensure adherence to study protocols.
+**Biological Field Research Aide (GS-1)** assisting in field studies in agricultural entomology, jointly as an appointment to the USDA-ARS and as an employee of the University of Missouri, Columbia. Developed professional web presence and custom content management system (CMS) using Apache and PHP. Developed laboratory setup and tools for electroantennaographic bioassay of _Diabrotica vergifera v._ (western corn rootworm) and _Loxosceles reclusa_ (brown recluse) species for detection of host identification factors. Constructed field study equipment using basic and power carpentry tools. Managed small (3-6 person) groups of fellow assistants. Worked independently to ensure adherence to study protocols.
 
 |Date                         | Employer               |
 |:---------------------------:|-----------------------:|
@@ -152,7 +154,7 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 
 21. Muruvanda, T., Pirone, C., Hoffmann, M., Allard, M. W0., Wang, C., Strain, E., Timme, R., Luo, Y., Keys, E. C., **Payne, J.**, Luong, K., Song, Y., Chin, C., Korlach, J., Roberts, R. J., Musser, S. M., Evans, P. & Brown, E. W. *New discoveries in Salmonella genomes closure.* 114th American Society for Microbiology Annual Meeting, Boston, MA, USA, (May, 2014). AND 4th Annual FDA Foods & Vet Medicine Science and Research Conference, White Oak, MD. July, 2014. AND Next-generation sequencing (NGS) technology, data formats standardization and promotion of interoperability protocols, Bethesda, MD, USA (September, 2014)
 
-22. Allard, M. W., Pirone, C., Muruvanda, T., Hoffman, M., Soler-García, A., Wang, C., Strain, E., Timme, R., **Payne, J.**, Luo, Y., Keys, C. E., Ferrieira, C., Chin, C., Korlach, J., Musser, S. M., Zhao, S., Stones, R., Roberts, R. J., Evans, P., and Brown, E. W. *New discoveries from closing Salmonella genomes using Pacific Biosciences continuous long reads.* 15th Advances in Genome Biology and Technology Meeting (ABGT), Marco Island, FL, USA (2014). AND 4th Annual FDA Foods & Vet Medicine Science and Research Conference, White Oak, MD. July, 2014.
+22. Allard, M. W., Pirone, C., Muruvanda, T., Hoffman, M., Soler-García, A., Wang, C., Strain, E., Timme, R., **Payne, J.**, Luo, Y., Keys, C. E., Ferreira, C., Chin, C., Korlach, J., Musser, S. M., Zhao, S., Stones, R., Roberts, R. J., Evans, P., and Brown, E. W. *New discoveries from closing Salmonella genomes using Pacific Biosciences continuous long reads.* 15th Advances in Genome Biology and Technology Meeting (ABGT), Marco Island, FL, USA (2014). AND 4th Annual FDA Foods & Vet Medicine Science and Research Conference, White Oak, MD. July, 2014.
 
 5. Maria Hoffmann, Tim Muruvanda, Cary Pirone, Jonas Korlach, Ruth Timme, **Justin Payne**, Peter Evans, Jianghong Meng, Eric Brown, and Marc Allard. *First Fully Assembled Genome Sequence of Salmonella enterica Serovar Cubana associated with a Multistate Outbreak in the United States.* Genome Announc. October, 2014.
 
@@ -166,19 +168,19 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 
 11. Emily Pettengill, Maria Hoffman, Rachel Binet, Richard J. Roberts, **Justin Payne**, Marc Allard, Valeria Michelacci, Fabio Minelli and Stefano Morabito. *Complete Genome Sequence of Enteroinvasive **Escherichia coli** O96:H19 Associated with a Severe Food-borne Outbreak.* Genome Announc. August, 2015.
 
-12. Steve Davis, James B Pettengill, Yan Luo, **Justin Payne**, Al Shpuntoff, Hugh Rand, and Errol Strain. *CFSAN SNP Pipeline: an automated method for constructing SNP matricies from next-generation sequence data.* [PeerJ Computer Science 1:e20](https://dx.doi.org/10.7717/peerj-cs.20), 2015.
+12. Steve Davis, James B Pettengill, Yan Luo, **Justin Payne**, Al Shpuntoff, Hugh Rand, and Errol Strain. *CFSAN SNP Pipeline: an automated method for constructing SNP matrices from next-generation sequence data.* [PeerJ Computer Science 1:e20](https://dx.doi.org/10.7717/peerj-cs.20), 2015.
 
 13. Kuan Yao, Tim Muruvanda, Richard Roberts, **Justin Payne**, Marc Allard, and Maria Hoffman. *Complete Genome and Methylome Sequences of two Salmonella enterica species.* Genome Announc. January, 2016.
 
-20. Kuan Yao, Tim Muruvanda, Richard Roberts, **Justin Payne**, Marc Allard, and Maria Hoffmann. *Complete Genome and Methylome Sequences of Salmonella Panama ATCC 7378 and Salmonella Sloterdijk ATCC 15791.* Genome Announc. Feburary, 2016.
+20. Kuan Yao, Tim Muruvanda, Richard Roberts, **Justin Payne**, Marc Allard, and Maria Hoffmann. *Complete Genome and Methylome Sequences of Salmonella Panama ATCC 7378 and Salmonella Sloterdijk ATCC 15791.* Genome Announc. February, 2016.
 
 82. Hua Wang, Jie Zheng, Sherry Ayers, David Melka, Phillip Curry, **Justin Payne**, Anna Maounounen-Laasri, Charles Wang, Thomas Hammack, and Eric Brown. *Draft Genome Sequences of Salmonella enterica subsp. enterica Serovar Typhimurium and Serovar Nottingham Isolated from Food Products.* Genome Announc. August, 2016.
 
 83. Fernanda Almeida, Marta Inês Medeiros, Dália Rodrigues, **Justin Payne**, Ruth Timme, Marc Allard, and Juliana Falcão. *Draft Genome Sequences of 40 Salmonella Typhimurium isolated from humans and food in Brazil* Genome Announc. October, 2016.
 
-20. Yi Chen, Laurel Burall, Yan Luo, Ruth E. Timme, David Melka, Tim Muruvanda, **Justin Payne**, Charles Wang, George Kastanis, Anna Maounounen-Laasri, Antonio J. De Jesus, Phillip E. Curry, Robert Stones, Okumu KAlouch, Eileen Liu, Monique Salter, Thomas Hammack, Peter S. Evans, Mickey Parish, Marc Allard, Atin Datta, Errol Strain, and Eric W. Brown. *Listeria monocytogenes in Stone Fruits Linked to a Multistate Outbreak: Enumeration of Cells and Whole-Genome Sequencing.* Applied and Environmental Microbiology, 82(24):AEM.01486-16. December, 2016.
+20. Yi Chen, Laurel Burall, Yan Luo, Ruth E. Timme, David Melka, Tim Muruvanda, **Justin Payne**, Charles Wang, George Kastanis, Anna Maounounen-Laasri, Antonio J. De Jesus, Phillip E. Curry, Robert Stones, Okumu Kalouch, Eileen Liu, Monique Salter, Thomas Hammack, Peter S. Evans, Mickey Parish, Marc Allard, Atin Datta, Errol Strain, and Eric W. Brown. *Listeria monocytogenes in Stone Fruits Linked to a Multistate Outbreak: Enumeration of Cells and Whole-Genome Sequencing.* Applied and Environmental Microbiology, 82(24):AEM.01486-16. December, 2016.
 
-18. Guojie Cao, Marc Allard, Maria Hoffmann, Tim Muruvanda, Yan Luo, **Justin Payne**, Kevin Meng, Shaohua Zhao, Patrick McDermott, Eric Brown, and Jianghon Meng. *Sequence Analysis of IncA/C and IncI1 Plasmids Isolated from Multidrug-Resistant Salmonella Newport Using Single-Molecule Real-Time Sequencing.* Foodborne Pathogens and Disease, https://doi.org/10.1089/fpd.2017.2385 . April, 2018.
+18. Guojie Cao, Marc Allard, Maria Hoffmann, Tim Muruvanda, Yan Luo, **Justin Payne**, Kevin Meng, Shaohua Zhao, Patrick McDermott, Eric Brown, and Jianghong Meng. *Sequence Analysis of IncA/C and IncI1 Plasmids Isolated from Multidrug-Resistant Salmonella Newport Using Single-Molecule Real-Time Sequencing.* Foodborne Pathogens and Disease, https://doi.org/10.1089/fpd.2017.2385 . April, 2018.
 
 19. Yun Wu, Henry K. Lau, Teresa Lee, David K. Lau, **Justin Payne.** *In Silico Serotyping Based on Whole-Genome Sequencing Improves the Accuracy of Shigella Identification.* Appl Environ Microbiol. 2019 March 22.
 
@@ -236,7 +238,7 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 
 1. **November 2020** *ASM NGS Hackathon**, Zoom, Earth
 1. **April 2020** *Micro Binfie Virtual Conference*, Zoom, Earth
-1. **May 2019** *Sequencing, Finshing, and Analysis in the Future*, Santa Fe NM
+1. **May 2019** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe NM
 12. **May 2019** *PyCon*, Cleveland OH
 11. **May 2018** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe NM
 10. **August 2017** *Scientific Python Conference*, Austin TX
@@ -258,7 +260,7 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 ------------
 
 **GenomeTrakr** - Real-time Surveillance of Food-borne Pathogens : world's largest system for genomic biosurveillance of human pathogens. Personally developed key integration-layer architecture.  
-**PoreRefiner** - Sample annotation, sequence monitoring, and event-driven configurable disposition for Oxford Nanopore sequencers in real-time disease biosurevillance.  
+**PoreRefiner** - Sample annotation, sequence monitoring, and event-driven configurable disposition for Oxford Nanopore sequencers in real-time disease biosurveillance.  
 **FDA-GRaSP** - Event-Driven Biosurveillance platform in the cloud.  
 **ShigaTyper** - Shigella genoserotyping from whole-genome sequencing.   
 **GalaxyTrakr** - Hosted platform for foodborne pathogen bioinformatics.     
