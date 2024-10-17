@@ -10,11 +10,8 @@ Justin Payne
 
 (I) Information
 ---------------
-727 Jefferson St NW, #2  
-Washington DC, 20011
-
 *crashfrog@gmail.com*  
-+1 402.909.1436  
++1 240-899-5786
 
 GitHub Username: [crashfrog](http://github.com/crashfrog)  
 This document is hosted at https://github.com/crashfrog/crashfrog/blob/master/cv.md
@@ -42,7 +39,7 @@ Date              | Degree and Program
 
 |Date                         | Employer (Specialization)     |
 |:---------------------------:|------------------------------:|
-|``Aug 2018 - Current``       |**FDA-CFSAN-OAO-DB (GS-1550-13)**
+|``Aug 2018 - Current``       |**FDA Human Foods Program (GS-1550-13)**
 
 **Computer scientist** supporting the **analysis and interpretation of molecular data from next generation DNA sequencing technologies,** and the **development and maintenance of whole-genome pathogen surveillance networks** to aid in the detection, identification, and characterization of microbial food-borne pathogens. 
 
@@ -54,7 +51,7 @@ Primary developer of **PoreRefiner**, a LIMS integration Linux service for Oxfor
 
 **Consulting developer** of ShigaTyper, an in-silico NGS seroprediction tool for *Shigella sp.*, an important foodborne pathogen.
 
-Serving member of the FDA-CFSAN **Scientific Computing Board** (SCB).
+Serving member of the FDA-HFP **Scientific Computing Board** (SCB).
 
 |Date                         | Employer (Specialization)     |
 |:---------------------------:|------------------------------:|
@@ -132,7 +129,7 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 **DevOps**
 
 * Docker
-* Singularity
+* Apptainer
 * Conda
 
 ---
@@ -193,6 +190,8 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 (VI) Seminars and Presentations
 -------------------------------
 
+1. **Justin Payne**. *GalaxyTrakr - Bioinformatics Collaboration in the Cloud.* CDC PulseNet Asia-Pacific All-Partners Meeting. Bangkok, Thailand. Nov 2023.
+
 1. Charles Strittmatter, Jayanthi Gangiredla, **Justin Payne**. *APHL/FDA-CFSAN/JIFSAN-IFSTL GenomeTrakr - Bioinformatics for Foodborne Pathogens using GalaxyTrakr.* (participated as bioinformatics workshop instructor.) College Park MD and online. Oct 2020.
 
 1. Kevin Libuit, Jimmy Sanders, **Justin Payne.** *DCLS Introductory Bioinformatics Training using GalaxyTrakr.* Workshop presented by DCLS, Richmond, VA. April 2019.
@@ -236,30 +235,37 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 (IX) Scientific Conferences and Meetings
 ----------------------------------------
 
+1. **October 2024** *GenomeTrakr Meeting*, College Park MD
+1. **October 2024** *ASM-NGS*, Washington DC
+1. **October 2024** *ASM NGS Hackathon*, Bethesda MD
+1. **November 2023** *PulseNet Asia-Pacific All-Partners*, Bangkok, Thailand
+1. **October 2022** *GenomeTrakr Meeting*, College Park MD
+1. **October 2022** *ASM-NGS*, Baltimore MD
 1. **November 2020** *ASM NGS Hackathon**, Zoom, Earth
 1. **April 2020** *Micro Binfie Virtual Conference*, Zoom, Earth
 1. **May 2019** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe NM
 12. **May 2019** *PyCon*, Cleveland OH
 11. **May 2018** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe NM
 10. **August 2017** *Scientific Python Conference*, Austin TX
-9. **June 2017** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe  NM
+9. **June 2017** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe NM
 9. **September 2017** *American Society for Microbiology, Next-Gen Sequencing Pipelines*, Washington DC
 9. **September 2017** *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #3*, College Park MD
 8. **June 2016** *Sequencing, Finishing, and Analysis in the Future*, Santa Fe NM
-7. **September 2015** *American Society for Microbiology, Next-Gen Sequencing Pipelines*, Washington DC
+7. **September 2015** *American Society for Microbiology, Next-Gen Sequencing Pipelines (ASM-NGS)*, Washington DC
 6. **September 2015** *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #2*, Washington DC
 5. **August 2015** - *NCBI Hackathon*, Bethesda MD
 4. **June 2015** - *Sequencing, Finishing, and Analysis in the Future*, Santa Fe NM
 1. **September 2014** - *Real-Time Genome Sequencing Surveillance Multi-Agency Collaboration 2014*, Washington DC
 2. **April 2014** - *American Society for Microbiology General Meeting 2014*, Boston
-3. **September 2013** - *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #1*, Baltimore
+3. **September 2013** - *Next Generation Sequencing Network for Food Pathogen Traceability Meeting #1*, Baltimore MD
 
 ---
 
 (X) Projects
 ------------
 
-**GenomeTrakr** - Real-time Surveillance of Food-borne Pathogens : world's largest system for genomic biosurveillance of human pathogens. Personally developed key integration-layer architecture.  
+**CFSAN SNP Pipeline 2** - Population-structure elucidation from genomic sequencing.
+**GenomeTrakr** - Real-time Surveillance of Food-borne Pathogens : world's largest system for genomic biosurveillance of human pathogens. Developed key integration-layer architecture.  
 **PoreRefiner** - Sample annotation, sequence monitoring, and event-driven configurable disposition for Oxford Nanopore sequencers in real-time disease biosurveillance.  
 **FDA-GRaSP** - Event-Driven Biosurveillance platform in the cloud.  
 **ShigaTyper** - Shigella genoserotyping from whole-genome sequencing.   
@@ -276,6 +282,7 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 (XI) Selected Repositories
 --------------------------
 
+https://github.com/crashfrog/binfie-cookiecutter
 https://github.com/CFSAN-Biostatistics/porerefiner  
 https://github.com/crashfrog/WatchosGrande  
 https://github.com/GenomeTrakrUnofficial/torchbase  
@@ -288,7 +295,7 @@ https://github.com/Team-EDB/edb-lambdas
 (XII) References
 ----------------
 
-* Dr. Errol Strain - Senior Science Advisor, FDA-CVM, Laurel MD, (240) 402-2815 *errol.strain@fda.hhs.gov*
-* Dr. Marc W. Allard - Research Microbiologist, FDA-CFSAN, College Park MD, (240) 402-2941 *marc.allard@fda.hhs.gov*
+* Dr. Errol Strain - Senior Science Advisor, FDA-HFP, Laurel MD, (240) 402-2815 *errol.strain@fda.hhs.gov*
+* Dr. Marc W. Allard - Research Microbiologist, FDA-HFP, College Park MD, (240) 402-2941 *marc.allard@fda.hhs.gov*
 * Dr. M. Scott Doerrie - Senior Staff in Formal Methods, JHU Applied Physics Lab, Baltimore, MD (240) 592-0331 *doerrie@gmail.com*
-* Ben Follis - Founder, Uclusion, *ben@follis.net*
+* Ben Follis - Senior Computer Scientist, Adobe Inc., *ben@follis.net*
