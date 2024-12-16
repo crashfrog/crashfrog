@@ -30,10 +30,6 @@ Date              | Degree and Program
 ---
 
 
-
-
-
-
 (III) Professional Experience
 -----------------------------
 
@@ -282,13 +278,12 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 (XI) Selected Repositories
 --------------------------
 
-https://github.com/crashfrog/binfie-cookiecutter
+https://github.com/crashfrog/binfie-cookiecutter  
 https://github.com/CFSAN-Biostatistics/porerefiner  
-https://github.com/crashfrog/WatchosGrande  
-https://github.com/GenomeTrakrUnofficial/torchbase  
+https://github.com/CFSAN-Biostatistics/wdl-commons  
 https://github.com/tinybio/filter_contigs  
 https://github.com/crashfrog/bootsie  
-https://github.com/Team-EDB/edb-lambdas  
+
 
 ---
 
