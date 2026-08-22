@@ -1,0 +1,22 @@
+# Resume variant of the CV theme: same type, same accent, slightly tighter
+# vertical rhythm so a two-page document stays two pages.
+extends: ./pdf-theme.yml
+
+page:
+  margin: [0.65in, 0.9in, 0.7in, 0.9in]
+
+base:
+  line-height-length: 13
+
+prose:
+  margin-bottom: 6
+
+list:
+  item-spacing: 1.5
+
+heading:
+  h2:
+    margin-top: 13
+    margin-bottom: 6
+  h3:
+    margin-top: 9

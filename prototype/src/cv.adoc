@@ -6,12 +6,21 @@
 :github-user: crashfrog
 :canonical-url: https://github.com/crashfrog/crashfrog/blob/master/cv.md
 :doctype: article
+:icons: font
+:experimental:
+// PDF document properties. These are standard, inspectable metadata fields
+// (File > Properties in any reader) -- not hidden body text.
+:subject: Curriculum Vitae
+:keywords: bioinformatics, genomic surveillance, Rust, Python, distributed systems, \
+AWS, HPC, Slurm, Galaxy, WDL, Nextflow, sequence alignment, public health informatics, \
+agent-assisted development, scientific computing
+// `-a resume` selects the two-page condensed variant. Undefined => full CV.
+ifndef::resume[]
 :sectnums:
 :sectnumlevels: 1
 :toc: macro
 :toclevels: 2
-:icons: font
-:experimental:
+endif::[]
 // Generated outputs live in build/; see the Makefile. Publications are rendered
 // from src/publications.json and included below, not authored here.
 
@@ -21,6 +30,13 @@ A scientific toolmaker who deploys into the customer's world.
 [.specialties]
 Distributed Systems · Systems Programming · Agent-Assisted Development · Scientific Computing at Scale
 
+ifdef::resume[]
+[.contact-information]
+mailto:{email}[{email}] · {phone} · {location} · GitHub: https://github.com/{github-user}[{github-user}] +
+Full CV, publications, and project detail: {canonical-url}
+endif::[]
+
+ifndef::resume[]
 [.contact-information]
 --
 mailto:{email}[{email}] +
@@ -29,8 +45,20 @@ mailto:{email}[{email}] +
 GitHub: https://github.com/{github-user}[{github-user}] +
 This document is hosted at {canonical-url}
 --
+endif::[]
 
+ifndef::resume[]
 toc::[]
+endif::[]
+
+ifdef::resume[]
+== Summary
+
+* Ten years building and operating the software backbone of *GenomeTrakr*, the world's largest genomic biosurveillance network; authored the integration-layer architecture behind *60,000+ bacterial genomes* deposited to public databases.
+* Systems programmer in *Rust* and *Python*: a zero-dependency SIMD sequence aligner, a clean-room reader for NCBI's undocumented SRA/VDB binary format, and a Slurm-resident LLM inference gateway.
+* Applications scientist for *GalaxyTrakr*, deploying and teaching analysis platforms in partner laboratories in Maryland, Virginia, and Bangkok.
+* Practices agent-assisted development as engineering discipline: issue-driven, test-first, ADR-governed, with adversarial verification agents.
+endif::[]
 
 == Professional Experience
 
@@ -39,6 +67,15 @@ toc::[]
 [.position-meta]
 Computer scientist (GS-1550-13) | August 2018 -- present
 
+ifdef::resume[]
+Computer scientist supporting NGS molecular data analysis and whole-genome pathogen surveillance networks for foodborne pathogen detection and outbreak traceback.
+
+* *Primary architect and developer, FDA-GRaSP* -- event-driven, high-throughput NGS biosurveillance on AWS Lambda, Step Functions, and Batch, serving national and international foodborne-outbreak investigations.
+* *Applications scientist and tool developer, GalaxyTrakr* -- elastic AWS analysis environment offered freely to public health and food defense laboratories; maintainer of the tool catalog and its containerized tool definitions.
+* *Consulting, HFP chemistry program* -- agentic risk-assessment prioritization of food additives: an orchestration of specialized agents evaluating new additives along five distinct risk criteria, with per-criterion evidence and reasoning retained for reviewer audit.
+endif::[]
+
+ifndef::resume[]
 Supporting the *analysis and interpretation of molecular data from next generation DNA sequencing technologies,* and the *development and maintenance of whole-genome pathogen surveillance networks* to aid in the detection, identification, and characterization of microbial food-borne pathogens.
 
 *Primary architect and developer* of FDA-GRaSP (Genomic Research and Surveillance Platform), an FDA initiative to perform event-driven, high-throughput NGS biosurveillance on AWS Serverless resources to support national and international investigation efforts into outbreaks of foodborne illness, using data from FDA GenomeTrakr, Real-Time Listeria/Salmonella, and unassociated sequencing projects around the world.
@@ -46,7 +83,20 @@ Supporting the *analysis and interpretation of molecular data from next generati
 Primary *applications scientist and tool developer for GalaxyTrakr,* a web-based bioinformatics and biosurveillance analysis environment offered freely to GenomeTrakr partners and other experts in public health and food defense built on a scalable elastic architecture in AWS. Maintainer of the GalaxyTrakr tool catalog and its containerized tool definitions.
 
 *Consulting* with the FDA HFP *chemistry* program on *agentic risk-assessment prioritization of food additives* -- an orchestration of specialized agents that evaluates new additives along *five distinct risk criteria* and ranks them for formal safety assessment. Each criterion is evaluated independently against its own evidence, and per-criterion findings, citations, and reasoning are retained alongside the combined ranking so that chemistry reviewers can audit how any given priority was arrived at.
+endif::[]
 
+ifdef::resume[]
+Selected work in this role:
+
+* *Phraya* -- pairwise sequence aligner in pure Rust; zero binary dependencies, AVX2/NEON SIMD, deferred-decision architecture (align once, re-filter without re-alignment).
+* *sra-rust* -- clean-room reader for NCBI's undocumented SRA/VDB format, including a schema production-graph evaluator for computed columns; verified byte-for-byte against `vdb-dump`.
+* *Torchbase* -- reproducible microbial typing from versioned, cryptographically signed database packages distributed over IPFS.
+* *pi.science* -- terminal data science agent with Dolt-backed dataframe lineage, session branching, and an adversarial claim-verification subagent.
+* *tequila-mule* -- OpenAI-compatible inference gateway that keeps a persistent LLM endpoint alive on Slurm HPC by rotating overlapping vLLM reservations ahead of scheduler kills.
+* *HFP Data Commons* -- shared validation data for surveillance bioinformatics, with an adversarial stimulus library targeting ~150 catalogued tool failure modes.
+endif::[]
+
+ifndef::resume[]
 Author of *Phraya*, a general-purpose pairwise sequence aligner for bacterial genomics written in *Rust* with *zero binary dependencies* (no BWA, minimap2, samtools, or htslib) and portable SIMD acceleration on AVX2 and NEON. Phraya separates alignment computation from filtering policy -- alignments are computed once with full multi-mapping, CIGAR, provenance, and coverage metadata retained, so downstream filtering parameters can be revised without re-alignment. Implemented seed-chaining, a flat-buffer Myers bit-parallel forward pass that eliminates per-column allocation, occurrence-cap masking for repeat-dense genomes, and a content-addressed reference space for reproducible plans; contributed native parsers for AB1/ABIF Sanger traces, SFF, and POD5. Benchmarked continuously against BWA, Bowtie2, and minimap2 on HPC.
 
 Author of *sra-rust*, a from-scratch, pure-Rust reader for NCBI's SRA/VDB file format, implemented without bindings to or linkage against `ncbi-vdb`. Reverse-engineered the KAR container, KDB metadata tree, blob framing and page maps, block-index encodings, and the `izip`/`irzip`/`delta_average_zip` codec family, then implemented a *schema production-graph evaluator* for the computed columns -- `READ`, `NAME`, `SPOT_ID`, `READ_LEN` -- that the format never physically stores. Decoded output is verified byte-for-byte against `sra-tools vdb-dump`.
@@ -68,19 +118,28 @@ Primary developer of *PoreRefiner*, a LIMS integration Linux service for Oxford 
 Maintainer of *binfie-cookiecutter*, the group's project template for bioinformatics tooling, kept current with modern Python packaging and reproducible-environment practice (uv, Pixi, Apptainer, containerized CI).
 
 Serving member of the FDA-HFP *Scientific Computing Board* (SCB).
+endif::[]
 
 === FDA CFSAN -- Office of Regulatory Science and Office of Analytics and Outreach
 
 [.position-meta]
 Bioinformatician in Microbiology | October 2012 -- August 2018
 
+ifdef::resume[]
+[.appointments]
+ORAU Fellowship, then GS-403-11 and GS-403-12 (FDA-CFSAN-ORS-DM-MMSB; FDA-CFSAN-OAO-DB).
+endif::[]
+
+ifndef::resume[]
 [.appointments]
 * ORAU Fellowship, FDA-CFSAN-ORS-DM-MMSB -- October 2012 -- April 2015
 * GS-403-11, FDA-CFSAN-ORS-DM-MMSB -- April 2015 -- August 2016
 * GS-403-12, FDA-CFSAN-OAO-DB -- August 2016 -- August 2018
+endif::[]
 
 *Primary software specifications analyst, author, and maintainer* of the FDA-hosted codebase and informatic infrastructure for FDA/State joint *GenomeTrakr Network*, FDA/CDC Real-Time Listeria Genomic Surveillance Project, and FDA-CFSAN/MN/WA/NY Real-Time Salmonella Enteritidis Project, resulting in the deposit of more than 60,000 bacterial genomes into publicly accessible databases. Contributor to testing plans for above.
 
+ifndef::resume[]
 *Provided bioinformatics system development consultation* on an informal basis to researchers at diverse US and international agencies and groups. Educated workshop attendees in command-line operation of Linux and Mac OS X (desktop, server, and high-performance clusters.) Author of high-performance analysis tools in *C/C++, Python,* and *Java* to *analyze and interpret molecular data from DNA sequencing platforms: Illumina family of sequencers, Pacific Biosciences RSII and Sequel, Ion Torrent PGM, Roche 454, Oxford Nanopore MinION/GridION.*
 
 Utilized High-Performance Computing (HPC) platforms for high-throughput genomic science. *Evaluated over 40 bioinformatics tools and methods for pipeline incorporation and analysis use, determined their relevance to the detection and typing of foodborne pathogens* and to the food safety mission as a whole, and provided local support for their deployment and use.
@@ -88,14 +147,22 @@ Utilized High-Performance Computing (HPC) platforms for high-throughput genomic 
 *Assisted in developing SOP for conducting next-generation genomic analysis of foodborne pathogens.* Primary schema developer for public health biosurveillance applications in *MSSQL, MySQL, Oracle, and Neo4J.*
 
 Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequencing scheduling, and high-throughput submission to national biotechnology databases such as NCBI GenBank and NCBI SRA, and *primary schema architect* in the project to migrate this system to Genohm's SLims Genomic Information Management System (GIMS). Developed sra-quick-submit, an easy-to-use NCBI Sequence Read Archive (SRA) submission tool used by researchers around the world to submit their own genomes to the GenomeTrakr project.
+endif::[]
 
 === Trojan Defense, LLC
 
 [.position-meta]
 Analysis Software Programmer | February 2012 -- October 2012
 
-Primary *Internet of Things architect* developing *distributed nuclear materials monitoring architectures* based on proprietary solid-state radiologic sensor. Specialized in "bare-metal" C/C++ on Atmel-family embedded SoC (Systems on a Chip.) Developed custom evaluation boards based on *Arduino-family system development boards* (Uno rev3, Mini, Mega, Leo, Yun.) Used professional illustration tools (Adobe family, Inkscape) to produce technical illustrations, patent documentation, and marketing materials. Wrote proposals for Small Business Innovation Research (SBIR) grants and RFP responses for DTRA, DoD, DoE, and other Federal agencies.
+ifdef::resume[]
+*Internet of Things architect* for *distributed nuclear materials monitoring* built on a proprietary solid-state radiologic sensor. Bare-metal C/C++ on Atmel embedded SoC and custom Arduino-family evaluation boards. Wrote SBIR proposals and RFP responses for DTRA, DoD, and DoE.
+endif::[]
 
+ifndef::resume[]
+Primary *Internet of Things architect* developing *distributed nuclear materials monitoring architectures* based on proprietary solid-state radiologic sensor. Specialized in "bare-metal" C/C++ on Atmel-family embedded SoC (Systems on a Chip.) Developed custom evaluation boards based on *Arduino-family system development boards* (Uno rev3, Mini, Mega, Leo, Yun.) Used professional illustration tools (Adobe family, Inkscape) to produce technical illustrations, patent documentation, and marketing materials. Wrote proposals for Small Business Innovation Research (SBIR) grants and RFP responses for DTRA, DoD, DoE, and other Federal agencies.
+endif::[]
+
+ifndef::resume[]
 === University of Missouri-Columbia / USDA-ARS
 
 [.position-meta]
@@ -110,8 +177,19 @@ Tech Support Consultant | September 1998 -- January 2003
 
 Providing phone and site-based technical support on Windows 95/98/ME/2000/NT/XP, Mac OS 9/10, and Linux (Debian family, Fedora family, SUSE family) systems for students, staff, and faculty. Wrote training materials.
 
+endif::[]
+
 == Publications
 
 // Rendered from src/publications.json through src/ama-cv.csl by the Makefile.
-// Do not edit the entries by hand; edit the data instead.
+// Do not edit the entries by hand; edit the data instead. The resume variant
+// renders only the ids listed in src/selected-publications.txt.
+ifdef::resume[]
+Selected from {nrefs} peer-reviewed publications; full list in the CV at {canonical-url}
+
+include::../build/publications-selected.adoc[]
+endif::[]
+
+ifndef::resume[]
 include::../build/publications.adoc[]
+endif::[]

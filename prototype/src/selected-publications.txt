@@ -1,0 +1,6 @@
+# Publications shown in the resume variant, most representative first.
+# Ids refer to entries in publications.json. Lines starting with # are ignored.
+rand-2021-galaxytrakr
+wu-2019-shigatyper
+davis-2015-snp-pipeline
+chen-2016-listeria-stone-fruits

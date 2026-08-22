@@ -12,9 +12,17 @@ being treated as data, and is the PDF/DOCX output actually good.
 
 ```sh
 make deps     # check for asciidoctor, asciidoctor-pdf, asciidoctor-reducer, pandoc
-make          # build/cv.html, build/cv.pdf, build/cv.docx
-make check    # verify the committed cv.adoc matches src/ (for CI)
+make          # everything below
+make pdf docx html   # full CV
+make resume          # two-page condensed variant (PDF + DOCX)
+make check           # verify the committed cv.adoc matches src/ (for CI)
 ```
+
+Two documents, one source. `src/cv.adoc` carries `ifdef::resume[]` /
+`ifndef::resume[]` conditionals; building with `-a resume` selects the short
+form (bulleted role summaries, no pre-2012 positions, four selected
+publications instead of 21, compact contact block). Current output: **CV 6
+pages, resume 2 pages.**
 
 Requires Ruby (`gem install asciidoctor asciidoctor-pdf asciidoctor-reducer`) and
 pandoc ≥ 2.11 for its built-in citeproc.
@@ -29,6 +37,8 @@ pandoc ≥ 2.11 for its built-in citeproc.
 | `src/csl-flatten.lua` | Unwraps citeproc's `second-field-align` spans. |
 | `src/bold-author.lua` | Re-bolds the CV owner's name in the bibliography. |
 | `src/pdf-theme.yml` | PDF page setup, fonts, running footer — plain YAML. |
+| `src/pdf-theme-resume.yml` | Extends the above; tighter rhythm to hold two pages. |
+| `src/selected-publications.txt` | Which publication ids the resume shows. |
 | `cv.adoc` | **Generated, committed.** The file GitHub renders. |
 | `build/` | Generated outputs. Not committed. |
 
@@ -62,6 +72,23 @@ fails if the committed copy has drifted, which is the CI guard against someone
   in whatever form the active style renders it (`Payne J` or `Justin Payne`),
   so it survives a style change instead of being 21 hand-applied `**` pairs.
 
+## Machine readability (ATS and agentic screeners)
+
+The PDF carries a real text layer — `pdftotext` returns the document in reading
+order, with no text-in-image and no glyph-mangling — and standard document
+properties are set from AsciiDoc attributes (`:subject:`, `:keywords:`), visible
+to anyone under *File > Properties*. The DOCX is a structural conversion with
+real Word heading styles, which is what most parsers handle best.
+
+There is deliberately **no hidden text** in these outputs: no white-on-white
+keyword blocks, no zero-point font, no off-page positioned content, no
+instructions aimed at an automated reviewer. Beyond being trivially detectable
+by anyone running `pdftotext` (which is precisely what an automated screener
+does), invisible content that contradicts the visible document is treated as
+grounds for disqualification by many employers, and for federal applications it
+runs into the certification you sign. Keyword coverage belongs in the visible
+text, where a human reader can hold you to it.
+
 ## Known issues and open questions
 
 1. **Missing publication year.** The Bootsie paper (`payne-bootsie`) has no year
@@ -78,7 +105,13 @@ fails if the committed copy has drifted, which is the CI guard against someone
    `initialize-with` on the style, bibliography, or name element did not change
    it in testing. The current output matches `cv.md`'s existing convention, so
    this is left as-is rather than worked around.
-4. **`prototype/` is a staging area.** Promoting it means `git mv`-ing the
+4. **Resume bibliography ordering.** The shortlist inherits the CV's
+   chronological (oldest-first) sort. Reverse-chronological is more usual on a
+   resume; it is a `<sort>` block in `src/ama-cv.csl` if wanted.
+5. **A federal resume is a third format.** USAJOBS expects hours per week,
+   supervisor contact, series/grade, and far more duty detail than either
+   document here carries. Not attempted — it needs data not present in `cv.md`.
+6. **`prototype/` is a staging area.** Promoting it means `git mv`-ing the
    contents to the repo root and migrating the remaining ten sections.
 
 ## What this replaces

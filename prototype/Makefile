@@ -2,7 +2,8 @@
 #
 #   make            build every output into build/
 #   make cv.adoc    regenerate the flattened, GitHub-rendered source
-#   make html pdf docx
+#   make html pdf docx        full CV
+#   make resume               two-page condensed variant (PDF + DOCX)
 #   make check      verify the committed cv.adoc is current
 #   make clean
 #
@@ -11,9 +12,11 @@
 
 SRC        := src/cv.adoc
 DATA       := src/publications.json
+SELECTED   := src/selected-publications.txt
 CSL        := src/ama-cv.csl
 FILTERS    := src/csl-flatten.lua src/bold-author.lua
 THEME      := src/pdf-theme.yml
+THEME_RES  := src/pdf-theme-resume.yml
 BUILD      := build
 
 # The flattened single-file source. This is the artifact GitHub renders, so it
@@ -29,10 +32,10 @@ PANDOC      := pandoc
 REFDOC := $(wildcard src/reference.docx)
 REFDOC_FLAG := $(if $(REFDOC),--reference-doc=$(REFDOC),)
 
-.PHONY: all html pdf docx check clean deps
+.PHONY: all html pdf docx resume check clean deps
 .DEFAULT_GOAL := all
 
-all: html pdf docx
+all: html pdf docx resume
 
 # --- data -> AsciiDoc -------------------------------------------------------
 # Publications are data, not prose. citeproc formats them against a CSL style;
@@ -43,12 +46,20 @@ $(BUILD)/publications.adoc: $(DATA) $(CSL) $(FILTERS) | $(BUILD)
 	    $(addprefix --lua-filter=,$(FILTERS)) -t asciidoc --wrap=none -o $@ $(BUILD)/_bib.md
 	@rm -f $(BUILD)/_bib.md
 
+# The resume's shortlist: same data, same style, a different nocite set.
+$(BUILD)/publications-selected.adoc: $(DATA) $(SELECTED) $(CSL) $(FILTERS) | $(BUILD)
+	@ids=$$(grep -v '^#' $(SELECTED) | grep -v '^$$' | sed 's/^/@/' | paste -sd, -); \
+	printf -- '---\nnocite: |\n  %s\nlink-bibliography: false\n---\n' "$$ids" > $(BUILD)/_bibsel.md
+	$(PANDOC) --citeproc --csl=$(CSL) --bibliography=$(DATA) \
+	    $(addprefix --lua-filter=,$(FILTERS)) -t asciidoc --wrap=none -o $@ $(BUILD)/_bibsel.md
+	@rm -f $(BUILD)/_bibsel.md
+
 # --- flattening -------------------------------------------------------------
 # GitHub renders AsciiDoc in secure mode, where include:: directives are NOT
 # resolved -- they render as a bare link. So the committed file has to be a
 # single flattened document with the generated sections already inlined.
 $(FLAT): $(SRC) $(BUILD)/publications.adoc
-	$(REDUCER) -o $@ $(SRC)
+	$(REDUCER) --preserve-conditionals -o $@ $(SRC)
 
 # --- outputs ----------------------------------------------------------------
 html: $(BUILD)/cv.html
@@ -69,13 +80,27 @@ $(BUILD)/cv.docx: $(FLAT) | $(BUILD)
 	$(ASCIIDOCTOR) -b docbook -o $(BUILD)/cv.xml $(FLAT)
 	$(PANDOC) -f docbook -t docx $(REFDOC_FLAG) -o $@ $(BUILD)/cv.xml
 
+# --- resume variant -----------------------------------------------------------
+# Same source, `-a resume` set. Conditionals in src/cv.adoc select the short form.
+RESUME_ATTRS := -a resume -a nrefs=$(shell python3 -c "import json;print(len(json.load(open('$(DATA)'))))")
+
+resume: $(BUILD)/resume.pdf $(BUILD)/resume.docx
+$(BUILD)/resume.pdf: $(SRC) $(BUILD)/publications-selected.adoc $(THEME) $(THEME_RES) | $(BUILD)
+	$(ASCIIDOCTOR) -r asciidoctor-pdf -b pdf $(RESUME_ATTRS) \
+	    -a pdf-theme=$(THEME_RES) -a pdf-fontsdir=GEM_FONTS_DIR \
+	    -o $@ $(SRC)
+
+$(BUILD)/resume.docx: $(SRC) $(BUILD)/publications-selected.adoc | $(BUILD)
+	$(ASCIIDOCTOR) -b docbook $(RESUME_ATTRS) -o $(BUILD)/resume.xml $(SRC)
+	$(PANDOC) -f docbook -t docx $(REFDOC_FLAG) -o $@ $(BUILD)/resume.xml
+
 $(BUILD):
 	mkdir -p $(BUILD)
 
 # --- housekeeping -----------------------------------------------------------
 # CI can run this to catch a cv.adoc that was edited by hand or left stale.
 check: $(BUILD)/publications.adoc
-	@$(REDUCER) -o $(BUILD)/cv.flat.check $(SRC)
+	@$(REDUCER) --preserve-conditionals -o $(BUILD)/cv.flat.check $(SRC)
 	@if diff -q $(FLAT) $(BUILD)/cv.flat.check >/dev/null 2>&1; then \
 	    echo "OK: $(FLAT) is up to date with src/"; \
 	else \
