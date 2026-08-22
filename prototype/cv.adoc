@@ -192,66 +192,66 @@ endif::[]
 
 ifndef::resume[]
 [[refs]]
-[[ref-payne-bootsie]]
-{empty}1. *Justin Payne*, Erica Lindroth, Kate Kneeland, Steven R. Skoda, Fatima Mustafa, Muhammad Irfan Ullah, John E. Foster. Bootsie - Estimation of Coefficient of Variation of AFLP Data by Bootstrap Analysis. _Pakistan Entomologist_. 36(2):79-81.
-
-[[ref-allard-2013-javiana]]
-{empty}2. Marc Allard, Tim Muruvanda, Errol Strain, Ruth Timme, Yan Luo, Charles Wang, Christine Keys, *Justin Payne*, Tony Cooper, Khai Luong, Yi Song, Chen-Shan Chin, Jonas Korlach, Richard Roberts, Peter Evans, Steven Musser, Eric Brown. A fully assembled genome sequence for Salmonella Javiana strain CFSAN001992. _Genome Announcements_. 2013;1(2):e0008113.
-
-[[ref-gonzalez-2013-o104]]
-{empty}3. Narjol González-Escalona, Melinda McFarland, Lydia Rump, *Justin Payne*, Denis Andrzejewski, Eric Brown, Peter Evans, Timothy Crowley. Draft genome sequences of two O104:H21 Escherichia coli isolates causing hemorrhagic colitis during an outbreak in Montana in 1994 provide insight into their pathogenicity. _Genome Announcements_. 2013;1(5):e00805-13.
-
-[[ref-hoffmann-2014-typhimurium]]
-{empty}4. Maria Hoffmann, Tim Muruvanda, Marc Allard, Jonas Korlach, Richard Roberts, Ruth Timme, *Justin Payne*, Patrick McDermott, Peter Evans, Jianghong Meng, Eric Brown, Shaohua Zhao. Complete Genome Sequence of a Multidrug-Resistant Salmonella enterica Serovar Typhimurium var. 5- Strain Isolated from Chicken Breast. _Genome Announcements_. 2014;2(2):e00294-14.
-
-[[ref-haendiges-2014-vibrio]]
-{empty}5. Julie Haendiges, Ruth E. Timme, Marc Allard, Robert Myers, *Justin Payne*, Eric Brown, Peter Evans, Narjol González-Escalona. Draft genomes of clinical Vibrio parahaemolyticus strains isolated in Maryland (2010-2013). _Genome Announcements_. 2014;2(4):e00776-14.
-
-[[ref-hoffmann-2014-cubana]]
-{empty}6. Maria Hoffmann, Tim Muruvanda, Cary Pirone, Jonas Korlach, Ruth Timme, *Justin Payne*, Peter Evans, Jianghong Meng, Eric Brown, Marc Allard. First Fully Assembled Genome Sequence of Salmonella enterica Serovar Cubana associated with a Multistate Outbreak in the United States. _Genome Announcements_. Published online October 2014.
-
-[[ref-pirone-2015-methylation]]
-{empty}7. Cary Pirone-Davies, Maria Hoffmann, Richard J. Roberts, Tim Muruvanda, Ruth Timme, Errol Strain, Yan Luo, *Justin Payne*, Khai Luong, Yi Song, Yu-Chih Tsai, Matthew Boitano, Tyson Clark, Jonas Korlach, Peter Evans, Marc Allard. Genome-wide methylation patterns in Salmonella enterica subsp. enterica serovars. _PLoS ONE_. 2015;10(4):e0123639. doi:10.1371/journal.pone.0123639
-
-[[ref-cao-2015-plasmids]]
-{empty}8. Guojie Cao, Marc Allard, Maria Hoffmann, Steven Monday, Tim Muruvanda, Yan Luo, *Justin Payne*, Lydia Rump, Kevin Meng, Shaohua Zhao, Patrick McDermott, Eric Brown, Jianghong Meng. Complete Sequences of Six IncA/C Plasmids of Multidrug-Resistant Salmonella Newport. _Genome Announcements_. Published online February 2015.
-
-[[ref-hoffmann-2015-agona]]
-{empty}9. Maria Hoffmann, *Justin Payne*, Richard Roberts, Marc Allard, Eric Brown, James Pettengill. Complete Genome Sequence of Salmonella enterica Serovar Agona 460004 2-1 Associated with a Multi-State Outbreak in the United States. _Genome Announcements_. Published online July 2015.
-
-[[ref-wang-2015-give]]
-{empty}10. Hua Wang, Yi Chen, Sherry Ayers, David Melka, Anna Maounounen-Laasri, *Justin Payne*, Jie Zheng, Insook Son, Ruth Timme, George Kastanis, Thomas Hammack, Errol Strain, Marc Allard, Peter Evans, Eric Brown. Draft Genome Sequence of Salmonella enterica subsp. enterica Serovar Give Isolated from an Imported Chili Powder Product. _Genome Announcements_. Published online July 2015.
-
-[[ref-pettengill-2015-o96]]
-{empty}11. Emily Pettengill, Maria Hoffmann, Rachel Binet, Richard J. Roberts, *Justin Payne*, Marc Allard, Valeria Michelacci, Fabio Minelli, Stefano Morabito. Complete Genome Sequence of Enteroinvasive Escherichia coli O96:H19 Associated with a Severe Food-borne Outbreak. _Genome Announcements_. Published online August 2015.
-
-[[ref-davis-2015-snp-pipeline]]
-{empty}12. Steve Davis, James B. Pettengill, Yan Luo, *Justin Payne*, Al Shpuntoff, Hugh Rand, Errol Strain. CFSAN SNP Pipeline: an automated method for constructing SNP matrices from next-generation sequence data. _PeerJ Computer Science_. 2015;1:e20. doi:10.7717/peerj-cs.20
-
-[[ref-yao-2016-two-salmonella]]
-{empty}13. Kuan Yao, Tim Muruvanda, Richard Roberts, *Justin Payne*, Marc Allard, Maria Hoffmann. Complete Genome and Methylome Sequences of two Salmonella enterica species. _Genome Announcements_. Published online January 2016.
-
-[[ref-yao-2016-panama-sloterdijk]]
-{empty}14. Kuan Yao, Tim Muruvanda, Richard Roberts, *Justin Payne*, Marc Allard, Maria Hoffmann. Complete Genome and Methylome Sequences of Salmonella Panama ATCC 7378 and Salmonella Sloterdijk ATCC 15791. _Genome Announcements_. Published online February 2016.
-
-[[ref-wang-2016-nottingham]]
-{empty}15. Hua Wang, Jie Zheng, Sherry Ayers, David Melka, Phillip Curry, *Justin Payne*, Anna Maounounen-Laasri, Charles Wang, Thomas Hammack, Eric Brown. Draft Genome Sequences of Salmonella enterica subsp. enterica Serovar Typhimurium and Serovar Nottingham Isolated from Food Products. _Genome Announcements_. Published online August 2016.
-
-[[ref-almeida-2016-brazil]]
-{empty}16. Fernanda Almeida, Marta Inês Medeiros, Dália Rodrigues, *Justin Payne*, Ruth Timme, Marc Allard, Juliana Falcão. Draft Genome Sequences of 40 Salmonella Typhimurium isolated from humans and food in Brazil. _Genome Announcements_. Published online October 2016.
-
-[[ref-chen-2016-listeria-stone-fruits]]
-{empty}17. Yi Chen, Laurel Burall, Yan Luo, Ruth E. Timme, David Melka, Tim Muruvanda, *Justin Payne*, Charles Wang, George Kastanis, Anna Maounounen-Laasri, Antonio J. De Jesus, Phillip E. Curry, Robert Stones, Okumu Kalouch, Eileen Liu, Monique Salter, Thomas Hammack, Peter S. Evans, Mickey Parish, Marc Allard, Atin Datta, Errol Strain, Eric W. Brown. Listeria monocytogenes in Stone Fruits Linked to a Multistate Outbreak: Enumeration of Cells and Whole-Genome Sequencing. _Applied and Environmental Microbiology_. 2016;82(24):AEM.01486-16.
-
-[[ref-cao-2018-smrt-plasmids]]
-{empty}18. Guojie Cao, Marc Allard, Maria Hoffmann, Tim Muruvanda, Yan Luo, *Justin Payne*, Kevin Meng, Shaohua Zhao, Patrick McDermott, Eric Brown, Jianghong Meng. Sequence Analysis of IncA/C and IncI1 Plasmids Isolated from Multidrug-Resistant Salmonella Newport Using Single-Molecule Real-Time Sequencing. _Foodborne Pathogens and Disease_. Published online April 2018. doi:10.1089/fpd.2017.2385
-
-[[ref-wu-2019-shigatyper]]
-{empty}19. Yun Wu, Henry K. Lau, Teresa Lee, David K. Lau, *Justin Payne*. In Silico Serotyping Based on Whole-Genome Sequencing Improves the Accuracy of Shigella Identification. _Applied and Environmental Microbiology_. Published online March 22, 2019.
+[[ref-rand-2021-galaxytrakr]]
+{empty}1. Hugh Rand, Daniel Benisatto, *Justin Payne*, Charles Strittmatter, Jayanthi Gangiredla, Jimmy Sanders, William Wolfgang, Kevin Libuit, James Herrick, Melanie Prarat, Thomas Farrell, Errol A. Strain. GalaxyTrakr: A Distributed Analysis Tool for Public Health Whole Genome Sequence Data Accessible to Non-Bioinformaticians. _BMC Genomics_. Published online 2021.
 
 [[ref-miller-2020-vibrio]]
-{empty}20. John Miller, Bart Weimer, Ruth Timme, Catharina Lüdeke, James Pettengill, DJ Bandoy, Allison Weis, James Kaufman, Bihua Huang, *Justin Payne*, Errol Strain, Jessica Jones. Phylogenetic and Biogeographic Patterns of Vibrio parahaemolyticus from North America Inferred from Whole Genome Sequence Data. _Applied and Environmental Microbiology_. Published online 2020.
+{empty}2. John Miller, Bart Weimer, Ruth Timme, Catharina Lüdeke, James Pettengill, DJ Bandoy, Allison Weis, James Kaufman, Bihua Huang, *Justin Payne*, Errol Strain, Jessica Jones. Phylogenetic and Biogeographic Patterns of Vibrio parahaemolyticus from North America Inferred from Whole Genome Sequence Data. _Applied and Environmental Microbiology_. Published online 2020.
 
-[[ref-rand-2021-galaxytrakr]]
-{empty}21. Hugh Rand, Daniel Benisatto, *Justin Payne*, Charles Strittmatter, Jayanthi Gangiredla, Jimmy Sanders, William Wolfgang, Kevin Libuit, James Herrick, Melanie Prarat, Thomas Farrell, Errol A. Strain. GalaxyTrakr: A Distributed Analysis Tool for Public Health Whole Genome Sequence Data Accessible to Non-Bioinformaticians. _BMC Genomics_. Published online 2021.
+[[ref-wu-2019-shigatyper]]
+{empty}3. Yun Wu, Henry K. Lau, Teresa Lee, David K. Lau, *Justin Payne*. In Silico Serotyping Based on Whole-Genome Sequencing Improves the Accuracy of Shigella Identification. _Applied and Environmental Microbiology_. Published online March 22, 2019.
+
+[[ref-cao-2018-smrt-plasmids]]
+{empty}4. Guojie Cao, Marc Allard, Maria Hoffmann, Tim Muruvanda, Yan Luo, *Justin Payne*, Kevin Meng, Shaohua Zhao, Patrick McDermott, Eric Brown, Jianghong Meng. Sequence Analysis of IncA/C and IncI1 Plasmids Isolated from Multidrug-Resistant Salmonella Newport Using Single-Molecule Real-Time Sequencing. _Foodborne Pathogens and Disease_. Published online April 2018. doi:10.1089/fpd.2017.2385
+
+[[ref-chen-2016-listeria-stone-fruits]]
+{empty}5. Yi Chen, Laurel Burall, Yan Luo, Ruth E. Timme, David Melka, Tim Muruvanda, *Justin Payne*, Charles Wang, George Kastanis, Anna Maounounen-Laasri, Antonio J. De Jesus, Phillip E. Curry, Robert Stones, Okumu Kalouch, Eileen Liu, Monique Salter, Thomas Hammack, Peter S. Evans, Mickey Parish, Marc Allard, Atin Datta, Errol Strain, Eric W. Brown. Listeria monocytogenes in Stone Fruits Linked to a Multistate Outbreak: Enumeration of Cells and Whole-Genome Sequencing. _Applied and Environmental Microbiology_. 2016;82(24):AEM.01486-16.
+
+[[ref-almeida-2016-brazil]]
+{empty}6. Fernanda Almeida, Marta Inês Medeiros, Dália Rodrigues, *Justin Payne*, Ruth Timme, Marc Allard, Juliana Falcão. Draft Genome Sequences of 40 Salmonella Typhimurium isolated from humans and food in Brazil. _Genome Announcements_. Published online October 2016.
+
+[[ref-wang-2016-nottingham]]
+{empty}7. Hua Wang, Jie Zheng, Sherry Ayers, David Melka, Phillip Curry, *Justin Payne*, Anna Maounounen-Laasri, Charles Wang, Thomas Hammack, Eric Brown. Draft Genome Sequences of Salmonella enterica subsp. enterica Serovar Typhimurium and Serovar Nottingham Isolated from Food Products. _Genome Announcements_. Published online August 2016.
+
+[[ref-yao-2016-panama-sloterdijk]]
+{empty}8. Kuan Yao, Tim Muruvanda, Richard Roberts, *Justin Payne*, Marc Allard, Maria Hoffmann. Complete Genome and Methylome Sequences of Salmonella Panama ATCC 7378 and Salmonella Sloterdijk ATCC 15791. _Genome Announcements_. Published online February 2016.
+
+[[ref-yao-2016-two-salmonella]]
+{empty}9. Kuan Yao, Tim Muruvanda, Richard Roberts, *Justin Payne*, Marc Allard, Maria Hoffmann. Complete Genome and Methylome Sequences of two Salmonella enterica species. _Genome Announcements_. Published online January 2016.
+
+[[ref-pettengill-2015-o96]]
+{empty}10. Emily Pettengill, Maria Hoffmann, Rachel Binet, Richard J. Roberts, *Justin Payne*, Marc Allard, Valeria Michelacci, Fabio Minelli, Stefano Morabito. Complete Genome Sequence of Enteroinvasive Escherichia coli O96:H19 Associated with a Severe Food-borne Outbreak. _Genome Announcements_. Published online August 2015.
+
+[[ref-hoffmann-2015-agona]]
+{empty}11. Maria Hoffmann, *Justin Payne*, Richard Roberts, Marc Allard, Eric Brown, James Pettengill. Complete Genome Sequence of Salmonella enterica Serovar Agona 460004 2-1 Associated with a Multi-State Outbreak in the United States. _Genome Announcements_. Published online July 2015.
+
+[[ref-wang-2015-give]]
+{empty}12. Hua Wang, Yi Chen, Sherry Ayers, David Melka, Anna Maounounen-Laasri, *Justin Payne*, Jie Zheng, Insook Son, Ruth Timme, George Kastanis, Thomas Hammack, Errol Strain, Marc Allard, Peter Evans, Eric Brown. Draft Genome Sequence of Salmonella enterica subsp. enterica Serovar Give Isolated from an Imported Chili Powder Product. _Genome Announcements_. Published online July 2015.
+
+[[ref-cao-2015-plasmids]]
+{empty}13. Guojie Cao, Marc Allard, Maria Hoffmann, Steven Monday, Tim Muruvanda, Yan Luo, *Justin Payne*, Lydia Rump, Kevin Meng, Shaohua Zhao, Patrick McDermott, Eric Brown, Jianghong Meng. Complete Sequences of Six IncA/C Plasmids of Multidrug-Resistant Salmonella Newport. _Genome Announcements_. Published online February 2015.
+
+[[ref-pirone-2015-methylation]]
+{empty}14. Cary Pirone-Davies, Maria Hoffmann, Richard J. Roberts, Tim Muruvanda, Ruth Timme, Errol Strain, Yan Luo, *Justin Payne*, Khai Luong, Yi Song, Yu-Chih Tsai, Matthew Boitano, Tyson Clark, Jonas Korlach, Peter Evans, Marc Allard. Genome-wide methylation patterns in Salmonella enterica subsp. enterica serovars. _PLoS ONE_. 2015;10(4):e0123639. doi:10.1371/journal.pone.0123639
+
+[[ref-davis-2015-snp-pipeline]]
+{empty}15. Steve Davis, James B. Pettengill, Yan Luo, *Justin Payne*, Al Shpuntoff, Hugh Rand, Errol Strain. CFSAN SNP Pipeline: an automated method for constructing SNP matrices from next-generation sequence data. _PeerJ Computer Science_. 2015;1:e20. doi:10.7717/peerj-cs.20
+
+[[ref-hoffmann-2014-cubana]]
+{empty}16. Maria Hoffmann, Tim Muruvanda, Cary Pirone, Jonas Korlach, Ruth Timme, *Justin Payne*, Peter Evans, Jianghong Meng, Eric Brown, Marc Allard. First Fully Assembled Genome Sequence of Salmonella enterica Serovar Cubana associated with a Multistate Outbreak in the United States. _Genome Announcements_. Published online October 2014.
+
+[[ref-haendiges-2014-vibrio]]
+{empty}17. Julie Haendiges, Ruth E. Timme, Marc Allard, Robert Myers, *Justin Payne*, Eric Brown, Peter Evans, Narjol González-Escalona. Draft genomes of clinical Vibrio parahaemolyticus strains isolated in Maryland (2010-2013). _Genome Announcements_. 2014;2(4):e00776-14.
+
+[[ref-hoffmann-2014-typhimurium]]
+{empty}18. Maria Hoffmann, Tim Muruvanda, Marc Allard, Jonas Korlach, Richard Roberts, Ruth Timme, *Justin Payne*, Patrick McDermott, Peter Evans, Jianghong Meng, Eric Brown, Shaohua Zhao. Complete Genome Sequence of a Multidrug-Resistant Salmonella enterica Serovar Typhimurium var. 5- Strain Isolated from Chicken Breast. _Genome Announcements_. 2014;2(2):e00294-14.
+
+[[ref-gonzalez-2013-o104]]
+{empty}19. Narjol González-Escalona, Melinda McFarland, Lydia Rump, *Justin Payne*, Denis Andrzejewski, Eric Brown, Peter Evans, Timothy Crowley. Draft genome sequences of two O104:H21 Escherichia coli isolates causing hemorrhagic colitis during an outbreak in Montana in 1994 provide insight into their pathogenicity. _Genome Announcements_. 2013;1(5):e00805-13.
+
+[[ref-allard-2013-javiana]]
+{empty}20. Marc Allard, Tim Muruvanda, Errol Strain, Ruth Timme, Yan Luo, Charles Wang, Christine Keys, *Justin Payne*, Tony Cooper, Khai Luong, Yi Song, Chen-Shan Chin, Jonas Korlach, Richard Roberts, Peter Evans, Steven Musser, Eric Brown. A fully assembled genome sequence for Salmonella Javiana strain CFSAN001992. _Genome Announcements_. 2013;1(2):e0008113.
+
+[[ref-payne-bootsie]]
+{empty}21. *Justin Payne*, Erica Lindroth, Kate Kneeland, Steven R. Skoda, Fatima Mustafa, Muhammad Irfan Ullah, John E. Foster. Bootsie - Estimation of Coefficient of Variation of AFLP Data by Bootstrap Analysis. _Pakistan Entomologist_. 36(2):79-81.
 endif::[]

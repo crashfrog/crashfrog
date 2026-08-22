@@ -144,6 +144,12 @@
     </layout>
   </citation>
   <bibliography second-field-align="flush">
+    <!-- CV variant: most recent first. Upstream AMA numbers the bibliography in
+         citation order; with nocite @* that is document order, which put the
+         oldest work at the top. -->
+    <sort>
+      <key variable="issued" sort="descending"/>
+    </sort>
     <layout>
       <text suffix="." variable="citation-number"/>
       <group delimiter=". ">
