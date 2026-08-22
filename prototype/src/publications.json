@@ -1,0 +1,1238 @@
+[
+  {
+    "id": "payne-bootsie",
+    "type": "article-journal",
+    "title": "Bootsie - Estimation of Coefficient of Variation of AFLP Data by Bootstrap Analysis",
+    "container-title": "Pakistan Entomologist",
+    "author": [
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Lindroth",
+        "given": "Erica"
+      },
+      {
+        "family": "Kneeland",
+        "given": "Kate"
+      },
+      {
+        "family": "Skoda",
+        "given": "Steven R."
+      },
+      {
+        "family": "Mustafa",
+        "given": "Fatima"
+      },
+      {
+        "family": "Ullah",
+        "given": "Muhammad Irfan"
+      },
+      {
+        "family": "Foster",
+        "given": "John E."
+      }
+    ],
+    "volume": "36",
+    "issue": "2",
+    "page": "79-81",
+    "note": "YEAR MISSING in source cv.md - please supply"
+  },
+  {
+    "id": "allard-2013-javiana",
+    "type": "article-journal",
+    "title": "A fully assembled genome sequence for Salmonella Javiana strain CFSAN001992",
+    "container-title": "Genome Announcements",
+    "author": [
+      {
+        "family": "Allard",
+        "given": "Marc"
+      },
+      {
+        "family": "Muruvanda",
+        "given": "Tim"
+      },
+      {
+        "family": "Strain",
+        "given": "Errol"
+      },
+      {
+        "family": "Timme",
+        "given": "Ruth"
+      },
+      {
+        "family": "Luo",
+        "given": "Yan"
+      },
+      {
+        "family": "Wang",
+        "given": "Charles"
+      },
+      {
+        "family": "Keys",
+        "given": "Christine"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Cooper",
+        "given": "Tony"
+      },
+      {
+        "family": "Luong",
+        "given": "Khai"
+      },
+      {
+        "family": "Song",
+        "given": "Yi"
+      },
+      {
+        "family": "Chin",
+        "given": "Chen-Shan"
+      },
+      {
+        "family": "Korlach",
+        "given": "Jonas"
+      },
+      {
+        "family": "Roberts",
+        "given": "Richard"
+      },
+      {
+        "family": "Evans",
+        "given": "Peter"
+      },
+      {
+        "family": "Musser",
+        "given": "Steven"
+      },
+      {
+        "family": "Brown",
+        "given": "Eric"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          3,
+          21
+        ]
+      ]
+    },
+    "volume": "1",
+    "issue": "2",
+    "page": "e0008113"
+  },
+  {
+    "id": "gonzalez-2013-o104",
+    "type": "article-journal",
+    "title": "Draft genome sequences of two O104:H21 Escherichia coli isolates causing hemorrhagic colitis during an outbreak in Montana in 1994 provide insight into their pathogenicity",
+    "container-title": "Genome Announcements",
+    "author": [
+      {
+        "family": "González-Escalona",
+        "given": "Narjol"
+      },
+      {
+        "family": "McFarland",
+        "given": "Melinda"
+      },
+      {
+        "family": "Rump",
+        "given": "Lydia"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Andrzejewski",
+        "given": "Denis"
+      },
+      {
+        "family": "Brown",
+        "given": "Eric"
+      },
+      {
+        "family": "Evans",
+        "given": "Peter"
+      },
+      {
+        "family": "Crowley",
+        "given": "Timothy"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          10,
+          3
+        ]
+      ]
+    },
+    "volume": "1",
+    "issue": "5",
+    "page": "e00805-13"
+  },
+  {
+    "id": "hoffmann-2014-typhimurium",
+    "type": "article-journal",
+    "title": "Complete Genome Sequence of a Multidrug-Resistant Salmonella enterica Serovar Typhimurium var. 5- Strain Isolated from Chicken Breast",
+    "container-title": "Genome Announcements",
+    "author": [
+      {
+        "family": "Hoffmann",
+        "given": "Maria"
+      },
+      {
+        "family": "Muruvanda",
+        "given": "Tim"
+      },
+      {
+        "family": "Allard",
+        "given": "Marc"
+      },
+      {
+        "family": "Korlach",
+        "given": "Jonas"
+      },
+      {
+        "family": "Roberts",
+        "given": "Richard"
+      },
+      {
+        "family": "Timme",
+        "given": "Ruth"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "McDermott",
+        "given": "Patrick"
+      },
+      {
+        "family": "Evans",
+        "given": "Peter"
+      },
+      {
+        "family": "Meng",
+        "given": "Jianghong"
+      },
+      {
+        "family": "Brown",
+        "given": "Eric"
+      },
+      {
+        "family": "Zhao",
+        "given": "Shaohua"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          4,
+          3
+        ]
+      ]
+    },
+    "volume": "2",
+    "issue": "2",
+    "page": "e00294-14"
+  },
+  {
+    "id": "haendiges-2014-vibrio",
+    "type": "article-journal",
+    "title": "Draft genomes of clinical Vibrio parahaemolyticus strains isolated in Maryland (2010-2013)",
+    "container-title": "Genome Announcements",
+    "author": [
+      {
+        "family": "Haendiges",
+        "given": "Julie"
+      },
+      {
+        "family": "Timme",
+        "given": "Ruth E."
+      },
+      {
+        "family": "Allard",
+        "given": "Marc"
+      },
+      {
+        "family": "Myers",
+        "given": "Robert"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Brown",
+        "given": "Eric"
+      },
+      {
+        "family": "Evans",
+        "given": "Peter"
+      },
+      {
+        "family": "González-Escalona",
+        "given": "Narjol"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          8,
+          7
+        ]
+      ]
+    },
+    "volume": "2",
+    "issue": "4",
+    "page": "e00776-14"
+  },
+  {
+    "id": "hoffmann-2014-cubana",
+    "type": "article-journal",
+    "title": "First Fully Assembled Genome Sequence of Salmonella enterica Serovar Cubana associated with a Multistate Outbreak in the United States",
+    "container-title": "Genome Announcements",
+    "author": [
+      {
+        "family": "Hoffmann",
+        "given": "Maria"
+      },
+      {
+        "family": "Muruvanda",
+        "given": "Tim"
+      },
+      {
+        "family": "Pirone",
+        "given": "Cary"
+      },
+      {
+        "family": "Korlach",
+        "given": "Jonas"
+      },
+      {
+        "family": "Timme",
+        "given": "Ruth"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Evans",
+        "given": "Peter"
+      },
+      {
+        "family": "Meng",
+        "given": "Jianghong"
+      },
+      {
+        "family": "Brown",
+        "given": "Eric"
+      },
+      {
+        "family": "Allard",
+        "given": "Marc"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "pirone-2015-methylation",
+    "type": "article-journal",
+    "title": "Genome-wide methylation patterns in Salmonella enterica subsp. enterica serovars",
+    "container-title": "PLoS ONE",
+    "author": [
+      {
+        "family": "Pirone-Davies",
+        "given": "Cary"
+      },
+      {
+        "family": "Hoffmann",
+        "given": "Maria"
+      },
+      {
+        "family": "Roberts",
+        "given": "Richard J."
+      },
+      {
+        "family": "Muruvanda",
+        "given": "Tim"
+      },
+      {
+        "family": "Timme",
+        "given": "Ruth"
+      },
+      {
+        "family": "Strain",
+        "given": "Errol"
+      },
+      {
+        "family": "Luo",
+        "given": "Yan"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Luong",
+        "given": "Khai"
+      },
+      {
+        "family": "Song",
+        "given": "Yi"
+      },
+      {
+        "family": "Tsai",
+        "given": "Yu-Chih"
+      },
+      {
+        "family": "Boitano",
+        "given": "Matthew"
+      },
+      {
+        "family": "Clark",
+        "given": "Tyson"
+      },
+      {
+        "family": "Korlach",
+        "given": "Jonas"
+      },
+      {
+        "family": "Evans",
+        "given": "Peter"
+      },
+      {
+        "family": "Allard",
+        "given": "Marc"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "volume": "10",
+    "issue": "4",
+    "page": "e0123639",
+    "DOI": "10.1371/journal.pone.0123639"
+  },
+  {
+    "id": "cao-2015-plasmids",
+    "type": "article-journal",
+    "title": "Complete Sequences of Six IncA/C Plasmids of Multidrug-Resistant Salmonella Newport",
+    "container-title": "Genome Announcements",
+    "author": [
+      {
+        "family": "Cao",
+        "given": "Guojie"
+      },
+      {
+        "family": "Allard",
+        "given": "Marc"
+      },
+      {
+        "family": "Hoffmann",
+        "given": "Maria"
+      },
+      {
+        "family": "Monday",
+        "given": "Steven"
+      },
+      {
+        "family": "Muruvanda",
+        "given": "Tim"
+      },
+      {
+        "family": "Luo",
+        "given": "Yan"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Rump",
+        "given": "Lydia"
+      },
+      {
+        "family": "Meng",
+        "given": "Kevin"
+      },
+      {
+        "family": "Zhao",
+        "given": "Shaohua"
+      },
+      {
+        "family": "McDermott",
+        "given": "Patrick"
+      },
+      {
+        "family": "Brown",
+        "given": "Eric"
+      },
+      {
+        "family": "Meng",
+        "given": "Jianghong"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "id": "hoffmann-2015-agona",
+    "type": "article-journal",
+    "title": "Complete Genome Sequence of Salmonella enterica Serovar Agona 460004 2-1 Associated with a Multi-State Outbreak in the United States",
+    "container-title": "Genome Announcements",
+    "author": [
+      {
+        "family": "Hoffmann",
+        "given": "Maria"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Roberts",
+        "given": "Richard"
+      },
+      {
+        "family": "Allard",
+        "given": "Marc"
+      },
+      {
+        "family": "Brown",
+        "given": "Eric"
+      },
+      {
+        "family": "Pettengill",
+        "given": "James"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "id": "wang-2015-give",
+    "type": "article-journal",
+    "title": "Draft Genome Sequence of Salmonella enterica subsp. enterica Serovar Give Isolated from an Imported Chili Powder Product",
+    "container-title": "Genome Announcements",
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Hua"
+      },
+      {
+        "family": "Chen",
+        "given": "Yi"
+      },
+      {
+        "family": "Ayers",
+        "given": "Sherry"
+      },
+      {
+        "family": "Melka",
+        "given": "David"
+      },
+      {
+        "family": "Maounounen-Laasri",
+        "given": "Anna"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Zheng",
+        "given": "Jie"
+      },
+      {
+        "family": "Son",
+        "given": "Insook"
+      },
+      {
+        "family": "Timme",
+        "given": "Ruth"
+      },
+      {
+        "family": "Kastanis",
+        "given": "George"
+      },
+      {
+        "family": "Hammack",
+        "given": "Thomas"
+      },
+      {
+        "family": "Strain",
+        "given": "Errol"
+      },
+      {
+        "family": "Allard",
+        "given": "Marc"
+      },
+      {
+        "family": "Evans",
+        "given": "Peter"
+      },
+      {
+        "family": "Brown",
+        "given": "Eric"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "id": "pettengill-2015-o96",
+    "type": "article-journal",
+    "title": "Complete Genome Sequence of Enteroinvasive Escherichia coli O96:H19 Associated with a Severe Food-borne Outbreak",
+    "container-title": "Genome Announcements",
+    "author": [
+      {
+        "family": "Pettengill",
+        "given": "Emily"
+      },
+      {
+        "family": "Hoffmann",
+        "given": "Maria"
+      },
+      {
+        "family": "Binet",
+        "given": "Rachel"
+      },
+      {
+        "family": "Roberts",
+        "given": "Richard J."
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Allard",
+        "given": "Marc"
+      },
+      {
+        "family": "Michelacci",
+        "given": "Valeria"
+      },
+      {
+        "family": "Minelli",
+        "given": "Fabio"
+      },
+      {
+        "family": "Morabito",
+        "given": "Stefano"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "id": "davis-2015-snp-pipeline",
+    "type": "article-journal",
+    "title": "CFSAN SNP Pipeline: an automated method for constructing SNP matrices from next-generation sequence data",
+    "container-title": "PeerJ Computer Science",
+    "author": [
+      {
+        "family": "Davis",
+        "given": "Steve"
+      },
+      {
+        "family": "Pettengill",
+        "given": "James B."
+      },
+      {
+        "family": "Luo",
+        "given": "Yan"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Shpuntoff",
+        "given": "Al"
+      },
+      {
+        "family": "Rand",
+        "given": "Hugh"
+      },
+      {
+        "family": "Strain",
+        "given": "Errol"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "volume": "1",
+    "page": "e20",
+    "DOI": "10.7717/peerj-cs.20"
+  },
+  {
+    "id": "yao-2016-two-salmonella",
+    "type": "article-journal",
+    "title": "Complete Genome and Methylome Sequences of two Salmonella enterica species",
+    "container-title": "Genome Announcements",
+    "author": [
+      {
+        "family": "Yao",
+        "given": "Kuan"
+      },
+      {
+        "family": "Muruvanda",
+        "given": "Tim"
+      },
+      {
+        "family": "Roberts",
+        "given": "Richard"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Allard",
+        "given": "Marc"
+      },
+      {
+        "family": "Hoffmann",
+        "given": "Maria"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "id": "yao-2016-panama-sloterdijk",
+    "type": "article-journal",
+    "title": "Complete Genome and Methylome Sequences of Salmonella Panama ATCC 7378 and Salmonella Sloterdijk ATCC 15791",
+    "container-title": "Genome Announcements",
+    "author": [
+      {
+        "family": "Yao",
+        "given": "Kuan"
+      },
+      {
+        "family": "Muruvanda",
+        "given": "Tim"
+      },
+      {
+        "family": "Roberts",
+        "given": "Richard"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Allard",
+        "given": "Marc"
+      },
+      {
+        "family": "Hoffmann",
+        "given": "Maria"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "id": "wang-2016-nottingham",
+    "type": "article-journal",
+    "title": "Draft Genome Sequences of Salmonella enterica subsp. enterica Serovar Typhimurium and Serovar Nottingham Isolated from Food Products",
+    "container-title": "Genome Announcements",
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Hua"
+      },
+      {
+        "family": "Zheng",
+        "given": "Jie"
+      },
+      {
+        "family": "Ayers",
+        "given": "Sherry"
+      },
+      {
+        "family": "Melka",
+        "given": "David"
+      },
+      {
+        "family": "Curry",
+        "given": "Phillip"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Maounounen-Laasri",
+        "given": "Anna"
+      },
+      {
+        "family": "Wang",
+        "given": "Charles"
+      },
+      {
+        "family": "Hammack",
+        "given": "Thomas"
+      },
+      {
+        "family": "Brown",
+        "given": "Eric"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "id": "almeida-2016-brazil",
+    "type": "article-journal",
+    "title": "Draft Genome Sequences of 40 Salmonella Typhimurium isolated from humans and food in Brazil",
+    "container-title": "Genome Announcements",
+    "author": [
+      {
+        "family": "Almeida",
+        "given": "Fernanda"
+      },
+      {
+        "family": "Medeiros",
+        "given": "Marta Inês"
+      },
+      {
+        "family": "Rodrigues",
+        "given": "Dália"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Timme",
+        "given": "Ruth"
+      },
+      {
+        "family": "Allard",
+        "given": "Marc"
+      },
+      {
+        "family": "Falcão",
+        "given": "Juliana"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "chen-2016-listeria-stone-fruits",
+    "type": "article-journal",
+    "title": "Listeria monocytogenes in Stone Fruits Linked to a Multistate Outbreak: Enumeration of Cells and Whole-Genome Sequencing",
+    "container-title": "Applied and Environmental Microbiology",
+    "author": [
+      {
+        "family": "Chen",
+        "given": "Yi"
+      },
+      {
+        "family": "Burall",
+        "given": "Laurel"
+      },
+      {
+        "family": "Luo",
+        "given": "Yan"
+      },
+      {
+        "family": "Timme",
+        "given": "Ruth E."
+      },
+      {
+        "family": "Melka",
+        "given": "David"
+      },
+      {
+        "family": "Muruvanda",
+        "given": "Tim"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Wang",
+        "given": "Charles"
+      },
+      {
+        "family": "Kastanis",
+        "given": "George"
+      },
+      {
+        "family": "Maounounen-Laasri",
+        "given": "Anna"
+      },
+      {
+        "family": "De Jesus",
+        "given": "Antonio J."
+      },
+      {
+        "family": "Curry",
+        "given": "Phillip E."
+      },
+      {
+        "family": "Stones",
+        "given": "Robert"
+      },
+      {
+        "family": "Kalouch",
+        "given": "Okumu"
+      },
+      {
+        "family": "Liu",
+        "given": "Eileen"
+      },
+      {
+        "family": "Salter",
+        "given": "Monique"
+      },
+      {
+        "family": "Hammack",
+        "given": "Thomas"
+      },
+      {
+        "family": "Evans",
+        "given": "Peter S."
+      },
+      {
+        "family": "Parish",
+        "given": "Mickey"
+      },
+      {
+        "family": "Allard",
+        "given": "Marc"
+      },
+      {
+        "family": "Datta",
+        "given": "Atin"
+      },
+      {
+        "family": "Strain",
+        "given": "Errol"
+      },
+      {
+        "family": "Brown",
+        "given": "Eric W."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          12
+        ]
+      ]
+    },
+    "volume": "82",
+    "issue": "24",
+    "page": "AEM.01486-16"
+  },
+  {
+    "id": "cao-2018-smrt-plasmids",
+    "type": "article-journal",
+    "title": "Sequence Analysis of IncA/C and IncI1 Plasmids Isolated from Multidrug-Resistant Salmonella Newport Using Single-Molecule Real-Time Sequencing",
+    "container-title": "Foodborne Pathogens and Disease",
+    "author": [
+      {
+        "family": "Cao",
+        "given": "Guojie"
+      },
+      {
+        "family": "Allard",
+        "given": "Marc"
+      },
+      {
+        "family": "Hoffmann",
+        "given": "Maria"
+      },
+      {
+        "family": "Muruvanda",
+        "given": "Tim"
+      },
+      {
+        "family": "Luo",
+        "given": "Yan"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Meng",
+        "given": "Kevin"
+      },
+      {
+        "family": "Zhao",
+        "given": "Shaohua"
+      },
+      {
+        "family": "McDermott",
+        "given": "Patrick"
+      },
+      {
+        "family": "Brown",
+        "given": "Eric"
+      },
+      {
+        "family": "Meng",
+        "given": "Jianghong"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1089/fpd.2017.2385"
+  },
+  {
+    "id": "wu-2019-shigatyper",
+    "type": "article-journal",
+    "title": "In Silico Serotyping Based on Whole-Genome Sequencing Improves the Accuracy of Shigella Identification",
+    "container-title": "Applied and Environmental Microbiology",
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Yun"
+      },
+      {
+        "family": "Lau",
+        "given": "Henry K."
+      },
+      {
+        "family": "Lee",
+        "given": "Teresa"
+      },
+      {
+        "family": "Lau",
+        "given": "David K."
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          22
+        ]
+      ]
+    }
+  },
+  {
+    "id": "miller-2020-vibrio",
+    "type": "article-journal",
+    "title": "Phylogenetic and Biogeographic Patterns of Vibrio parahaemolyticus from North America Inferred from Whole Genome Sequence Data",
+    "container-title": "Applied and Environmental Microbiology",
+    "author": [
+      {
+        "family": "Miller",
+        "given": "John"
+      },
+      {
+        "family": "Weimer",
+        "given": "Bart"
+      },
+      {
+        "family": "Timme",
+        "given": "Ruth"
+      },
+      {
+        "family": "Lüdeke",
+        "given": "Catharina"
+      },
+      {
+        "family": "Pettengill",
+        "given": "James"
+      },
+      {
+        "family": "Bandoy",
+        "given": "DJ"
+      },
+      {
+        "family": "Weis",
+        "given": "Allison"
+      },
+      {
+        "family": "Kaufman",
+        "given": "James"
+      },
+      {
+        "family": "Huang",
+        "given": "Bihua"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Strain",
+        "given": "Errol"
+      },
+      {
+        "family": "Jones",
+        "given": "Jessica"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rand-2021-galaxytrakr",
+    "type": "article-journal",
+    "title": "GalaxyTrakr: A Distributed Analysis Tool for Public Health Whole Genome Sequence Data Accessible to Non-Bioinformaticians",
+    "container-title": "BMC Genomics",
+    "author": [
+      {
+        "family": "Rand",
+        "given": "Hugh"
+      },
+      {
+        "family": "Benisatto",
+        "given": "Daniel"
+      },
+      {
+        "family": "Payne",
+        "given": "Justin"
+      },
+      {
+        "family": "Strittmatter",
+        "given": "Charles"
+      },
+      {
+        "family": "Gangiredla",
+        "given": "Jayanthi"
+      },
+      {
+        "family": "Sanders",
+        "given": "Jimmy"
+      },
+      {
+        "family": "Wolfgang",
+        "given": "William"
+      },
+      {
+        "family": "Libuit",
+        "given": "Kevin"
+      },
+      {
+        "family": "Herrick",
+        "given": "James"
+      },
+      {
+        "family": "Prarat",
+        "given": "Melanie"
+      },
+      {
+        "family": "Farrell",
+        "given": "Thomas"
+      },
+      {
+        "family": "Strain",
+        "given": "Errol A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    }
+  }
+]

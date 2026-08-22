@@ -1,0 +1,85 @@
+# asciidoctor-pdf theme for the CV. Plain YAML: no CSS, no LaTeX.
+# Reference: https://docs.asciidoctor.org/pdf-converter/latest/theme/
+extends: default
+
+page:
+  size: Letter
+  margin: [0.7in, 0.75in, 0.75in, 0.75in]
+  numbering:
+    start-at: 1
+
+base:
+  font-family: Noto Serif
+  font-size: 9.5
+  line-height-length: 13
+  font-color: '1A1A1A'
+
+link:
+  font-color: '1A1A1A'
+  text-decoration: underline
+
+heading:
+  font-family: Noto Serif
+  font-style: bold
+  font-color: '000000'
+  h1-font-size: 26
+  h2-font-size: 14
+  h3-font-size: 11
+  margin-top: 12
+  margin-bottom: 4
+  # Never leave a section heading stranded at the foot of a page.
+  min-height-after: 0.75in
+
+title-page:
+  align: left
+
+# The subtitle/specialties/contact block under the name.
+role:
+  subtitle:
+    font-size: 11
+    font-style: italic
+    font-color: '444444'
+  specialties:
+    font-size: 8.5
+    font-color: '444444'
+  contact-information:
+    font-size: 8.5
+    font-color: '333333'
+  position-meta:
+    font-size: 9
+    font-style: italic
+    font-color: '444444'
+
+# The default theme renders inline code in magenta, which reads as software
+# documentation rather than a CV. Keep it monospace but neutral.
+codespan:
+  font-color: '2B2B2B'
+  background-color: 'F2F2F2'
+  border-offset: 1
+
+prose:
+  margin-bottom: 7
+
+list:
+  indent: 14
+  item-spacing: 2
+
+# Bibliography entries: hanging indent reads better than flush-left wraps.
+role_csl-entry:
+  margin-bottom: 5
+
+footer:
+  height: 0.55in
+  font-size: 8
+  font-color: '666666'
+  border-width: 0
+  recto:
+    left:
+      content: '{author}'
+    right:
+      content: 'page {page-number} of {page-count}'
+  verso:
+    left:
+      content: '{author}'
+    right:
+      content: 'page {page-number} of {page-count}'
