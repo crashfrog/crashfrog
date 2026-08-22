@@ -48,7 +48,7 @@ This document is hosted at https://github.com/crashfrog/crashfrog/blob/master/cv
 
 **Primary architect and developer** of FDA-GRaSP (Genomic Research and Surveillance Platform), an FDA initiative to perform event-driven, high-throughput NGS biosurveillance on AWS Serverless resources to support national and international investigation efforts into outbreaks of foodborne illness, using data from FDA GenomeTrakr, Real-Time Listeria/Salmonella, and unassociated sequencing projects around the world.
 
-Primary **applications scientist and tool developer for GalaxyTrakr,** a web-based bioinformatics and biosurveillance analysis environment offered freely to GenomeTrakr partners and other experts in public health and food defense built on a scalable elastic architecture in AWS. Maintainer of the GalaxyTrakr tool catalog and its containerized tool definitions, and author of a **pull-through container cache** that removes the platform's dependence on upstream registry availability at job-launch time.
+Primary **applications scientist and tool developer for GalaxyTrakr,** a web-based bioinformatics and biosurveillance analysis environment offered freely to GenomeTrakr partners and other experts in public health and food defense built on a scalable elastic architecture in AWS. Maintainer of the GalaxyTrakr tool catalog and its containerized tool definitions.
 
 **Consulting** with the FDA HFP **chemistry** program on **agentic risk-assessment prioritization of food additives** — an orchestration of specialized agents that evaluates new additives along **five distinct risk criteria** and ranks them for formal safety assessment. Each criterion is evaluated independently against its own evidence, and per-criterion findings, citations, and reasoning are retained alongside the combined ranking so that chemistry reviewers can audit how any given priority was arrived at.
 
@@ -200,7 +200,6 @@ Date              | Degree and Program
 **pi.science** - Terminal data science agent with Dolt-backed provenance, session branching, and adversarial claim verification.  
 **tequila-mule** - OpenAI-compatible inference gateway backed by rolling vLLM reservations on Slurm HPC; transparent backend rotation under wall-time limits.  
 **PeerModel** - Secure capability-based peer-to-peer ORM on OrbitDB with hardware-token signing.  
-**Galaxy Pullthrough Cache** - Container cache decoupling GalaxyTrakr job launch from upstream registry availability.  
 **HFP Additive Risk Prioritization** - Consulting engagement with the FDA HFP chemistry program: multi-agent orchestration that evaluates new food additives along five risk criteria and prioritizes them for formal assessment, with auditable per-criterion evidence and reasoning.  
 
 ### Prior
