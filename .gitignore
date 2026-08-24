@@ -1,3 +1,4 @@
 *.html
 *.pdf
 prototype/build/
+/cv.txt
