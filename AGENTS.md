@@ -93,21 +93,32 @@ the repo root. Note the table above: `.formats/build.sh` and
 `.formats/cv-print.css` are present on this machine but were never `git add`ed —
 if you're on a fresh clone, they won't be there.
 
+Ad hoc, not part of the script: a plain-text derivative for pasting into
+web-based resume forms —
+`pandoc cv.md -f markdown -t plain --wrap=none -o cv.txt`. Untracked
+(`/cv.txt` in `.gitignore`), same as `cv.html`/`cv.pdf`; regenerate on demand.
+
 #### Pipeline
 
 1. **pandoc** renders `cv.md` to standalone HTML5, inlining
-   `.formats/cv-print.css` via `--embed-resources`. The result is a single
-   self-contained file.
+   `.formats/cv-print.css` via `--embed-resources` (or `--self-contained` on
+   older pandoc). The result is a single self-contained file.
 2. **Headless Chrome** (or Edge) prints that HTML to PDF with `--print-to-pdf`.
    The script probes the usual Windows install paths, then falls back to
    `google-chrome` / `chromium` on `PATH`.
 
 #### Requirements
 
-- `pandoc` — on this machine at `~/AppData/Local/Pandoc/pandoc`, already on `PATH`.
-- Chrome or Edge — found automatically.
-- Bash. On Windows use Git Bash; the script uses `cygpath` to hand Chrome a
-  native Windows `file:///` URL, which it requires. PowerShell: `bash .formats/build.sh`.
+- `pandoc` — installed via `apt` on Debian/WSL (`sudo apt-get install pandoc`,
+  currently 2.17.1.1). Older than upstream's latest; the script detects this
+  and uses `--self-contained` instead of `--embed-resources` where needed.
+  Also fine on native Windows at `~/AppData/Local/Pandoc/pandoc`, if that's
+  what's on `PATH` instead.
+- Chrome or Edge — found automatically. The script checks both Git Bash's
+  `/c/...` drive mounts and WSL's `/mnt/c/...` mounts.
+- Bash. Works from WSL directly. On native Windows use Git Bash (PowerShell:
+  `bash .formats/build.sh`); the script uses `wslpath` (WSL) or `cygpath`
+  (Git Bash) to hand Chrome a native Windows `file:///` URL, which it requires.
 
 ### Styling notes (pandoc pipeline)
 
