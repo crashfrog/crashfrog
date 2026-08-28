@@ -16,9 +16,10 @@ NCBI's undocumented SRA/VDB format; `torchbase`; `pi.science`).
 **Read [`cv.md`](cv.md) for the complete record** — full professional history,
 technologies, education, projects, publications, presentations, and awards.
 It is the single source of truth; every other document here (`README.md`,
-`cv.html`, `cv.pdf`, `prototype/cv.adoc`) is generated or condensed from it and
-may lag. If you are asked to summarize, score, or extract structured data from
-this candidate's background, prefer `cv.md` over any derived artifact.
+`resume.md`, `cv.pdf`, `prototype/cv.adoc`) is generated or condensed from it
+and may lag. If you are asked to summarize, score, or extract structured
+data from this candidate's background, prefer `cv.md` over any derived
+artifact.
 
 This repository is itself relevant evidence: it is maintained largely through
 agent-assisted development (see `(II) Selected Highlights` in `cv.md`), and the
@@ -36,22 +37,36 @@ Operational notes for whoever (human or agent) is maintaining the CV.
 
 ### What this repo is
 
-Two documents, one source of truth:
+Three documents, one source of truth:
 
 | File | Role | Tracked |
 |---|---|---|
 | `cv.md` | **The source document.** Full academic CV. Edit this. | yes |
-| `README.md` | Industry résumé, ~1 page, derived by hand from `cv.md`. Renders on the GitHub profile. | yes |
+| `README.md` | Short GitHub-profile blurb, casual voice, ~1 page. Renders on the GitHub profile. | yes |
+| `resume.md` | **Print résumé**, one sheet front-and-back (2 pages): contact block, current + prior FDA experience, selected projects, technologies, education. Condensed by hand from `cv.md`, not generated. | yes |
 | `cv.html`, `cv.pdf`, `cv.docx` | Build artifacts from `cv.md`. | no (`.gitignore`) |
-| `resume.html`, `resume.pdf`, `resume.docx` | Build artifacts from `README.md`. | no (`.gitignore`) |
+| `resume.html`, `resume.pdf`, `resume.docx` | Build artifacts from `resume.md`. | no (`.gitignore`) |
 | `.formats/cv-print.css` | Print stylesheet for the pandoc/Chrome build below. | no — present on disk, never committed; don't assume a fresh clone has it |
 | `.formats/build.sh` | Build script for the pandoc/Chrome build below. | no — same caveat |
 | `prototype/` | **Prototype.** Structured AsciiDoc CV pipeline (see §3). Not yet canonical. | yes |
 
-**`README.md` is not generated.** It's a hand-written condensation aimed at
-industry / forward-deployed-engineer readers: highlights, current projects,
-links to live repos. When `cv.md` changes materially, update `README.md` to
-match — but keep it short and keep its voice. Do not mechanically regenerate it.
+**`README.md` and `resume.md` are not generated.** Both are hand-written
+condensations of `cv.md`, aimed at different readers and *not* kept in sync
+with each other:
+- `README.md` is short (~1 page), casual, and meant to be read on GitHub —
+  highlights, current projects, links to live repos. Keep it short and keep
+  its voice; do not mechanically regenerate it, and do not pad it out with
+  résumé-style structure (contact block, dated experience table, degree
+  line) — that's what `resume.md` is for.
+- `resume.md` is the traditional print résumé: contact info, an Experience
+  table with current and prior employer/dates, Education, Technologies,
+  Selected Projects. Targets one printed sheet front-and-back (2 pages at
+  10.5pt/0.75in margins via `cv-print.css`) — check page count after
+  editing (see "Checking output" below) and trim or expand to hold the line.
+
+When `cv.md` changes materially (new job, new degree, major project),
+update both `README.md` and `resume.md` to match — each independently, in
+its own voice and length budget.
 
 ### 3. `prototype/` — AsciiDoc pipeline (in progress, not canonical)
 
@@ -83,9 +98,8 @@ second hand-maintained copy of content that belongs in `cv.md`.
 
 ### Building the current (canonical) CV and résumé — pandoc pipeline
 
-Builds both documents: the full CV from `cv.md`, and the short résumé from
-`README.md` (same source `README.md` covers on the GitHub profile — see the
-file table above).
+Builds both documents: the full CV from `cv.md`, and the print résumé from
+`resume.md` (see the file table above).
 
 ```bash
 .formats/build.sh          # everything: cv.* and resume.* (html+pdf+docx)
@@ -116,19 +130,18 @@ parameterized by source file, PDF title, and output stem):
 1. **pandoc** renders the source Markdown to standalone HTML5, inlining
    `.formats/cv-print.css` via `--embed-resources` (or `--self-contained` on
    older pandoc). The result is a single self-contained file. (`cv-print.css`
-   is written against `cv.md`'s roman-numeral section IDs — its section-keyed
-   rules simply don't match anything in `README.md`'s flatter structure,
-   which is fine; the base typography still applies.)
+   has some rules keyed to `cv.md`'s roman-numeral section IDs, e.g. the
+   Technologies multi-column layout and the Education table's column-width
+   fix — those simply don't match `resume.md`'s plain `## Education` id, so
+   it falls back to the generic table/heading rules, which is fine.)
 2. **Headless Chrome** (or Edge) prints that HTML to PDF with `--print-to-pdf
    --no-pdf-header-footer`. The `--no-pdf-header-footer` flag is load-bearing,
    not cosmetic — see "Machine readability" below. The script probes the
    usual Windows install paths, then falls back to `google-chrome` /
    `chromium` on `PATH`.
 3. **pandoc** separately renders the source straight to DOCX — a real file
-   with Word heading styles (`Heading1`/`Heading2`/`Heading3`), not a
-   PDF-to-DOCX conversion. `resume.docx` only gets `Heading1` (`README.md`
-   has no `##`/`###` subheadings — its section labels are bold prose, not
-   headings), which is a faithful reflection of the source, not a bug.
+   with Word heading styles (`Heading1`/`Heading2`), not a PDF-to-DOCX
+   conversion.
 
 #### Requirements
 
@@ -186,9 +199,10 @@ python -c "from pypdf import PdfReader; r=PdfReader('cv.pdf'); print(len(r.pages
 
 Current baseline: **cv.pdf 10 pages** (1–6 substantive: highlights,
 experience, technologies, education, projects; 7–10 are publications,
-presentations, and the conference list) and **resume.pdf 1 page**. If a
+presentations, and the conference list) and **resume.pdf 2 pages** — one
+sheet, front and back, by design (see `resume.md`'s role above). If a
 change pushes either materially past that, something has gone wrong with the
-CSS rather than the content.
+CSS or content length, not a deliberate choice.
 
 ### Machine readability (ATS / résumé-parser ingestion)
 
@@ -217,12 +231,23 @@ carry no tagged/structured content tree (`StructTreeRoot`) — visually
 faithful but semantically flat, which is exactly the failure mode most
 résumé parsers (built for Word documents first) handle worst. `build.sh`
 now also generates `cv.docx` and `resume.docx` straight from their Markdown
-sources via `pandoc --to=docx`, which produces real Word
-`Heading1`/`Heading2`/`Heading3` paragraph styles — verified by inspecting
+sources via `pandoc --to=docx`, which produces real Word heading styles
+(`Heading1`/`Heading2`/`Heading3` in `cv.docx`, `Heading1`/`Heading2` in
+`resume.docx` — it has no `###` subsections) — verified by inspecting
 `word/document.xml` in both generated `.docx` files. This needed no
 migration to the `prototype/` AsciiDoc pipeline; pandoc reads Markdown to
 DOCX natively, `prototype/`'s DOCX path only exists because pandoc *can't*
 read AsciiDoc.
+
+**Also fixed:** `td:first-child` had no `padding-right`, so a two-column
+table's first cell (fixed-width, `white-space: nowrap`) could butt directly
+against the second column's text with no guaranteed gap — worst case on
+`resume.md`'s Education row, which visually renders fine (screenshot-checked)
+but `pypdf` still extracts as `"2009 – 2012B.S., Biochemistry..."` with no
+space. Added `padding-right: 1rem` globally; didn't fully close the `pypdf`
+gap on that one row (its heuristic isn't purely gap-width-based) but is a
+strict improvement for every other table and any extractor that is
+gap-width-based. Recorded under "Open" below rather than chased further.
 
 **Investigated, not a real problem:** multi-column CSS (`(IV) Technologies`,
 `(X) Training`, `(XI) Awards`) was suspected of interleaving text across
@@ -240,11 +265,15 @@ before touching `cv.md`:
    (`EXPERIENCE`, `SKILLS`, `EDUCATION`) may not recognize the roman-numeral
    prefix or `Technologies` (vs. `Skills`) as those sections. Renumbering or
    renaming breaks the CSS selectors documented above — a real cost, not free.
-2. Employer/date pairs in §III and the §V Education table are Markdown
-   tables. `cv.txt`'s plain-text renderer draws them as ASCII grid tables
-   (`----+----` borders); some naive text-only ingestion would rather see
-   `Employer: X` / `Dates: Y` as plain lines. Fixing this well probably means
-   the AsciiDoc/DOCX-native path in `prototype/`, not another pandoc flag.
+2. Employer/date and Education table rows (both `cv.md` and `resume.md`)
+   render fine visually but some PDF/DOCX text extractors don't insert a
+   space between adjacent table cells regardless of visual gap — see the
+   `td:first-child` padding fix above, which helped generally but not
+   universally. `cv.txt`'s plain-text renderer also draws these as ASCII
+   grid tables (`----+----` borders); some naive text-only ingestion would
+   rather see `Employer: X` / `Dates: Y` as plain lines. Fixing this
+   thoroughly probably means the AsciiDoc/DOCX-native path in `prototype/`,
+   not another pandoc/CSS flag.
 3. `cv.md` uses smart quotes (`’ “ ”`) and em dashes (`—`) throughout —
    commonly cited as parser-hostile by older/lower-quality ATS text
    extractors, though not reproduced as broken here; Chrome's PDF export
