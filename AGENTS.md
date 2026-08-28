@@ -84,28 +84,36 @@ second hand-maintained copy of content that belongs in `cv.md`.
 ### Building the current (canonical) CV — pandoc pipeline
 
 ```bash
-.formats/build.sh          # cv.md -> cv.html -> cv.pdf
+.formats/build.sh          # cv.md -> cv.html -> cv.pdf -> cv.docx
 .formats/build.sh html     # stop after HTML (fast iteration on CSS)
+.formats/build.sh docx     # cv.docx only, no Chrome needed
 ```
 
-Run it from anywhere; it resolves paths relative to itself. Both outputs land in
-the repo root. Note the table above: `.formats/build.sh` and
-`.formats/cv-print.css` are present on this machine but were never `git add`ed —
-if you're on a fresh clone, they won't be there.
+Run it from anywhere; it resolves paths relative to itself. Outputs land in the
+repo root. Note the table above: `.formats/build.sh` and `.formats/cv-print.css`
+are present on this machine but were never `git add`ed — if you're on a fresh
+clone, they won't be there.
 
 Ad hoc, not part of the script: a plain-text derivative for pasting into
 web-based resume forms —
-`pandoc cv.md -f markdown -t plain --wrap=none -o cv.txt`. Untracked
-(`/cv.txt` in `.gitignore`), same as `cv.html`/`cv.pdf`; regenerate on demand.
+`pandoc cv.md -f markdown -t plain --wrap=none -o cv.txt`.
+
+`cv.txt` and `cv.docx` are untracked, same as `cv.html`/`cv.pdf`
+(`/cv.txt`, `/cv.docx` in `.gitignore`); regenerate on demand.
 
 #### Pipeline
 
 1. **pandoc** renders `cv.md` to standalone HTML5, inlining
    `.formats/cv-print.css` via `--embed-resources` (or `--self-contained` on
    older pandoc). The result is a single self-contained file.
-2. **Headless Chrome** (or Edge) prints that HTML to PDF with `--print-to-pdf`.
-   The script probes the usual Windows install paths, then falls back to
-   `google-chrome` / `chromium` on `PATH`.
+2. **Headless Chrome** (or Edge) prints that HTML to PDF with `--print-to-pdf
+   --no-pdf-header-footer`. The `--no-pdf-header-footer` flag is load-bearing,
+   not cosmetic — see "Machine readability" below. The script probes the
+   usual Windows install paths, then falls back to `google-chrome` /
+   `chromium` on `PATH`.
+3. **pandoc** separately renders `cv.md` straight to `cv.docx` — a real DOCX
+   with Word heading styles (`Heading1`/`Heading2`/`Heading3`), not a
+   PDF-to-DOCX conversion.
 
 #### Requirements
 
@@ -165,6 +173,66 @@ Current baseline: **10 pages.** Pages 1–6 are substantive (highlights,
 experience, technologies, education, projects); 7–10 are publications,
 presentations, and the conference list. If a change pushes this materially past
 10, something has gone wrong with the CSS rather than the content.
+
+### Machine readability (ATS / résumé-parser ingestion)
+
+Investigated 2026-08-28 after reports that automated ingestion pipelines were
+getting a bad read on `cv.pdf`. Method: rendered `cv.pdf` through `pypdf`'s
+`extract_text()` (a good proxy for the position/content-stream-order
+extraction most parsers do) and read the output page by page.
+
+**Found and fixed:** Chrome's `--print-to-pdf` was emitting its default
+header/footer (timestamp, document title, source URL, page number) on every
+page — and that text was landing *inside* the extracted content, mid-sentence,
+at every page break. Confirmed: the extracted text of the p.2/p.3 boundary
+read `"...semantic LLM-based output` / `8/24/26, 4:26 PM Justin Payne -
+Curriculum Vitae ... file:///C:/Users/crash/.../4/10` / `validation in place
+of brittle diffing..."` — a literal string spliced into the middle of a
+sentence, once per page, ten times in the document. Any parser doing
+keyword/exact-phrase matching or NLP tokenization across a page boundary would
+silently corrupt content or match on `Curriculum Vitae` header text instead of
+the résumé itself. Fixed by adding `--no-pdf-header-footer` to the Chrome
+invocation in `build.sh`; verified the same sentence now extracts cleanly and
+that no header/footer text appears anywhere in `pypdf`'s output.
+
+**Also fixed:** no DOCX existed. `cv.pdf` via headless Chrome carries no
+tagged/structured content tree (`StructTreeRoot`) — it's visually faithful but
+semantically flat, which is exactly the failure mode most résumé parsers
+(built for Word documents first) handle worst. `build.sh` now also generates
+`cv.docx` straight from `cv.md` via `pandoc --to=docx`, which produces real
+Word `Heading1`/`Heading2`/`Heading3` paragraph styles — verified by
+inspecting `word/document.xml` in the generated `.docx`. This needed no
+migration to the `prototype/` AsciiDoc pipeline; pandoc reads Markdown to DOCX
+natively, `prototype/`'s DOCX path only exists because pandoc *can't* read
+AsciiDoc.
+
+**Investigated, not a real problem:** multi-column CSS (`(IV) Technologies`,
+`(X) Training`, `(XI) Awards`) was suspected of interleaving text across
+columns for extractors that sort by visual position rather than content-stream
+order. Checked against `pypdf` output — Chrome/Skia emits PDF text runs in DOM
+source order regardless of the CSS columns they're visually laid into, so
+content-stream-order extractors (most PDF text layers, including many résumé
+parsers) read it correctly. A pure position-sorting extractor could still
+garble it; not disproven, just not reproduced with the tools available here.
+
+**Open, not yet acted on** — real content/structure tradeoffs, need a decision
+before touching `cv.md`:
+1. Section headers are `(III) Professional Experience`, `(IV) Technologies`,
+   etc. Parsers that key section detection off exact canonical headings
+   (`EXPERIENCE`, `SKILLS`, `EDUCATION`) may not recognize the roman-numeral
+   prefix or `Technologies` (vs. `Skills`) as those sections. Renumbering or
+   renaming breaks the CSS selectors documented above — a real cost, not free.
+2. Employer/date pairs in §III and the §V Education table are Markdown
+   tables. `cv.txt`'s plain-text renderer draws them as ASCII grid tables
+   (`----+----` borders); some naive text-only ingestion would rather see
+   `Employer: X` / `Dates: Y` as plain lines. Fixing this well probably means
+   the AsciiDoc/DOCX-native path in `prototype/`, not another pandoc flag.
+3. `cv.md` uses smart quotes (`’ “ ”`) and em dashes (`—`) throughout —
+   commonly cited as parser-hostile by older/lower-quality ATS text
+   extractors, though not reproduced as broken here; Chrome's PDF export
+   embeds a correct ToUnicode CMap and pandoc's DOCX/plain-text output pass
+   the characters through cleanly. Converting to straight quotes/hyphens would
+   be a voice/style change across the whole document, not a build-pipeline fix.
 
 ### Editing conventions for cv.md
 
