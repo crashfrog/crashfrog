@@ -42,8 +42,8 @@ Two documents, one source of truth:
 |---|---|---|
 | `cv.md` | **The source document.** Full academic CV. Edit this. | yes |
 | `README.md` | Industry résumé, ~1 page, derived by hand from `cv.md`. Renders on the GitHub profile. | yes |
-| `cv.html` | Build artifact from `cv.md`. | no (`.gitignore`) |
-| `cv.pdf` | Build artifact from `cv.html`. | no (`.gitignore`) |
+| `cv.html`, `cv.pdf`, `cv.docx` | Build artifacts from `cv.md`. | no (`.gitignore`) |
+| `resume.html`, `resume.pdf`, `resume.docx` | Build artifacts from `README.md`. | no (`.gitignore`) |
 | `.formats/cv-print.css` | Print stylesheet for the pandoc/Chrome build below. | no — present on disk, never committed; don't assume a fresh clone has it |
 | `.formats/build.sh` | Build script for the pandoc/Chrome build below. | no — same caveat |
 | `prototype/` | **Prototype.** Structured AsciiDoc CV pipeline (see §3). Not yet canonical. | yes |
@@ -81,12 +81,18 @@ second hand-maintained copy of content that belongs in `cv.md`.
   (remaining ten sections of `cv.md`, plus retiring `.formats/`) and hasn't
   happened yet. Don't assume it has.
 
-### Building the current (canonical) CV — pandoc pipeline
+### Building the current (canonical) CV and résumé — pandoc pipeline
+
+Builds both documents: the full CV from `cv.md`, and the short résumé from
+`README.md` (same source `README.md` covers on the GitHub profile — see the
+file table above).
 
 ```bash
-.formats/build.sh          # cv.md -> cv.html -> cv.pdf -> cv.docx
-.formats/build.sh html     # stop after HTML (fast iteration on CSS)
-.formats/build.sh docx     # cv.docx only, no Chrome needed
+.formats/build.sh          # everything: cv.* and resume.* (html+pdf+docx)
+.formats/build.sh html     # HTML only, both documents
+.formats/build.sh docx     # DOCX only, both documents (no Chrome needed)
+.formats/build.sh cv       # cv.* only
+.formats/build.sh resume   # resume.* only
 ```
 
 Run it from anywhere; it resolves paths relative to itself. Outputs land in the
@@ -98,22 +104,31 @@ Ad hoc, not part of the script: a plain-text derivative for pasting into
 web-based resume forms —
 `pandoc cv.md -f markdown -t plain --wrap=none -o cv.txt`.
 
-`cv.txt` and `cv.docx` are untracked, same as `cv.html`/`cv.pdf`
-(`/cv.txt`, `/cv.docx` in `.gitignore`); regenerate on demand.
+`cv.txt`, `cv.docx`, and `resume.docx` are explicitly untracked in
+`.gitignore`; `cv.html`/`cv.pdf`/`resume.html`/`resume.pdf` fall under the
+blanket `*.html`/`*.pdf` patterns. All regenerate on demand.
 
 #### Pipeline
 
-1. **pandoc** renders `cv.md` to standalone HTML5, inlining
+Both documents go through the same three steps (`build_doc` in the script,
+parameterized by source file, PDF title, and output stem):
+
+1. **pandoc** renders the source Markdown to standalone HTML5, inlining
    `.formats/cv-print.css` via `--embed-resources` (or `--self-contained` on
-   older pandoc). The result is a single self-contained file.
+   older pandoc). The result is a single self-contained file. (`cv-print.css`
+   is written against `cv.md`'s roman-numeral section IDs — its section-keyed
+   rules simply don't match anything in `README.md`'s flatter structure,
+   which is fine; the base typography still applies.)
 2. **Headless Chrome** (or Edge) prints that HTML to PDF with `--print-to-pdf
    --no-pdf-header-footer`. The `--no-pdf-header-footer` flag is load-bearing,
    not cosmetic — see "Machine readability" below. The script probes the
    usual Windows install paths, then falls back to `google-chrome` /
    `chromium` on `PATH`.
-3. **pandoc** separately renders `cv.md` straight to `cv.docx` — a real DOCX
+3. **pandoc** separately renders the source straight to DOCX — a real file
    with Word heading styles (`Heading1`/`Heading2`/`Heading3`), not a
-   PDF-to-DOCX conversion.
+   PDF-to-DOCX conversion. `resume.docx` only gets `Heading1` (`README.md`
+   has no `##`/`###` subheadings — its section labels are bold prose, not
+   headings), which is a faithful reflection of the source, not a bug.
 
 #### Requirements
 
@@ -169,10 +184,11 @@ python -c "from pypdf import PdfReader; r=PdfReader('cv.pdf'); print(len(r.pages
   "file:///C:/Users/crash/Documents/crashfrog/cv.html"
 ```
 
-Current baseline: **10 pages.** Pages 1–6 are substantive (highlights,
-experience, technologies, education, projects); 7–10 are publications,
-presentations, and the conference list. If a change pushes this materially past
-10, something has gone wrong with the CSS rather than the content.
+Current baseline: **cv.pdf 10 pages** (1–6 substantive: highlights,
+experience, technologies, education, projects; 7–10 are publications,
+presentations, and the conference list) and **resume.pdf 1 page**. If a
+change pushes either materially past that, something has gone wrong with the
+CSS rather than the content.
 
 ### Machine readability (ATS / résumé-parser ingestion)
 
@@ -192,19 +208,21 @@ sentence, once per page, ten times in the document. Any parser doing
 keyword/exact-phrase matching or NLP tokenization across a page boundary would
 silently corrupt content or match on `Curriculum Vitae` header text instead of
 the résumé itself. Fixed by adding `--no-pdf-header-footer` to the Chrome
-invocation in `build.sh`; verified the same sentence now extracts cleanly and
-that no header/footer text appears anywhere in `pypdf`'s output.
+invocation in `build_doc` (shared by both `cv.pdf` and `resume.pdf`);
+verified the same sentence now extracts cleanly and that no header/footer
+text appears anywhere in `pypdf`'s output for either document.
 
-**Also fixed:** no DOCX existed. `cv.pdf` via headless Chrome carries no
-tagged/structured content tree (`StructTreeRoot`) — it's visually faithful but
-semantically flat, which is exactly the failure mode most résumé parsers
-(built for Word documents first) handle worst. `build.sh` now also generates
-`cv.docx` straight from `cv.md` via `pandoc --to=docx`, which produces real
-Word `Heading1`/`Heading2`/`Heading3` paragraph styles — verified by
-inspecting `word/document.xml` in the generated `.docx`. This needed no
-migration to the `prototype/` AsciiDoc pipeline; pandoc reads Markdown to DOCX
-natively, `prototype/`'s DOCX path only exists because pandoc *can't* read
-AsciiDoc.
+**Also fixed:** no DOCX existed. `cv.pdf`/`resume.pdf` via headless Chrome
+carry no tagged/structured content tree (`StructTreeRoot`) — visually
+faithful but semantically flat, which is exactly the failure mode most
+résumé parsers (built for Word documents first) handle worst. `build.sh`
+now also generates `cv.docx` and `resume.docx` straight from their Markdown
+sources via `pandoc --to=docx`, which produces real Word
+`Heading1`/`Heading2`/`Heading3` paragraph styles — verified by inspecting
+`word/document.xml` in both generated `.docx` files. This needed no
+migration to the `prototype/` AsciiDoc pipeline; pandoc reads Markdown to
+DOCX natively, `prototype/`'s DOCX path only exists because pandoc *can't*
+read AsciiDoc.
 
 **Investigated, not a real problem:** multi-column CSS (`(IV) Technologies`,
 `(X) Training`, `(XI) Awards`) was suspected of interleaving text across
