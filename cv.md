@@ -22,7 +22,7 @@ This document is hosted at https://github.com/crashfrog/crashfrog/blob/master/cv
 (II) Selected Highlights
 ------------------------
 
-* **Built and shipped the software backbone of the world's largest genomic biosurveillance network.** As primary software specifications analyst and maintainer for FDA GenomeTrakr and its partner projects, authored the integration-layer architecture that put more than **60,000 bacterial genomes** into public databases, where they remain in continuous use for foodborne outbreak traceback.
+* **Built and shipped the software backbone of the world's largest genomic biosurveillance network.** As primary software specifications analyst and maintainer for FDA GenomeTrakr and its partner projects, authored the integration-layer architecture that has moved more than **1.8 million sequenced isolate genomes** through GenomeTrakr and into public databases, where they remain in continuous use for foodborne outbreak traceback.
 
 * **Deployed bioinformatics platforms into other people's environments — then taught them to run it.** Applications scientist and tool developer for **GalaxyTrakr**, a free, elastic AWS-hosted analysis environment used by state, federal, and international public health laboratories. Ran hands-on training for lab scientists in Maryland, Virginia, and Bangkok, and consulted informally for research groups at agencies worldwide who needed a working pipeline more than a paper.
 
@@ -80,7 +80,7 @@ Serving member of the FDA-HFP **Scientific Computing Board** (SCB).
 |``Apr 2015 - Aug 2016``      |**FDA-CFSAN-ORS-DM-MMSB (GS-403-11)**
 |``Aug 2016 - Aug 2018``      |**FDA-CFSAN-OAO-DB (GS-403-12)**
 
-**Bioinformatician in Microbiology** and **primary software specifications analyst, author, and maintainer** of the FDA-hosted codebase and informatic infrastructure for FDA/State joint **GenomeTrakr Network**, FDA/CDC Real-Time Listeria Genomic Surveillance Project, and FDA-CFSAN/MN/WA/NY Real-Time Salmonella Enteritidis Project, resulting in the deposit of more than 60,000 bacterial genomes into publicly accessible databases. Contributor to testing plans for above.
+**Bioinformatician in Microbiology** and **primary software specifications analyst, author, and maintainer** of the FDA-hosted codebase and informatic infrastructure for FDA/State joint **GenomeTrakr Network**, FDA/CDC Real-Time Listeria Genomic Surveillance Project, and FDA-CFSAN/MN/WA/NY Real-Time Salmonella Enteritidis Project, laying the integration-layer foundation that has since grown to move more than **1.8 million sequenced isolate genomes** into publicly accessible databases. Contributor to testing plans for above.
 
 **Provided bioinformatics system development consultation** on an informal basis to researchers at diverse US and international agencies and groups. Educated workshop attendees in command-line operation of Linux and Mac OS X (desktop, server, and high-performance clusters.) Author of high-performance analysis tools in **C/C++, Python,** and **Java** to **analyze and interpret molecular data from DNA sequencing platforms: Illumina family of sequencers, Pacific Biosciences RSII and Sequel, Ion Torrent PGM, Roche 454, Oxford Nanopore MinION/GridION.**
 

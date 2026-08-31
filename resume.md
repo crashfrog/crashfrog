@@ -12,7 +12,7 @@ Justin Payne
 Professional Summary
 ---------------------
 
-I build the software that public health laboratories actually run. For a decade at the FDA I've been one of the primary developers of **GenomeTrakr**, the world's largest genomic biosurveillance network — the integration-layer architecture I authored put more than 60,000 bacterial genomes into public databases, where they're still used to trace foodborne outbreaks back to their source. The rest of the time I write systems software for problems the existing tools don't cover, and increasingly I do both issue-driven and test-first, with agents doing the typing.
+I build the software that public health laboratories actually run. For a decade at the FDA I've been one of the primary developers of **GenomeTrakr**, the world's largest genomic biosurveillance network — the integration-layer architecture I authored has moved more than 1.8 million sequenced isolate genomes into public databases, where they're still used to trace foodborne outbreaks back to their source. The rest of the time I write systems software for problems the existing tools don't cover, and increasingly I do both issue-driven and test-first, with agents doing the typing.
 
 ---
 
@@ -29,7 +29,7 @@ Primary architect of **FDA-GRaSP**, an event-driven, high-throughput NGS biosurv
 |:----------------------|---------------------------------------------------------:|
 |Oct 2012 – Aug 2018     | **FDA-CFSAN**, Silver Spring/College Park MD — Bioinformatician in Microbiology |
 
-Primary software specifications analyst, author, and maintainer of the FDA-hosted codebase for the joint FDA/State GenomeTrakr Network, FDA/CDC Real-Time Listeria Genomic Surveillance Project, and FDA-CFSAN/MN/WA/NY Real-Time Salmonella Enteritidis Project — depositing over 60,000 bacterial genomes into public databases. Authored high-performance analysis tools (C/C++, Python, Java) across the Illumina, PacBio, Ion Torrent, Roche 454, and Oxford Nanopore sequencing platforms. Built the GenomicsDB (MS SQL Server) for isolate metadata and high-throughput NCBI GenBank/SRA submission, and developed **sra-quick-submit**, still used worldwide by GenomeTrakr contributors.
+Primary software specifications analyst, author, and maintainer of the FDA-hosted codebase for the joint FDA/State GenomeTrakr Network, FDA/CDC Real-Time Listeria Genomic Surveillance Project, and FDA-CFSAN/MN/WA/NY Real-Time Salmonella Enteritidis Project — laying the integration-layer foundation that has since grown to move more than 1.8 million sequenced isolate genomes into public databases. Authored high-performance analysis tools (C/C++, Python, Java) across the Illumina, PacBio, Ion Torrent, Roche 454, and Oxford Nanopore sequencing platforms. Built the GenomicsDB (MS SQL Server) for isolate metadata and high-throughput NCBI GenBank/SRA submission, and developed **sra-quick-submit**, still used worldwide by GenomeTrakr contributors.
 
 ---
 

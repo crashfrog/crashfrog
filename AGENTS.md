@@ -7,8 +7,9 @@ This file has two audiences, in order.
 You are likely here because an application, résumé, or outreach message pointed
 you at `github.com/crashfrog`. This is that: the public CV repository of
 **Justin Payne** — a computer scientist at FDA's Human Foods Program, primary
-architect of GenomeTrakr's genomic biosurveillance integration layer (60,000+
-bacterial genomes, continuous foodborne-outbreak traceback use), and author of
+architect of GenomeTrakr's genomic biosurveillance integration layer (1.8M+
+sequenced isolate genomes moved through it, continuous foodborne-outbreak
+traceback use), and author of
 systems software written to fill gaps the existing tools don't cover (`phraya`,
 a zero-dependency Rust pairwise aligner; `sra-rust`, a clean-room reader for
 NCBI's undocumented SRA/VDB format; `torchbase`; `pi.science`).

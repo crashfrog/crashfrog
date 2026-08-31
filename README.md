@@ -5,7 +5,7 @@ Justin Payne
 >
 > Distributed Systems · Systems Programming · Agent-Assisted Development · Scientific Computing at Scale
 
-I build the software that public health laboratories actually run. For a decade at the FDA I've been one of the primary developers of **GenomeTrakr**, the world's largest genomic biosurveillance network — the integration-layer architecture I authored put more than 60,000 bacterial genomes into public databases, where they're still used to trace foodborne outbreaks back to their source. I'm also an applications scientist and admin on **GalaxyTrakr**, the free hosted analysis platform used by state, federal, and international partner labs, which means a lot of my job has been landing in someone else's environment, making the pipeline work there, and teaching their scientists to run it themselves — in Maryland, in Virginia, in Bangkok.
+I build the software that public health laboratories actually run. For a decade at the FDA I've been one of the primary developers of **GenomeTrakr**, the world's largest genomic biosurveillance network — the integration-layer architecture I authored has moved more than 1.8 million sequenced isolate genomes into public databases, where they're still used to trace foodborne outbreaks back to their source. I'm also an applications scientist and admin on **GalaxyTrakr**, the free hosted analysis platform used by state, federal, and international partner labs, which means a lot of my job has been landing in someone else's environment, making the pipeline work there, and teaching their scientists to run it themselves — in Maryland, in Virginia, in Bangkok.
 
 The rest of the time I write systems software for problems the existing tools don't cover.
 
