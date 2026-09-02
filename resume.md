@@ -23,7 +23,7 @@ Experience
 |:----------------------|---------------------------------------------------------:|
 |Aug 2018 – Current      | **FDA Human Foods Program** — Computer Scientist (GS-1550-13), Laurel MD |
 
-Primary architect of **FDA-GRaSP**, an event-driven, high-throughput NGS biosurveillance platform on AWS Serverless, and primary applications scientist for **GalaxyTrakr**, a free elastic-AWS bioinformatics environment used by state, federal, and international public health partners — landing in someone else's environment, making the pipeline work there, and teaching their scientists to run it themselves, in Maryland, Virginia, and Bangkok. Consults for FDA HFP chemistry on an agentic multi-criteria risk-prioritization system for food additives. Author of **phraya** (zero-dependency Rust pairwise aligner), **sra-rust** (clean-room reader for NCBI's undocumented SRA/VDB format, verified byte-for-byte against the reference implementation), **Torchbase**, **HFP Data Commons**, **pi.science**, and **tequila-mule**. Serving member of the FDA-HFP Scientific Computing Board.
+Primary architect of **FDA-GRaSP**, an event-driven, high-throughput NGS biosurveillance platform on AWS Serverless, and primary applications scientist for **GalaxyTrakr**, a free elastic-AWS bioinformatics environment used by state, federal, and international public health partners — landing in someone else's environment, making the pipeline work there, and teaching their scientists to run it themselves, in Maryland, Virginia, and Bangkok. Consults for FDA HFP chemistry on a multi-agent risk-prioritization architecture for food additives — prompt-engineered review-agent roles grounded in a published-literature RAG system, evaluated across five independent criteria. Author of **phraya** (zero-dependency Rust pairwise aligner), **sra-rust** (clean-room reader for NCBI's undocumented SRA/VDB format, verified byte-for-byte against the reference implementation), **Torchbase**, **HFP Data Commons**, **pi.science**, and **tequila-mule**. Serving member of the FDA-HFP Scientific Computing Board.
 
 |Date                   | Employer                                                |
 |:----------------------|---------------------------------------------------------:|
@@ -51,7 +51,7 @@ Technologies
 - **Languages:** Rust · Python · C/C++ · TypeScript/JavaScript · Java
 - **Cloud & Orchestration:** AWS (Lambda, Batch, Step Functions, ECS) · WDL/miniwdl · Nextflow · Galaxy · Slurm
 - **Data & Provenance:** Dolt · IPFS/IPLD · PostgreSQL/MySQL/MSSQL/Oracle · Neo4J
-- **Agent-Assisted Development:** Claude Code, Claude Agent SDK · issue-driven/test-first workflows · adversarial verification agents
+- **Agent-Assisted Development:** Claude Code, Claude Agent SDK · issue-driven/test-first workflows · adversarial verification agents · prompt engineering · published-literature RAG
 - **Packaging & DevOps:** Docker · Apptainer/Singularity · Pixi/uv/Conda · GitHub Actions
 
 ---

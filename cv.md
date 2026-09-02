@@ -30,7 +30,7 @@ This document is hosted at https://github.com/crashfrog/crashfrog/blob/master/cv
 
 * **Writes systems software where the existing tools don't fit.** Author of **phraya**, a pure-Rust pairwise aligner with zero binary dependencies and hand-tuned SIMD, and **sra-rust**, a clean-room reimplementation of NCBI's undocumented SRA/VDB binary format verified byte-for-byte against the reference implementation.
 
-* **Practices agent-assisted development as an engineering discipline, not a novelty.** Recent projects are built issue-driven and test-first, with architectural decision records governing algorithm changes, machine-readable domain glossaries checked into the repository, and adversarial verification agents whose job is to disprove a result before it is reported. Currently consulting with the FDA HFP chemistry program on a multi-agent system that prioritizes new food additives for formal risk assessment across five distinct criteria.
+* **Practices agent-assisted development as an engineering discipline, not a novelty.** Recent projects are built issue-driven and test-first, with architectural decision records governing algorithm changes, machine-readable domain glossaries checked into the repository, and adversarial verification agents whose job is to disprove a result before it is reported. Currently consulting with the FDA HFP chemistry program on a multi-agent system — coordinating specialized review agents through prompt engineering and a published-literature RAG that grounds each agent's scientific reasoning in primary sources — that prioritizes new food additives for formal risk assessment across five distinct criteria.
 
 * **Federally recognized.** HHS Innovates Secretary's Pick (2014), Presidential Recognition for the Federal Workforce (2016), and a Federal Laboratory Consortium Interagency Partnership Award (2020) for GenomeTrakr and Pathogen Detection across FDA, NIH, CDC, and USDA.
 
@@ -50,7 +50,7 @@ This document is hosted at https://github.com/crashfrog/crashfrog/blob/master/cv
 
 Primary **applications scientist and tool developer for GalaxyTrakr,** a web-based bioinformatics and biosurveillance analysis environment offered freely to GenomeTrakr partners and other experts in public health and food defense built on a scalable elastic architecture in AWS. Maintainer of the GalaxyTrakr tool catalog and its containerized tool definitions.
 
-**Consulting** with the FDA HFP **chemistry** program on **agentic risk-assessment prioritization of food additives** — an orchestration of specialized agents that evaluates new additives along **five distinct risk criteria** and ranks them for formal safety assessment. Each criterion is evaluated independently against its own evidence, and per-criterion findings, citations, and reasoning are retained alongside the combined ranking so that chemistry reviewers can audit how any given priority was arrived at.
+**Consulting** with the FDA HFP **chemistry** program on **agentic risk-assessment prioritization of food additives** — a **multi-agent coordination** architecture in which specialized review agents, directed through **prompt-engineered roles**, evaluate new additives along **five distinct risk criteria** and rank them for formal safety assessment. Each review agent grounds its scientific reasoning in a **published-literature retrieval-augmented generation (RAG) system**, so findings are tied to primary sources rather than model recall; per-criterion findings, citations, and reasoning are retained alongside the combined ranking so that chemistry reviewers can audit how any given priority was arrived at.
 
 Author of **Phraya**, a general-purpose pairwise sequence aligner for bacterial genomics written in **Rust** with **zero binary dependencies** (no BWA, minimap2, samtools, or htslib) and portable SIMD acceleration on AVX2 and NEON. Phraya separates alignment computation from filtering policy — alignments are computed once with full multi-mapping, CIGAR, provenance, and coverage metadata retained, so downstream filtering parameters can be revised without re-alignment. Implemented seed-chaining, a flat-buffer Myers bit-parallel forward pass that eliminates per-column allocation, occurrence-cap masking for repeat-dense genomes, and a content-addressed reference space for reproducible plans; contributed native parsers for AB1/ABIF Sanger traces, SFF, and POD5. Benchmarked continuously against BWA, Bowtie2, and minimap2 on HPC.
 
@@ -134,6 +134,7 @@ Developed GenomicsDB database in Microsoft SQL Server for isolate metadata, sequ
 * Adversarial verification agents and LLM-as-judge validation
 * Multi-agent orchestration for multi-criteria evaluation and ranking
 * vLLM, OpenAI-compatible gateway design, Slurm-scheduled inference
+* Prompt engineering for specialized review-agent roles; published-literature RAG for evidence-grounded scientific decisionmaking
 
 **Workflow and Orchestration**
 
@@ -200,7 +201,7 @@ Date              | Degree and Program
 **pi.science** - Terminal data science agent with Dolt-backed provenance, session branching, and adversarial claim verification.  
 **tequila-mule** - OpenAI-compatible inference gateway backed by rolling vLLM reservations on Slurm HPC; transparent backend rotation under wall-time limits.  
 **PeerModel** - Secure capability-based peer-to-peer ORM on OrbitDB with hardware-token signing.  
-**HFP Additive Risk Prioritization** - Consulting engagement with the FDA HFP chemistry program: multi-agent orchestration that evaluates new food additives along five risk criteria and prioritizes them for formal assessment, with auditable per-criterion evidence and reasoning.  
+**HFP Additive Risk Prioritization** - Consulting engagement with the FDA HFP chemistry program: multi-agent coordination architecture with prompt-engineered review-agent roles and a published-literature RAG grounding scientific decisionmaking, evaluating new food additives along five risk criteria and prioritizing them for formal assessment, with auditable per-criterion evidence and reasoning.  
 
 ### Prior
 
